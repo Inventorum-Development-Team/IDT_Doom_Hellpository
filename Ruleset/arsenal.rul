@@ -307,7 +307,7 @@ ufopaedia:
   - id: STR_UACPISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text:    STR_UACPISTOL_UFOPEDIA
+    text: STR_UACPISTOL_UFOPEDIA
 #----------------------------------------------------
   - id: STR_UACPISTOL_AMMO
     type_id: 4
@@ -316,7 +316,7 @@ ufopaedia:
   - id: STR_UACRIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text:    STR_UACRIFLE_UFOPEDIA
+    text: STR_UACRIFLE_UFOPEDIA
 #----------------------------------------------------
   - id: STR_UACRIFLE_AMMO
     type_id: 4
@@ -325,7 +325,7 @@ ufopaedia:
   - id: STR_UACCHAIN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text:    STR_UACCHAIN_UFOPEDIA
+    text: STR_UACCHAIN_UFOPEDIA
 #---------------------------------------------------
   - id: STR_UACCHAIN_AMMO
     type_id: 4
@@ -334,7 +334,7 @@ ufopaedia:
   - id: STR_UACRL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text:    STR_UACRL_UFOPEDIA
+    text: STR_UACRL_UFOPEDIA
 #----------------------------------------------------
   - id: STR_UACRL_AMMO
     type_id: 4
@@ -402,23 +402,23 @@ manufacture:
 extraStrings:
   - type: en-US
     strings:
-      STR_UACPISTOL:      UAC Pistol
-      STR_UACPISTOL_AMMO: UAC Pistol Ammo
-      STR_UACRIFLE:       UAC Assault Rifle
-      STR_UACRIFLE_AMMO:  UAC Rifle Ammo
-      STR_UACCHAIN:       UAC Chain Gun
-      STR_UACCHAIN_AMMO:  UAC Chain Gun Ammo
-      STR_UACRL:          UAC Rocket Launcher
-      STR_UACRL_AMMO:     UAC Rocket Launcher Ammo
-      STR_CHAINSAW:       Chain Saw
+      STR_UACPISTOL: "UAC Pistol"
+      STR_UACPISTOL_AMMO: "UAC Pistol Ammo"
+      STR_UACRIFLE: "UAC Assault Rifle"
+      STR_UACRIFLE_AMMO: "UAC Rifle Ammo"
+      STR_UACCHAIN: "UAC Chain Gun"
+      STR_UACCHAIN_AMMO: "UAC Chain Gun Ammo"
+      STR_UACRL: "UAC Rocket Launcher"
+      STR_UACRL_AMMO: "UAC Rocket Launcher Ammo"
+      STR_CHAINSAW: "Chain Saw"
 #----------------------------------------------------------------------------------------------------------------------------------------------
-      STR_UACPISTOL_UFOPEDIA:   "UAC 9x19mm pistol, the weapon of choice by UAC Marine rookies"
+      STR_UACPISTOL_UFOPEDIA: "UAC 9x19mm pistol, the weapon of choice by UAC Marine rookies"
 #----------------------------------------------------
-      STR_UACRIFLE_UFOPEDIA:    "UAC 5.56x45mm NATO Assault Rifle, ideal for mid range engagament."
+      STR_UACRIFLE_UFOPEDIA: "UAC 5.56x45mm NATO Assault Rifle, ideal for mid range engagement."
 #----------------------------------------------------
-      STR_UACCHAIN_UFOPEDIA:    "UAC Portable Gatling Gun Prototype, it's very efective at mid-to-close range engagament."
+      STR_UACCHAIN_UFOPEDIA: "UAC Portable Gatling Gun Prototype, it's very effective at mid-to-close range engagement."
 #----------------------------------------------------
-      STR_UACRL_UFOPEDIA:       "UAC Protable Rocket Launcher, capable to accurally launch HEAT Rockets at long range distances"
+      STR_UACRL_UFOPEDIA: "UAC Portable Rocket Launcher, capable to accurately launch HEAT Rockets at long range distances"
 #----------------------------------------------------	  
-      STR_CHAINSAW_UFOPEDIA:     "A common lumberjack tool reporpuse to personaly R'&'T the alien ground forces."
+      STR_CHAINSAW_UFOPEDIA: "A common lumberjack tool repurposed to personally R'&'T the alien ground forces."
 #----------------------------------------------------------------------------------------------------------------------------------------------
