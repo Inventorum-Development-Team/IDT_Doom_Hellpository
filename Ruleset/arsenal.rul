@@ -3,26 +3,26 @@ items:
     size: 0.1
     costSell: 300
     weight: 3
-    bigSprite:    101
-    floorSprite:  102
-    handSprite:   201
+    bigSprite: 100
+    floorSprite: 100
+    handSprite: 100
     bulletSprite: 1
-    fireSound:    4
-    reloadSound:  17
+    fireSound: 4
+    reloadSound: 17
     compatibleAmmo:
       - STR_UACPISTOL_AMMO
-    accuracySnap:   55
-    accuracyAimed:  73
+    accuracySnap: 55
+    accuracyAimed: 73
     accuracyCloseQuarters: 147
-    tuAimed:  38
-    tuSnap:   21
-    tuLoad:   23
+    tuAimed: 38
+    tuSnap: 21
+    tuLoad: 23
     costThrow:
       energy: 8
     battleType: 1
-    aimRange:  16
+    aimRange: 16
     snapRange: 16
-    dropoff:   4
+    dropoff: 4
     kneelBonus: 133
     invWidth: 1
     invHeight: 2
@@ -33,8 +33,8 @@ items:
     size: 0.02
     costSell: 50
     weight: 2
-    bigSprite: 102
-    floorSprite: 103
+    bigSprite: 116
+    floorSprite: 116
     hitSound: 22
     hitAnimation: 26
     power: 25
@@ -50,31 +50,31 @@ items:
     size: 0.2
     costSell: 300
     weight: 16
-    bigSprite:    103
-    floorSprite:  104
-    handSprite:   202
+    bigSprite: 124
+    floorSprite: 124
+    handSprite: 132
     bulletSprite: 1
     twoHanded: true
     blockBothHands: true
-    fireSound:    4
-    reloadSound:  17
+    fireSound: 4
+    reloadSound: 17
     compatibleAmmo:
       - STR_UACRIFLE_AMMO
-    accuracyAuto:   47
-    accuracySnap:   65
-    accuracyAimed:  83
+    accuracyAuto: 47
+    accuracySnap: 65
+    accuracyAimed: 83
     accuracyCloseQuarters: 130
-    tuAimed:  48
-    tuSnap:   21
-    tuAuto:   35
-    tuLoad:   23
+    tuAimed: 48
+    tuSnap: 21
+    tuAuto: 35
+    tuLoad: 23
     costThrow:
       energy: 8
     battleType: 1
-    aimRange:  30
+    aimRange: 30
     snapRange: 30
     autoRange: 30
-    dropoff:   3
+    dropoff: 3
     kneelBonus: 156
     autoShots: 4
     invWidth: 1
@@ -86,8 +86,8 @@ items:
     size: 0.2
     costSell: 50
     weight: 3
-    bigSprite: 104
-    floorSprite: 105
+    bigSprite: 140
+    floorSprite: 140
     hitSound: 22
     hitAnimation: 26
     power: 35
@@ -103,26 +103,26 @@ items:
     size: 0.3
     costSell: 300
     weight: 26
-    bigSprite:    105
-    floorSprite:  106
-    handSprite:   203
+    bigSprite: 148
+    floorSprite: 148
+    handSprite: 148
     bulletSprite: 1
-    fireSound:    4
-    reloadSound:  17
+    fireSound: 4
+    reloadSound: 17
     compatibleAmmo:
       - STR_UACCHAIN_AMMO
-    accuracySnap:   55
-    accuracyAuto:   37
+    accuracySnap: 55
+    accuracyAuto: 37
     accuracyCloseQuarters: 196
-    tuSnap:   31
-    tuAuto:   37
-    tuLoad:   33
+    tuSnap: 31
+    tuAuto: 37
+    tuLoad: 33
     costThrow:
       energy: 8
     battleType: 1
     snapRange: 25
     autoRange: 25
-    dropoff:   3
+    dropoff: 3
     kneelBonus: 158
     autoShots: 10
     twoHanded: true
@@ -137,8 +137,8 @@ items:
     size: 0.06
     costSell: 150
     weight: 9
-    bigSprite: 106
-    floorSprite: 107
+    bigSprite: 164
+    floorSprite: 164
     hitSound: 22
     hitAnimation: 26
     power: 40
@@ -156,22 +156,22 @@ items:
     size: 0.7
     costSell: 300
     weight: 20
-    bigSprite:    107
-    floorSprite:  106
-    handSprite:   204
+    bigSprite: 172
+    floorSprite: 172
+    handSprite: 172
     bulletSprite: 43
-    fireSound:    52
-    reloadSound:  17
+    fireSound: 52
+    reloadSound: 17
     compatibleAmmo:
       - STR_UACRL_AMMO
-    accuracySnap:   65
-    tuSnap:   43
-    tuLoad:   33
+    accuracySnap: 65
+    tuSnap: 43
+    tuLoad: 33
     costThrow:
       energy: 18
     battleType: 1
     snapRange: 37
-    dropoff:   3
+    dropoff: 3
     kneelBonus: 158
     twoHanded: true
     blockBothHands: true
@@ -183,8 +183,8 @@ items:
   - type: STR_UACRL_AMMO
     size: 0.4
     weight: 5
-    bigSprite: 108
-    floorSprite: 109
+    bigSprite: 188
+    floorSprite: 188
     hitSound: 12
     hitAnimation: 8
     power: 60
@@ -204,9 +204,9 @@ items:
    #costBuy: 1200
     costSell: 700
     weight: 9
-    bigSprite: 109
-    floorSprite: 110
-    handSprite: 205
+    bigSprite: 196
+    floorSprite: 196
+    handSprite: 196
     bulletSprite: -1
     fireSound: 61
     hitSound: 0
@@ -247,44 +247,60 @@ extraSounds:
 #--
   - type: BATTLE.CAT
     files:
-      61:  Resources/Sounds/ChainsawLoop.wav
+      61: Resources/Sounds/ChainsawLoop.wav
 
 extraSprites:
 #--
   - type: BIGOBS.PCK
     files:
-      101: Resources/Sprites/UAC_pistol.png
-      102: Resources/Sprites/UAC_PistolAmmo.png
-      103: Resources/Sprites/UAC_Rifle.png
-      104: Resources/Sprites/UAC_RifleAmmo.png
-      105: Resources/Sprites/UAC_Chain.png
-      106: Resources/Sprites/UAC_Chain_Ammo.png
-      107: Resources/Sprites/UAC_RL.png
-      108: Resources/Sprites/UAC_RLAmmo.png
-      109: Resources/Sprites/Chainsaw.gif
+      100: Resources/Sprites/BigUAC_pistol_nomag.png
+      108: Resources/Sprites/BigUAC_pistol_ammo.png      
+      116: Resources/Sprites/BigUAC_PistolAmmo.png
+      124: Resources/Sprites/BigUAC_Rifle_nomag.png
+      132: Resources/Sprites/BigUAC_Rifle_ammo.png
+      140: Resources/Sprites/BigUAC_RifleAmmo.png
+      148: Resources/Sprites/BigUAC_Chain_nomag.png
+      156: Resources/Sprites/BigUAC_Chain_ammo.png
+      164: Resources/Sprites/BigUAC_ChainAmmo.png
+      172: Resources/Sprites/BigUAC_RL_nomag.png
+      180: Resources/Sprites/BigUAC_RL_ammo.png
+      188: Resources/Sprites/BigUAC_RLAmmo.png
+      196: Resources/Sprites/BigChainsaw.gif
      
   - type: FLOOROB.PCK
     files:
-      102: Resources/Sprites/FloorUacpistol.png
-      103: Resources/Sprites/FloorUACpistolAmmo.png
-      104: Resources/Sprites/FloorUACrifle.png
-      105: Resources/Sprites/FloorUACrifleAmmo.png
-      106: Resources/Sprites/FloorUACchain.png
-      107: Resources/Sprites/FloorUACchainAmmo.png
-      108: Resources/Sprites/FloorUACrl.png
-      109: Resources/Sprites/FloorUACrlAmmo.png
-      110: Resources/Sprites/FloorChainsaw.gif
+      100: Resources/Sprites/FloorUAC_pistol_nomag.png
+      108: Resources/Sprites/FloorUAC_pistol_ammo.png      
+      116: Resources/Sprites/FloorUAC_PistolAmmo.png
+      124: Resources/Sprites/FloorUAC_Rifle_nomag.png
+      132: Resources/Sprites/FloorUAC_Rifle_ammo.png
+      140: Resources/Sprites/FloorUAC_RifleAmmo.png
+      148: Resources/Sprites/FloorUAC_Chain_nomag.png
+      156: Resources/Sprites/FloorUAC_Chain_ammo.png
+      164: Resources/Sprites/FloorUAC_Chain_Ammo.png
+      172: Resources/Sprites/FloorUAC_RL_nomag.png
+      180: Resources/Sprites/FloorUAC_RL_ammo.png
+      188: Resources/Sprites/FloorUAC_RLAmmo.png
+      196: Resources/Sprites/FloorChainsaw.gif
   - type: HANDOB.PCK
     width: 256
     height: 40
     subX: 32
     subY: 40
     files:
-      201: Resources/Sprites/Uacpistol.png
-      202: Resources/Sprites/Uacrifle.png
-      203: Resources/Sprites/Uacchain.png
-      204: Resources/Sprites/Uacrl.png
-      205: Resources/Sprites/Chainsaw.png
+      100: Resources/Sprites/HandUAC_pistol_nomag.png
+      108: Resources/Sprites/HandUAC_pistol_ammo.png      
+      #116: Resources/Sprites/HandUAC_PistolAmmo.png
+      124: Resources/Sprites/HandUAC_Rifle_nomag.png
+      132: Resources/Sprites/HandUAC_Rifle_ammo.png
+      #140: Resources/Sprites/HandUAC_RifleAmmo.png
+      148: Resources/Sprites/HandUAC_Chain_nomag.png
+      156: Resources/Sprites/HandUAC_Chain_ammo.png
+      #164: Resources/Sprites/HandUAC_Chain_Ammo.png
+      172: Resources/Sprites/HandUAC_RL_nomag.png
+      180: Resources/Sprites/HandUAC_RL_ammo.png
+      #188: Resources/Sprites/HandUAC_RLAmmo.png
+      196: Resources/Sprites/HandChainsaw.png
 #----------------------------------------------------
   - type: Projectiles
     width: 105
