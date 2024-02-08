@@ -170,7 +170,7 @@ items:
     costThrow:
       energy: 18
     battleType: 1
-    snapRange: 37
+    snapRange: 30
     dropoff: 3
     kneelBonus: 158
     twoHanded: true
@@ -181,23 +181,33 @@ items:
     attraction: 15
 #----------------------------------------------------
   - type: STR_UACRL_AMMO
-    size: 0.4
-    weight: 5
+    size: 0.2
+    costSell: 3000
+    transferTime: 48
+    weight: 15
     bigSprite: 188
     floorSprite: 188
-    hitSound: 12
     hitAnimation: 8
-    power: 60
+    power: 65
+    damageType: 3
     damageAlter:
       IgnoreOverKill: false
-    damageType: 3
+      IgnoreSelfDestruct: true
+     #ToStun: 1.0
+      ArmorEffectiveness: 0.8
+      ToArmorPre: 0.12
+     #FixRadius: 5
     clipSize: 5
+    costThrow:
+      energy: 20
+      time: 37
     battleType: 2
     invWidth: 2
     invHeight: 2
-    armor: 20
-    blastRadius: 4
-    attraction: 15
+    vaporColorSurface: 0
+    vaporDensitySurface: 80
+    vaporProbabilitySurface: 33
+    armor: 35
 #----------------------------------------------------
   - type: STR_CHAINSAW
     size: 0.2
