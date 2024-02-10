@@ -1,0 +1,11 @@
+alienRaces:
+  - id: STR_DOOM_MIXED
+    members:
+      - STR_CACODEMON
+      - STR_CACODEMON
+      - STR_IMP
+      - STR_DOOMGUY
+      - STR_HELL_BARON
+      - STR_ZOMBIEMAN
+      - STR_DEMON
+      - STR_LOSTSOUL

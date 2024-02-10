@@ -1,0 +1,19 @@
+Doom to Ufo to Ufo conversion conversion.
+kL 2019 sep 12
+
+dst          src
+BIGOBS    <- BIGOBS
+
+CACODEMON <- CYBER
+DEMON     <- X_REAP
+DOOMGUY   <- XCOM_0
+IMP       <- ETHEREAL
+ZOMBIEMAN <- SECTOID
+
+Notes
+CIVm.PCK looks like standard civilian (not converted).
+Pcks in the UFOGRAPH dir (SMOKE, X1) appear problematic.
+Did not look at DAT files in GEODATA.
+Didn't try to deal w/ Handobs or Floorobs.
+
+The sprite-ids (aka frames) should be checked to see that/ ensure that their sequence is in synch with OxC's standard animation routines - that is, compare them against known-good spritesheets to see that the deathframes, facings, etc, line up identically ... for each doomset a routine will be chosen for.
