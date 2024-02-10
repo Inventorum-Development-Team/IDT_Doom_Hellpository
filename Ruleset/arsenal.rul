@@ -3,9 +3,9 @@ items:
     size: 0.1
     costSell: 300
     weight: 3
-    bigSprite: 100
-    floorSprite: 100
-    handSprite: 100
+    bigSprite: 108
+    floorSprite: 108
+    handSprite: 108
     bulletSprite: 1
     fireSound: 4
     reloadSound: 17
@@ -50,8 +50,8 @@ items:
     size: 0.2
     costSell: 300
     weight: 16
-    bigSprite: 124
-    floorSprite: 124
+    bigSprite: 132
+    floorSprite: 132
     handSprite: 132
     bulletSprite: 1
     twoHanded: true
@@ -99,18 +99,71 @@ items:
     armor: 30
     attraction: 15
 #----------------------------------------------------
+  - type: STR_UACSHOTGUN
+    size: 0.2
+    costBuy: 1200
+    costSell: 1050
+    weight: 8
+    bigSprite: 156
+    floorSprite: 156
+    handSprite: 156
+    fireSound: 4
+    reloadSound: 17
+    compatibleAmmo:
+      - STR_UACSHOTGUN_AMMO
+    accuracySnap: 45
+    accuracyAimed: 60
+    tuSnap: 10
+    tuAimed: 15
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 12
+    aimRange: 5
+    snapRange: 5
+    minRange: 1
+    dropoff: 8
+  - type: STR_UACSHOTGUN_AMMO
+    size: 0.1
+    costBuy: 60
+    costSell: 48
+    weight: 1
+    bigSprite: 164
+    floorSprite: 164
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 11
+    power: 20
+    bulletSpeed: 20
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 1.0
+      ToArmorPre: 0.3
+      ToWound: 1.2
+      ToHealth: 1.5
+      ToMana: 1.5
+    damageType: 1
+    shotgunBehavior: 1
+    shotgunSpread: 15
+    shotgunPellets: 10
+    clipSize: 6
+    battleType: 2
+    armor: 12
+#----------------------------------------------------
   - type: STR_UACCHAIN
     size: 0.3
     costSell: 300
     weight: 26
-    bigSprite: 148
-    floorSprite: 148
-    handSprite: 148
+    bigSprite: 216
+    floorSprite: 216
+    handSprite: 216
     bulletSprite: 1
     fireSound: 4
     reloadSound: 17
     compatibleAmmo:
       - STR_UACCHAIN_AMMO
+      - STR_UACCHAIN_AMMO_ADVANCED
     accuracySnap: 55
     accuracyAuto: 37
     accuracyCloseQuarters: 196
@@ -137,8 +190,8 @@ items:
     size: 0.06
     costSell: 150
     weight: 9
-    bigSprite: 164
-    floorSprite: 164
+    bigSprite: 224
+    floorSprite: 224
     hitSound: 22
     hitAnimation: 26
     power: 40
@@ -150,15 +203,33 @@ items:
     invWidth: 2
     invHeight: 1
     armor: 30
-    attraction: 15
+    attraction: 15   
+  - type: STR_UACCHAIN_AMMO_ADVANCED
+    size: 0.06
+    costSell: 150
+    weight: 9
+    bigSprite: 232
+    floorSprite: 232
+    hitSound: 22
+    hitAnimation: 26
+    power: 60
+    damageType: 1
+    clipSize: 100
+    costThrow:
+      energy: 10
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    armor: 30
+    attraction: 15     
 #----------------------------------------------------
   - type: STR_UACRL
     size: 0.7
     costSell: 300
     weight: 20
-    bigSprite: 172
-    floorSprite: 172
-    handSprite: 172
+    bigSprite: 180
+    floorSprite: 180
+    handSprite: 180
     bulletSprite: 43
     fireSound: 52
     reloadSound: 17
@@ -252,7 +323,320 @@ items:
     kneelBonus: 106
     attraction: 6
    #listOrder: 12265
+# ADVANCED    
+#----------------------------------------------------      
+  - type: STR_UACPISTOL_ADVANCED
+    size: 0.1
+    costSell: 300
+    weight: 3
+    bigSprite: 248
+    floorSprite: 240
+    handSprite: 248
+    bulletSprite: 1
+    fireSound: 4
+    reloadSound: 17
+    compatibleAmmo:
+      - STR_UACPISTOL_AMMO_ADVANCED
+    accuracySnap: 55
+    accuracyAimed: 73
+    accuracyCloseQuarters: 147
+    tuAimed: 38
+    tuSnap: 21
+    tuLoad: 23
+    costThrow:
+      energy: 8
+    battleType: 1
+    aimRange: 16
+    snapRange: 16
+    dropoff: 4
+    kneelBonus: 133
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACPISTOL_AMMO_ADVANCED
+    size: 0.02
+    costSell: 50
+    weight: 2
+    bigSprite: 256
+    floorSprite: 256
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 1
+    clipSize: 18
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 30
+    attraction: 15
 #----------------------------------------------------------------------------------------------------------------------------------------------
+  - type: STR_UACRIFLE_ADVANCED
+    size: 0.2
+    costSell: 300
+    weight: 16
+    bigSprite: 272
+    floorSprite: 272
+    handSprite: 272
+    bulletSprite: 1
+    twoHanded: true
+    blockBothHands: true
+    fireSound: 4
+    reloadSound: 17
+    compatibleAmmo:
+      - STR_UACRIFLE_AMMO_ADVANCED
+    accuracyAuto: 47
+    accuracySnap: 65
+    accuracyAimed: 83
+    accuracyCloseQuarters: 130
+    tuAimed: 48
+    tuSnap: 21
+    tuAuto: 35
+    tuLoad: 23
+    costThrow:
+      energy: 8
+    battleType: 1
+    aimRange: 30
+    snapRange: 30
+    autoRange: 30
+    dropoff: 3
+    kneelBonus: 156
+    autoShots: 4
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACRIFLE_AMMO_ADVANCED
+    size: 0.2
+    costSell: 50
+    weight: 3
+    bigSprite: 280
+    floorSprite: 280
+    hitSound: 22
+    hitAnimation: 26
+    power: 55
+    damageType: 1
+    clipSize: 50
+    costThrow:
+      energy: 5
+    battleType: 2
+    armor: 30
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACSHOTGUN_ADVANCED
+    size: 0.2
+    costBuy: 1400
+    costSell: 1165
+    weight: 8
+    bigSprite: 296
+    floorSprite: 296
+    handSprite: 296
+    fireSound: 4
+    reloadSound: 17
+    compatibleAmmo:
+      - STR_UACSHOTGUN_ADVANCED_AMMO
+    accuracySnap: 36
+    accuracyAimed: 55
+    tuSnap: 12
+    tuAimed: 18
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 15
+    aimRange: 5
+    snapRange: 5
+    minRange: 1
+    dropoff: 8
+  - type: STR_UACSHOTGUN_ADVANCED_AMMO        
+    size: 0.1
+    costBuy: 60
+    costSell: 48
+    weight: 1
+    bigSprite: 304
+    floorSprite: 304
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 4
+    power: 35
+    bulletSpeed: 20
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 1.0
+      ToArmorPre: 0.3
+      ToWound: 1.2
+      ToHealth: 1.5
+      ToMana: 1.5
+    damageType: 1
+    shotgunBehavior: 1
+    shotgunSpread: 25
+    shotgunPellets: 15
+    clipSize: 6
+    battleType: 2
+    armor: 12    
+#----------------------------------------------------
+  - type: STR_UACSMG
+    size: 0.7
+    costSell: 300
+    weight: 20
+    bigSprite: 368
+    floorSprite: 368
+    handSprite: 368
+    bulletSprite: 4
+    fireSound: 52
+    reloadSound: 17
+    compatibleAmmo:
+      - STR_UACSMG_AMMO
+    accuracySnap: 65
+    tuSnap: 43
+    tuLoad: 33
+    costThrow:
+      energy: 18
+    battleType: 1
+    snapRange: 30
+    dropoff: 3
+    kneelBonus: 158
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACSMG_AMMO
+    size: 0.06
+    costSell: 150
+    weight: 9
+    bigSprite: 376
+    floorSprite: 376
+    hitSound: 22
+    hitAnimation: 26
+    power: 40
+    damageType: 1
+    clipSize: 50
+    costThrow:
+      energy: 10
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 30
+    attraction: 15 
+#----------------------------------------------------------------------------------------------------------------------------------------------
+  - type: STR_UACHEVYNAILGUN
+    size: 0.2
+    costSell: 300
+    weight: 16
+    bigSprite: 344
+    floorSprite: 344
+    handSprite: 344
+    bulletSprite: 1
+    twoHanded: true
+    blockBothHands: true
+    fireSound: 4
+    reloadSound: 17
+    compatibleAmmo:
+      - STR_UACHEVYNAILGUN_AMMO
+    accuracyAuto: 47
+    accuracySnap: 65
+    accuracyAimed: 83
+    accuracyCloseQuarters: 130
+    tuAimed: 48
+    tuSnap: 21
+    tuAuto: 35
+    tuLoad: 23
+    costThrow:
+      energy: 8
+    battleType: 1
+    aimRange: 30
+    snapRange: 30
+    autoRange: 30
+    dropoff: 3
+    kneelBonus: 156
+    autoShots: 4
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACHEVYNAILGUN_AMMO
+    size: 0.2
+    costSell: 50
+    weight: 3
+    bigSprite: 352
+    floorSprite: 352
+    hitSound: 22
+    hitAnimation: 26
+    power: 35
+    damageType: 1
+    invHeight: 2
+    invWidth: 1
+    clipSize: 30
+    costThrow:
+      energy: 5
+    battleType: 2
+    armor: 30
+    attraction: 15
+#----------------------------------------------------------------------------------------------------------------------------------------------
+  - type: STR_UACRL_ADVANCED
+    size: 0.7
+    costSell: 300
+    weight: 20
+    bigSprite: 320
+    floorSprite: 320
+    handSprite: 320
+    bulletSprite: 43
+    fireSound: 52
+    reloadSound: 17
+    compatibleAmmo:
+      - STR_UACRL_AMMO_ADVANCED
+    accuracySnap: 65
+    tuSnap: 43
+    tuLoad: 33
+    costThrow:
+      energy: 18
+    battleType: 1
+    snapRange: 30
+    dropoff: 3
+    kneelBonus: 158
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 15
+#----------------------------------------------------
+  - type: STR_UACRL_AMMO_ADVANCED
+    size: 0.2
+    costSell: 3000
+    transferTime: 48
+    weight: 15
+    bigSprite: 328
+    floorSprite: 328
+    hitAnimation: 8
+    power: 85
+    damageType: 3
+    damageAlter:
+      IgnoreOverKill: false
+      IgnoreSelfDestruct: true
+     #ToStun: 1.0
+      ArmorEffectiveness: 0.8
+      ToArmorPre: 0.12
+     #FixRadius: 5
+    clipSize: 5
+    costThrow:
+      energy: 20
+      time: 37
+    battleType: 2
+    invWidth: 2
+    invHeight: 2
+    vaporColorSurface: 4
+    vaporDensitySurface: 80
+    vaporProbabilitySurface: 33
+    armor: 35    
+#----------------------------------------------------
+
 extraSounds:
 #--
   - type: BATTLE.CAT
@@ -269,14 +653,37 @@ extraSprites:
       124: Resources/Sprites/BigUAC_Rifle_nomag.png
       132: Resources/Sprites/BigUAC_Rifle_ammo.png
       140: Resources/Sprites/BigUAC_RifleAmmo.png
-      148: Resources/Sprites/BigUAC_Chain_nomag.png
-      156: Resources/Sprites/BigUAC_Chain_ammo.png
-      164: Resources/Sprites/BigUAC_ChainAmmo.png
+      148: Resources/Sprites/BigUAC_Shotgun_nomag.png
+      156: Resources/Sprites/BigUAC_Shotgun_ammo.png
+      164: Resources/Sprites/BigUAC_ShotgunAmmo.png
       172: Resources/Sprites/BigUAC_RL_nomag.png
       180: Resources/Sprites/BigUAC_RL_ammo.png
       188: Resources/Sprites/BigUAC_RLAmmo.png
       196: Resources/Sprites/BigChainsaw.gif
-     
+      208: Resources/Sprites/BigUAC_Chain_nomag.png
+      216: Resources/Sprites/BigUAC_Chain_ammo.png
+      224: Resources/Sprites/BigUAC_ChainAmmo.png
+      232: Resources/Sprites/BigUAC_ChainAmmoAdvanced.png
+
+      240: Resources/Sprites/BigUAC_PistolAdvanced_nomag.png
+      248: Resources/Sprites/BigUAC_PistolAdvanced_ammo.png      
+      256: Resources/Sprites/BigUAC_PistolAdvancedAmmo.png
+      264: Resources/Sprites/BigUAC_RifleAdvanced_nomag.png
+      272: Resources/Sprites/BigUAC_RifleAdvanced_ammo.png
+      280: Resources/Sprites/BigUAC_RifleAdvancedAmmo.png
+      288: Resources/Sprites/BigUAC_ShotgunAdvanced.png
+      296: Resources/Sprites/BigUAC_ShotgunAdvanced.png
+      304: Resources/Sprites/BigUAC_ShotgunAdvancedAmmo.png
+      312: Resources/Sprites/BigUAC_RocketLauncherAdvanced_nomag.png
+      320: Resources/Sprites/BigUAC_RocketLauncherAdvanced_ammo.png
+      328: Resources/Sprites/BigUAC_RLAmmoAdvanced.png
+      336: Resources/Sprites/BigUAC_HeavyNailgun_nomag.png
+      344: Resources/Sprites/BigUAC_HeavyNailgun_ammo.png
+      352: Resources/Sprites/BigUAC_HeavyNailgunClip.png
+      360: Resources/Sprites/BigUAC_SMG_ammo_nomag.png
+      368: Resources/Sprites/BigUAC_SMG_ammo.png
+      376: Resources/Sprites/BigUAC_SMG_Mag.png
+
   - type: FLOOROB.PCK
     files:
       100: Resources/Sprites/FloorUAC_pistol_nomag.png
@@ -285,13 +692,37 @@ extraSprites:
       124: Resources/Sprites/FloorUAC_Rifle_nomag.png
       132: Resources/Sprites/FloorUAC_Rifle_ammo.png
       140: Resources/Sprites/FloorUAC_RifleAmmo.png
-      148: Resources/Sprites/FloorUAC_Chain_nomag.png
-      156: Resources/Sprites/FloorUAC_Chain_ammo.png
-      164: Resources/Sprites/FloorUAC_Chain_Ammo.png
+      148: Resources/Sprites/FloorUAC_Shotgun_nomag.png
+      156: Resources/Sprites/FloorUAC_Shotgun_ammo.png
+      164: Resources/Sprites/FloorUAC_Shotgun_Ammo.png
       172: Resources/Sprites/FloorUAC_RL_nomag.png
       180: Resources/Sprites/FloorUAC_RL_ammo.png
       188: Resources/Sprites/FloorUAC_RLAmmo.png
       196: Resources/Sprites/FloorChainsaw.gif
+      208: Resources/Sprites/FloorUAC_Chain_nomag.png
+      216: Resources/Sprites/FloorUAC_Chain_ammo.png
+      224: Resources/Sprites/FloorUAC_ChainAmmo.png
+      232: Resources/Sprites/FloorUAC_ChainAmmoAdvanced.png
+
+      240: Resources/Sprites/FloorUAC_PistolAdvanced_nomag.png
+      248: Resources/Sprites/FloorUAC_PistolAdvanced_ammo.png      
+      256: Resources/Sprites/FloorUAC_PistolAdvancedAmmo.png
+      264: Resources/Sprites/FloorUAC_RifleAdvanced_nomag.png
+      272: Resources/Sprites/FloorUAC_RifleAdvanced_ammo.png
+      280: Resources/Sprites/FloorUAC_RifleAdvancedAmmo.png
+      288: Resources/Sprites/FloorUAC_ShotgunAdvanced.png
+      296: Resources/Sprites/FloorUAC_ShotgunAdvanced.png
+      304: Resources/Sprites/FloorUAC_ShotgunAdvancedAmmo.png
+      312: Resources/Sprites/FloorUAC_RocketLauncherAdvanced_nomag.png
+      320: Resources/Sprites/FloorUAC_RocketLauncherAdvanced_ammo.png
+      328: Resources/Sprites/FloorUAC_RLAmmoAdvanced.png
+      336: Resources/Sprites/FloorUAC_HeavyNailgun_nomag.png
+      344: Resources/Sprites/FloorUAC_HeavyNailgun_ammo.png
+      352: Resources/Sprites/FloorUAC_HeavyNailgunClip.png
+      360: Resources/Sprites/FloorUAC_SMG_nomag.png
+      368: Resources/Sprites/FloorUAC_SMG_ammo.png
+      376: Resources/Sprites/FloorUAC_SMG_Mag.png
+
   - type: HANDOB.PCK
     width: 256
     height: 40
@@ -304,13 +735,36 @@ extraSprites:
       124: Resources/Sprites/HandUAC_Rifle_nomag.png
       132: Resources/Sprites/HandUAC_Rifle_ammo.png
       #140: Resources/Sprites/HandUAC_RifleAmmo.png
-      148: Resources/Sprites/HandUAC_Chain_nomag.png
-      156: Resources/Sprites/HandUAC_Chain_ammo.png
-      #164: Resources/Sprites/HandUAC_Chain_Ammo.png
+      148: Resources/Sprites/HandUAC_Shotgun_nomag.png
+      156: Resources/Sprites/HandUAC_Shotgun_ammo.png
+      #164: Resources/Sprites/HandUAC_Shotgun_Ammo.png
       172: Resources/Sprites/HandUAC_RL_nomag.png
       180: Resources/Sprites/HandUAC_RL_ammo.png
       #188: Resources/Sprites/HandUAC_RLAmmo.png
       196: Resources/Sprites/HandChainsaw.png
+      208: Resources/Sprites/HandUAC_Chain_nomag.png
+      216: Resources/Sprites/HandUAC_Chain_ammo.png
+      #224: Resources/Sprites/HandUAC_Chain_Ammo.png
+
+      240: Resources/Sprites/HandUAC_PistolAdvanced_nomag.png
+      248: Resources/Sprites/HandUAC_PistolAdvanced_ammo.png      
+      #256: Resources/Sprites/HandUAC_PistolAdvancedAmmo.png
+      264: Resources/Sprites/HandUAC_RifleAdvanced_nomag.png
+      272: Resources/Sprites/HandUAC_RifleAdvanced_ammo.png
+      #280: Resources/Sprites/HandUAC_RifleAdvancedAmmo.png
+      288: Resources/Sprites/HandUAC_ShotgunAdvanced.png
+      296: Resources/Sprites/HandUAC_ShotgunAdvanced.png
+      #304: Resources/Sprites/HandUAC_ShotgunAdvancedAmmo.png
+      312: Resources/Sprites/HandUAC_RocketLauncherAdvanced_nomag.png
+      320: Resources/Sprites/HandUAC_RocketLauncherAdvanced_ammo.png
+      #328: Resources/Sprites/HandUAC_RLAmmoAdvanced.png
+      336: Resources/Sprites/HandUAC_HeavyNailgun_nomag.png
+      344: Resources/Sprites/HandUAC_HeavyNailgun_ammo.png
+      #352: Resources/Sprites/HandUAC_HeavyNailgunClip.png
+      360: Resources/Sprites/HandUAC_SMG_nomag.png
+      368: Resources/Sprites/HandUAC_SMG_ammo.png
+      #376: Resources/Sprites/HandUAC_SMG_Mag.png
+
 #----------------------------------------------------
   - type: Projectiles
     width: 105
@@ -348,12 +802,24 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 #---------------------------------------------------
+  - id: STR_UACSHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACSHOTGUN_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACSHOTGUN_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#-----------------------------------------------------    
   - id: STR_UACCHAIN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UACCHAIN_UFOPEDIA
 #---------------------------------------------------
   - id: STR_UACCHAIN_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_UACCHAIN_AMMO_ADVANCED
     type_id: 4
     section: STR_NOT_AVAILABLE
 #----------------------------------------------------
@@ -366,7 +832,60 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 #----------------------------------------------------------------------------------------------------------------------------------------------
-
+  - id: STR_UACPISTOL_ADVANCED
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACPISTOL_ADVANCED_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACPISTOL_AMMO_ADVANCED
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------
+  - id: STR_UACRIFLE_ADVANCED
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACRIFLE_ADVANCED_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACRIFLE_AMMO_ADVANCED
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#---------------------------------------------------
+  - id: STR_UACSHOTGUN_ADVANCED
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACSHOTGUN_ADVANCED_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACSHOTGUN_ADVANCED_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE 
+#----------------------------------------------------
+  - id: STR_UACSMG
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACSMG_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACSMG_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#--------------------------------------------------- 
+  - id: STR_UACRL_ADVANCED
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACRL_ADVANCED_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACRL_AMMO_ADVANCED
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#--------------------------------------------------- 
+  - id: STR_UACHEVYNAILGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACHEVYNAILGUN_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACHEVYNAILGUN_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------      
 manufacture:
 #----------------------------------------------------
   - name: STR_UACPISTOL
@@ -432,11 +951,28 @@ extraStrings:
       STR_UACPISTOL_AMMO: "UAC Pistol Ammo"
       STR_UACRIFLE: "UAC Assault Rifle"
       STR_UACRIFLE_AMMO: "UAC Rifle Ammo"
+      STR_UACSHOTGUN: "UAC Shotgun"
+      STR_UACSHOTGUN_AMMO: "UAC Shotgun Shells"
       STR_UACCHAIN: "UAC Chain Gun"
       STR_UACCHAIN_AMMO: "UAC Chain Gun Ammo"
+      STR_UACCHAIN_AMMO_ADVANCED: "UAC Adv. Chain Gun Ammo"
       STR_UACRL: "UAC Rocket Launcher"
       STR_UACRL_AMMO: "UAC Rocket Launcher Ammo"
       STR_CHAINSAW: "Chain Saw"
+      
+      STR_UACPISTOL_ADVANCED: "UAC Advanced Pistol"
+      STR_UACPISTOL_AMMO_ADVANCED: "UAC Adv. Pistol Ammo"
+      STR_UACRIFLE_ADVANCED: "UAC Advanced Assault Rifle"
+      STR_UACRIFLE_AMMO_ADVANCED: "UAC Adv. Rifle Ammo"
+      STR_UACSHOTGUN_ADVANCED: "UAC Advanced Shotgun"
+      STR_UACSHOTGUN_ADVANCED_AMMO: "UAC Adv. Shotgun Shells"
+      STR_UACSMG: "UAC Advanced SMG"
+      STR_UACSMG_AMMO: "UAC Adv. SMG Ammo"
+      STR_UACHEVYNAILGUN: "UAC Heavy Nailgun"
+      STR_UACHEVYNAILGUN_AMMO: "UAC Heavy Nailgun Clip"
+      STR_UACRL_ADVANCED: "UAC Adv. Rocket Launcher"
+      STR_UACRL_AMMO_ADVANCED: "UAC Adv. Rocket Launcher Ammo"
+
 #----------------------------------------------------------------------------------------------------------------------------------------------
       STR_UACPISTOL_UFOPEDIA: "UAC 9x19mm pistol, the weapon of choice by UAC Marine rookies"
 #----------------------------------------------------
@@ -448,3 +984,17 @@ extraStrings:
 #----------------------------------------------------	  
       STR_CHAINSAW_UFOPEDIA: "A common lumberjack tool repurposed to personally R'&'T the alien ground forces."
 #----------------------------------------------------------------------------------------------------------------------------------------------
+      STR_UACSHOTGUN_UFOPEDIA: "Close-quarters .12 Gauge pump-action shotgun. Classic design with wooden furniture. Wide dispersion with large amount of pellets per shell."
+#----------------------------------------------------------------------------------------------------------------------------------------------      
+      STR_UACPISTOL_ADVANCED_UFOPEDIA: "Reinforced sidearm for better accuracy at range and higher muzzle velocity rates."
+#----------------------------------------------------------------------------------------------------------------------------------------------      
+      STR_UACRIFLE_ADVANCED_UFOPEDIA: "Mark 2 variant of the standard UAC Assault Rifle. Improved ergonomics and 50-rounds magazine for longer firefights."
+#----------------------------------------------------------------------------------------------------------------------------------------------      
+      STR_UACSHOTGUN_ADVANCED_UFOPEDIA: "Tactical semi-automatic shotgun. Synthetic furniture with shock-resistant stock and grip, reducing the recoil."
+#----------------------------------------------------------------------------------------------------------------------------------------------      
+      STR_UACSMG_UFOPEDIA: "Mid-powered fast-fire personal defense weapon, for getting up close and personal and winning the fight."
+#----------------------------------------------------------------------------------------------------------------------------------------------      
+      STR_UACHEVYNAILGUN_UFOPEDIA: "Impale your enemies with extreme prejudice using this modified tool."
+#----------------------------------------------------------------------------------------------------------------------------------------------      
+      STR_UACRL_ADVANCED_UFOPEDIA: "Upgraded Mark 2 Portable Rocket Launcher. More powerful anti-demonic HEAT rounds for better fire support missions."
+#----------------------------------------------------------------------------------------------------------------------------------------------      
