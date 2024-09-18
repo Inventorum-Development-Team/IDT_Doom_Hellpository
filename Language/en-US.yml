@@ -83,22 +83,26 @@ en-US:
 #----------------------------------------------------
   STR_UACRL_UFOPEDIA: "UAC Portable Rocket Launcher, capable to accurately launch HEAT Rockets at long range distances"
 #----------------------------------------------------  
-  STR_CHAINSAW_UFOPEDIA: "A common lumberjack tool repurposed to personally R'&'T the alien ground forces."
-#----------------------------------------------------------------------------------------------------------------------------------------------
+  STR_CHAINSAW_UFOPEDIA: "A common lumberjack tool repurposed to personally R'&'T the demonic ground forces."
+#----------------------------------------------------
   STR_UACSHOTGUN_UFOPEDIA: "Close-quarters .12 Gauge pump-action shotgun. Classic design with wooden furniture. Wide dispersion with large amount of pellets per shell."
-#----------------------------------------------------------------------------------------------------------------------------------------------  
+#---------------------------------------------------- 
   STR_UACPISTOL_ADVANCED_UFOPEDIA: "Reinforced sidearm for better accuracy at range and higher muzzle velocity rates."
-#----------------------------------------------------------------------------------------------------------------------------------------------  
-  STR_UACRIFLE_ADVANCED_UFOPEDIA: "Mark 2 variant of the standard UAC Assault Rifle. Improved ergonomics and 50-rounds magazine for longer firefights."
-#----------------------------------------------------------------------------------------------------------------------------------------------  
+#----------------------------------------------------  
+  STR_UACRIFLE_ADVANCED_UFOPEDIA: "Mark 2 variant of the standard UAC Assault Rifle. Improved ergonomics and bigger magazine for longer firefights."
+#---------------------------------------------------- 
   STR_UACSHOTGUN_ADVANCED_UFOPEDIA: "Tactical semi-automatic shotgun. Synthetic furniture with shock-resistant stock and grip, reducing the recoil."
-#----------------------------------------------------------------------------------------------------------------------------------------------  
+#----------------------------------------------------  
   STR_UACSMG_UFOPEDIA: "Mid-powered fast-fire personal defense weapon, for getting up close and personal and winning the fight."
-#----------------------------------------------------------------------------------------------------------------------------------------------  
-  STR_UACHEVYNAILGUN_UFOPEDIA: "Impale your enemies with extreme prejudice using this modified tool."
-#----------------------------------------------------------------------------------------------------------------------------------------------  
-  STR_UACRL_ADVANCED_UFOPEDIA: "Upgraded Mark 2 Portable Rocket Launcher. More powerful anti-demonic HEAT rounds for better fire support missions."
-#----------------------------------------------------------------------------------------------------------------------------------------------  
+#----------------------------------------------------  
+  STR_UACHEVYNAILGUN_UFOPEDIA: "UAC portable Nail Gun, standard heavy duty tool commonly used by UAC industry to hold heavy Nano carbon-steel alloy beams in place."
+#----------------------------------------------------  
+  STR_UACRL_ADVANCED_UFOPEDIA: "Portable Rocket Launcher Mark 2. More powerful HEAT rounds for better fire support missions."
+#----------------------------------------------------
+  #STR_LASRIFLE: "UAC Laser rifle prototype, it's capable to discharge 700MW laser beam in one shot, however, it's power battery only holds up to 15 shoots before overheating."
+#----------------------------------------------------
+  #STR_LASPISTOL: "UAC pistol prototype, with advance in laser technology UAC scentist is now capable to minutiturize the Laser Rifle into a standard issue UAC pistol size, due to size limitation the power battery can only holds up to 5 shots before overheating."
+#----------------------------------------------------------------------------------------------------------------------------------------------
 
 ######################
 # UAC ARMORS 
