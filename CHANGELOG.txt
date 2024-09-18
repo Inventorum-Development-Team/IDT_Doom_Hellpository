@@ -1,13 +1,28 @@
+#####################
 September 18th, 2024
 
 Version: 0.1 
 - Initial public release
 > Added UAC Marine
 > Added Hell forces: Zombie, Lost Soul, Imp, Demon, Cacodemon, Spectre, Hell Baron
-> Added starting UAC weapons, sprites by various creators
-> Added Advanced UAC weapons, sprites by Badfella
+> New starting UAC weapons, sprites by various creators
+- UAC Pistol
+- UAC Assault Rifle
+- UAC Shotgun
+- UAC Chain Gun
+- UAC Rocket Launcher
+- Chain Saw
+> New Advanced UAC weapons, sprites by Badfella
+- UAC Advanced Pistol
+- UAC Advanced Assault Rifle
+- UAC Advanced Shotgun
+- UAC Advanced SMG
+- UAC Adv. Rocket Launcher
+- UAC Heavy Nailgun
+- Chain Saw
 > Added Filip's ammo resprite script
 
+#####################
 2012-2020
 
 Version 0.0
