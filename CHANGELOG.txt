@@ -23,7 +23,7 @@ Version: 0.1
 > Added Filip's ammo resprite script
 
 #####################
-2012-2020
+2019-2022
 
 Version 0.0
 > Initial private releases
