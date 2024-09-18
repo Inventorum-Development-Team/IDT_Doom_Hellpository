@@ -8,7 +8,7 @@ items:
     handSprite: 108
     bulletSprite: 1
     fireSound: 4
-    reloadSound: 17
+    #reloadSound: 17
     compatibleAmmo:
       - STR_UACPISTOL_AMMO
     accuracyAimed: 73
@@ -59,7 +59,7 @@ items:
     twoHanded: true
     blockBothHands: true
     fireSound: 4
-    reloadSound: 17
+    #reloadSound: 17
     compatibleAmmo:
       - STR_UACRIFLE_AMMO
     accuracyAuto: 42
@@ -110,7 +110,7 @@ items:
     floorSprite: 156
     handSprite: 156
     fireSound: 4
-    reloadSound: 17
+    #reloadSound: 17
     compatibleAmmo:
       - STR_UACSHOTGUN_AMMO
     accuracySnap: 45
@@ -162,7 +162,7 @@ items:
     handSprite: 216
     bulletSprite: 1
     fireSound: 4
-    reloadSound: 17
+    #reloadSound: 17
     compatibleAmmo:
       - STR_UACCHAIN_AMMO
       - STR_UACCHAIN_AMMO_ADVANCED
@@ -234,7 +234,7 @@ items:
     handSprite: 180
     bulletSprite: 43
     fireSound: 52
-    reloadSound: 17
+    #reloadSound: 17
     compatibleAmmo:
       - STR_UACRL_AMMO
     accuracySnap: 65
@@ -336,7 +336,7 @@ items:
     handSprite: 248
     bulletSprite: 1
     fireSound: 4
-    reloadSound: 17
+    #reloadSound: 17
     compatibleAmmo:
       - STR_UACPISTOL_AMMO_ADVANCED
     accuracySnap: 55
@@ -385,7 +385,7 @@ items:
     twoHanded: true
     blockBothHands: true
     fireSound: 4
-    reloadSound: 17
+    #reloadSound: 17
     compatibleAmmo:
       - STR_UACRIFLE_AMMO_ADVANCED
     accuracyAuto: 47
@@ -436,7 +436,7 @@ items:
     floorSprite: 296
     handSprite: 296
     fireSound: 4
-    reloadSound: 17
+    #reloadSound: 17
     compatibleAmmo:
       - STR_UACSHOTGUN_ADVANCED_AMMO
     accuracySnap: 36
@@ -488,7 +488,7 @@ items:
     handSprite: 368
     bulletSprite: 4
     fireSound: 52
-    reloadSound: 17
+    #reloadSound: 17
     compatibleAmmo:
       - STR_UACSMG_AMMO
     accuracySnap: 65
@@ -537,7 +537,7 @@ items:
     twoHanded: true
     blockBothHands: true
     fireSound: 4
-    reloadSound: 17
+    #reloadSound: 17
     compatibleAmmo:
       - STR_UACHEVYNAILGUN_AMMO
     accuracyAuto: 47
@@ -590,7 +590,7 @@ items:
     handSprite: 320
     bulletSprite: 43
     fireSound: 52
-    reloadSound: 17
+    #reloadSound: 17
     compatibleAmmo:
       - STR_UACRL_AMMO_ADVANCED
     accuracySnap: 65
@@ -891,112 +891,57 @@ ufopaedia:
 manufacture:
 #----------------------------------------------------
   - name: STR_UACPISTOL
-    category: Weapons
+    category: STR_WEAPONS
     cost: 0
     space: 4
     time: 10
 #----------------------------------------------------
   - name: STR_UACPISTOL_AMMO
-    category: Ammunition
+    category: STR_WEAPONS
     cost: 0
     space: 4
     time: 10
 #----------------------------------------------------
   - name: STR_UACRIFLE
-    category: Weapons
+    category: STR_WEAPONS
     cost: 0
     space: 4
     time: 10
 #----------------------------------------------------
   - name: STR_UACRIFLE_AMMO
-    category: Ammunition
+    category: STR_WEAPONS
     cost: 0
     space: 4
     time: 10
 #----------------------------------------------------
   - name: STR_UACCHAIN
-    category: Weapons
+    category: STR_WEAPONS
     cost: 0
     space: 4
     time: 10
 #----------------------------------------------------
   - name: STR_UACCHAIN_AMMO
-    category: Ammunition
+    category: STR_WEAPONS
     cost: 0
     space: 4
     time: 10
 #----------------------------------------------------
   - name: STR_UACRL
-    category: Weapons
+    category: STR_WEAPONS
     cost: 0
     space: 4
     time: 10
 #----------------------------------------------------
   - name: STR_UACRL_AMMO
-    category: Ammunition
+    category: STR_WEAPONS
     cost: 0
     space: 4
     time: 10
 #----------------------------------------------------
   - name: STR_CHAINSAW
-    category: Weapons
+    category: STR_WEAPONS
     cost: 0
     space: 4
     time: 10
 #----------------------------------------------------------------------------------------------------------------------------------------------
 #research:
-
-extraStrings:
-  - type: en-US
-    strings:
-      STR_UACPISTOL: "UAC Pistol"
-      STR_UACPISTOL_AMMO: "UAC Pistol Ammo"
-      STR_UACRIFLE: "UAC Assault Rifle"
-      STR_UACRIFLE_AMMO: "UAC Rifle Ammo"
-      STR_UACSHOTGUN: "UAC Shotgun"
-      STR_UACSHOTGUN_AMMO: "UAC Shotgun Shells"
-      STR_UACCHAIN: "UAC Chain Gun"
-      STR_UACCHAIN_AMMO: "UAC Chain Gun Ammo"
-      STR_UACCHAIN_AMMO_ADVANCED: "UAC Adv. Chain Gun Ammo"
-      STR_UACRL: "UAC Rocket Launcher"
-      STR_UACRL_AMMO: "UAC Rocket Launcher Ammo"
-      STR_CHAINSAW: "Chain Saw"
-      
-      STR_UACPISTOL_ADVANCED: "UAC Advanced Pistol"
-      STR_UACPISTOL_AMMO_ADVANCED: "UAC Adv. Pistol Ammo"
-      STR_UACRIFLE_ADVANCED: "UAC Advanced Assault Rifle"
-      STR_UACRIFLE_AMMO_ADVANCED: "UAC Adv. Rifle Ammo"
-      STR_UACSHOTGUN_ADVANCED: "UAC Advanced Shotgun"
-      STR_UACSHOTGUN_ADVANCED_AMMO: "UAC Adv. Shotgun Shells"
-      STR_UACSMG: "UAC Advanced SMG"
-      STR_UACSMG_AMMO: "UAC Adv. SMG Ammo"
-      STR_UACHEVYNAILGUN: "UAC Heavy Nailgun"
-      STR_UACHEVYNAILGUN_AMMO: "UAC Heavy Nailgun Clip"
-      STR_UACRL_ADVANCED: "UAC Adv. Rocket Launcher"
-      STR_UACRL_AMMO_ADVANCED: "UAC Adv. Rocket Launcher Ammo"
-
-#----------------------------------------------------------------------------------------------------------------------------------------------
-      STR_UACPISTOL_UFOPEDIA: "UAC 9x19mm pistol, the weapon of choice by UAC Marine rookies"
-#----------------------------------------------------
-      STR_UACRIFLE_UFOPEDIA: "UAC 5.56x45mm NATO Assault Rifle, ideal for mid range engagement."
-#----------------------------------------------------
-      STR_UACCHAIN_UFOPEDIA: "UAC Portable Gatling Gun Prototype, it's very effective at mid-to-close range engagement."
-#----------------------------------------------------
-      STR_UACRL_UFOPEDIA: "UAC Portable Rocket Launcher, capable to accurately launch HEAT Rockets at long range distances"
-#----------------------------------------------------	  
-      STR_CHAINSAW_UFOPEDIA: "A common lumberjack tool repurposed to personally R'&'T the alien ground forces."
-#----------------------------------------------------------------------------------------------------------------------------------------------
-      STR_UACSHOTGUN_UFOPEDIA: "Close-quarters .12 Gauge pump-action shotgun. Classic design with wooden furniture. Wide dispersion with large amount of pellets per shell."
-#----------------------------------------------------------------------------------------------------------------------------------------------      
-      STR_UACPISTOL_ADVANCED_UFOPEDIA: "Reinforced sidearm for better accuracy at range and higher muzzle velocity rates."
-#----------------------------------------------------------------------------------------------------------------------------------------------      
-      STR_UACRIFLE_ADVANCED_UFOPEDIA: "Mark 2 variant of the standard UAC Assault Rifle. Improved ergonomics and 50-rounds magazine for longer firefights."
-#----------------------------------------------------------------------------------------------------------------------------------------------      
-      STR_UACSHOTGUN_ADVANCED_UFOPEDIA: "Tactical semi-automatic shotgun. Synthetic furniture with shock-resistant stock and grip, reducing the recoil."
-#----------------------------------------------------------------------------------------------------------------------------------------------      
-      STR_UACSMG_UFOPEDIA: "Mid-powered fast-fire personal defense weapon, for getting up close and personal and winning the fight."
-#----------------------------------------------------------------------------------------------------------------------------------------------      
-      STR_UACHEVYNAILGUN_UFOPEDIA: "Impale your enemies with extreme prejudice using this modified tool."
-#----------------------------------------------------------------------------------------------------------------------------------------------      
-      STR_UACRL_ADVANCED_UFOPEDIA: "Upgraded Mark 2 Portable Rocket Launcher. More powerful anti-demonic HEAT rounds for better fire support missions."
-#----------------------------------------------------------------------------------------------------------------------------------------------      

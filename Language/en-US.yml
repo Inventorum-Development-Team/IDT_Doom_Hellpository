@@ -1,0 +1,263 @@
+en-US:
+######################
+# MAIN MENU
+
+  STR_OPENXCOM: "DOOM: Hell & Fire"
+  STR_NEW_GAME: "New Game"
+  STR_NEW_BATTLE: "UAC Simulator"
+  STR_MISSION_GENERATOR: "UAC TACTICAL SIM"  
+  STR_UFOPAEDIA: "UAC Pedia"
+  STR_UFOPAEDIA_UC: "UAC PEDIA"
+  STR_XCOM_OPERATIVES_KILLED: "UAC MARINES KILLED"
+  STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "UAC MARINES M.I.A."
+  STR_XCOM_CRAFT_LOST: "UAC VEHICLE LOST"
+  STR_1_BEGINNER: "> I'M TOO YOUNG TO DIE <"
+  STR_2_EXPERIENCED: "> HEY, NOT TOO ROUGH <"
+  STR_3_VETERAN: "> HURT ME PLENTY <"
+  STR_4_GENIUS: "> ULTRA-VIOLENCE <"
+  STR_5_SUPERHUMAN: "> NIGHTMARE! <"
+
+
+######################
+
+  STR_SHIELD_S: "Shield is {}%!"
+  STR_SHIELD_DOWN: "Shield is down!"
+  STR_AIMED_BURST: "Aimed Burst"
+  STR_AIMED_BURST_SHORT: "Aimed Burst {0}"
+  STR_BURST: "Burst"
+  STR_BURST_SHORT: "Burst {0}"
+  STR_FULL_AUTO: "Full Auto"
+  STR_FULL_AUTO_SHORT: "Full Auto {0}"
+  STR_SINGLE_SHOT: "Single Shot"
+  STR_THRUST: "Thrust"
+  STR_CUT: "Cut"
+  STR_DOUBLE_TAP: "Double Tap"
+  STR_SHORT_BURST: "Short Burst"
+  STR_SUPPRESSION: "Suppression"
+  STR_SUPPRESSION_SHORT: "Suppression {0}"
+    
+
+######################
+# WEAPONS
+
+  STR_DAMAGE_ARMOR_PIERCING: "KINETIC"
+  STR_DAMAGE_INCENDIARY: "INCENDIARY"
+  STR_DAMAGE_HIGH_EXPLOSIVE: "HIGH EXPLOSIVE"
+  STR_DAMAGE_LASER_BEAM: "DEMON ENERGY"
+  STR_DAMAGE_PLASMA_BEAM: "PLASMA ENERGY"
+
+  STR_WEAPONS: "WEAPONS"
+
+  STR_UACPISTOL: "UAC Pistol"
+  STR_UACPISTOL_AMMO: "UAC Pistol Ammo"
+  STR_UACRIFLE: "UAC Assault Rifle"
+  STR_UACRIFLE_AMMO: "UAC Rifle Ammo"
+  STR_UACSHOTGUN: "UAC Shotgun"
+  STR_UACSHOTGUN_AMMO: "UAC Shotgun Shells"
+  STR_UACCHAIN: "UAC Chain Gun"
+  STR_UACCHAIN_AMMO: "UAC Chain Gun Ammo"
+  STR_UACCHAIN_AMMO_ADVANCED: "UAC Adv. Chain Gun Ammo"
+  STR_UACRL: "UAC Rocket Launcher"
+  STR_UACRL_AMMO: "UAC Rocket Launcher Ammo"
+  STR_CHAINSAW: "Chain Saw"
+  
+  STR_UACPISTOL_ADVANCED: "UAC Advanced Pistol"
+  STR_UACPISTOL_AMMO_ADVANCED: "UAC Adv. Pistol Ammo"
+  STR_UACRIFLE_ADVANCED: "UAC Advanced Assault Rifle"
+  STR_UACRIFLE_AMMO_ADVANCED: "UAC Adv. Rifle Ammo"
+  STR_UACSHOTGUN_ADVANCED: "UAC Advanced Shotgun"
+  STR_UACSHOTGUN_ADVANCED_AMMO: "UAC Adv. Shotgun Shells"
+  STR_UACSMG: "UAC Advanced SMG"
+  STR_UACSMG_AMMO: "UAC Adv. SMG Ammo"
+  STR_UACHEVYNAILGUN: "UAC Heavy Nailgun"
+  STR_UACHEVYNAILGUN_AMMO: "UAC Heavy Nailgun Clip"
+  STR_UACRL_ADVANCED: "UAC Adv. Rocket Launcher"
+  STR_UACRL_AMMO_ADVANCED: "UAC Adv. Rocket Launcher Ammo"
+
+#----------------------------------------------------------------------------------------------------------------------------------------------
+  STR_UACPISTOL_UFOPEDIA: "UAC 9x19mm pistol, the weapon of choice by UAC Marine rookies"
+#----------------------------------------------------
+  STR_UACRIFLE_UFOPEDIA: "UAC 5.56x45mm NATO Assault Rifle, ideal for mid range engagement."
+#----------------------------------------------------
+  STR_UACCHAIN_UFOPEDIA: "UAC Portable Gatling Gun Prototype, it's very effective at mid-to-close range engagement."
+#----------------------------------------------------
+  STR_UACRL_UFOPEDIA: "UAC Portable Rocket Launcher, capable to accurately launch HEAT Rockets at long range distances"
+#----------------------------------------------------  
+  STR_CHAINSAW_UFOPEDIA: "A common lumberjack tool repurposed to personally R'&'T the alien ground forces."
+#----------------------------------------------------------------------------------------------------------------------------------------------
+  STR_UACSHOTGUN_UFOPEDIA: "Close-quarters .12 Gauge pump-action shotgun. Classic design with wooden furniture. Wide dispersion with large amount of pellets per shell."
+#----------------------------------------------------------------------------------------------------------------------------------------------  
+  STR_UACPISTOL_ADVANCED_UFOPEDIA: "Reinforced sidearm for better accuracy at range and higher muzzle velocity rates."
+#----------------------------------------------------------------------------------------------------------------------------------------------  
+  STR_UACRIFLE_ADVANCED_UFOPEDIA: "Mark 2 variant of the standard UAC Assault Rifle. Improved ergonomics and 50-rounds magazine for longer firefights."
+#----------------------------------------------------------------------------------------------------------------------------------------------  
+  STR_UACSHOTGUN_ADVANCED_UFOPEDIA: "Tactical semi-automatic shotgun. Synthetic furniture with shock-resistant stock and grip, reducing the recoil."
+#----------------------------------------------------------------------------------------------------------------------------------------------  
+  STR_UACSMG_UFOPEDIA: "Mid-powered fast-fire personal defense weapon, for getting up close and personal and winning the fight."
+#----------------------------------------------------------------------------------------------------------------------------------------------  
+  STR_UACHEVYNAILGUN_UFOPEDIA: "Impale your enemies with extreme prejudice using this modified tool."
+#----------------------------------------------------------------------------------------------------------------------------------------------  
+  STR_UACRL_ADVANCED_UFOPEDIA: "Upgraded Mark 2 Portable Rocket Launcher. More powerful anti-demonic HEAT rounds for better fire support missions."
+#----------------------------------------------------------------------------------------------------------------------------------------------  
+
+######################
+# UAC ARMORS 
+  STR_SOLDIER: "UAC Marine"
+  DOOMGUY_ARMOR: "Combat Armor Mk. III"
+  
+######################
+# ENDGAME
+
+  STR_ELERIUM_115: "Argent Reactor Fuel"
+  STR_ELERIUM_115_UFOPEDIA: "Radioactive elements within a containment chamber. Standing near them without special protection may be dangerous, but so far we have not found any issue. Some of them make pretty glassware that is bright under UV light!"
+
+  STR_UFO_POWER_SOURCE: "Argent Reactor"
+  STR_UFO_POWER_SOURCE_UFOPEDIA: "The enemy uses fission technology to power their structures and vehicles. While we were able to achieve said process as well, their technology is far more efficient and sustainable than ours."
+
+  STR_ALIEN_ALLOYS: "Demonic Skin"
+  STR_ALIEN_ALLOYS_UFOPEDIA: "Lightweight steel alloy plating, used by the Demonic to construct a large range of utilities and weaponry. Easily moldable with the right tools, but impervious to all kinds of damage.."
+
+#######################
+# ENEMIES
+
+  STR_ZOMBIEMAN: "Zombie"
+  ZOMBIEMAN_ARMOR: "Rotten skin"
+  STR_ZOMBIEMAN_CORPSE: "Zombie Corpse"
+  STR_LOSTSOUL: "Lost Soul"
+  STR_LOSTSOUL_CORPSE: "Lost Soul Corpse"
+  LOSTSOUL_ARMOR: "Lost Soul's intangible body"
+  STR_POSSESSED_DOOMGUY: "Possessed UAC Marine"
+  POSSESSED_DOOMGUY_ARMOR: "Demonic-infused Combat Armor Mk.III"
+  STR_DOOMGUY_CORPSE: "Possessed UAC Marine Corpse"
+  STR_IMP: "Imp"
+  IMP_ARMOR: "Heavy muscular body"
+  STR_IMP_CORPSE: "Imp Corpse"
+  STR_DEMON: "Demon"
+  STR_DEMON_CORPSE:
+  DEMON_ARMOR: "Demon Hell-infused armor"
+  STR_CACODEMON: "Cacodemon"
+  STR_CACODEMON_CORPSE: "Cacodemon Corpse"
+  CACODEMON_ARMOR: "Cacodemon spheric biomass"
+  STR_SPECTRE: "Spectre"
+  STR_SPECTRE_DEMON_CORPSE: "Spectre Corpse"
+  SPECTRE_ARMOR: "Spectre invisible armor"
+  STR_HELL_BARON: "Hell Baron"
+  STR_DOOM_HELL_BARON_CORPSE: "Hell Baron Corpse"
+  HELL_BARON_ARMOR: "Uber Demonic armor"
+
+  STR_SECTOID: "Possessed Humans"
+  STR_SNAKEMAN: "Easy Demonic Horde"
+  STR_FLOATER: "Medium Demonic Horde"
+  STR_MUTON: "Hellhunters"
+  STR_ETHEREAL: "Difficult Demonic Horde"
+  STR_MIXED: "Mixed Hellspawns"
+
+######################
+# CHANGED MENU TEXT
+
+  STR_UFO_ACTIVITY_IN_AREAS: "Demonic Activity in Areas"
+  STR_UFO_ACTIVITY_IN_COUNTRIES: "Demonic Activity in Sectors"
+  STR_XCOM_ACTIVITY_IN_AREAS: "UAC Activity in Areas"
+  STR_XCOM_ACTIVITY_IN_COUNTRIES: "UAC Activity in Sectors"
+  STR_NOT_ENOUGH_ITEM_TO_REFUEL_CRAFT_AT_BASE: "Not enough {0} to refuel {1} at {2}"
+  STR_NOT_ENOUGH_ITEM_TO_REARM_CRAFT_AT_BASE: "Not enough {0} to rearm {1} at {2}"
+  STR_UFO_IS_NOT_RECOVERED: "Demonic Craft is not recovered"
+  STR_UFO_IS_RECOVERED: "Demonic Craft is recovered"
+  STR_CRAFT_IS_LOST: "Craft is lost"
+  STR_TERROR_CONTINUES: "Terror continues"
+  STR_ALIENS_DEFEATED: "Demonic defeated"
+  STR_BASE_IS_LOST: "Base is lost"
+  STR_BASE_IS_SAVED: "Base is saved"
+  STR_ALIEN_BASE_STILL_INTACT: "Alien Base still intact"
+  STR_ALIEN_BASE_DESTROYED: "Alien Base destroyed"
+  STR_ALIENS_KILLED: "DEMONIC UNITS KILLED"
+  STR_ALIEN_CORPSES_RECOVERED: "ALIEN CORPSES RECOVERED"
+  STR_LIVE_ALIENS_RECOVERED: "LIVE DEMONIC UNITS RECOVERED"
+  STR_ALIEN_ARTIFACTS_RECOVERED: "ALIEN ARTIFACTS RECOVERED"
+  STR_ALIEN_BASE_CONTROL_DESTROYED: "ALIEN BASE CONTROL DESTROYED"
+  STR_CIVILIANS_KILLED_BY_ALIENS: "CIVILIANS KILLED BY DEMONIC UNITS"
+  STR_CIVILIANS_KILLED_BY_XCOM_OPERATIVES: "CIVILIANS KILLED BY TASK FORCE OPERATIVES"
+  STR_CIVILIANS_SAVED: "CIVILIANS SAVED"
+  STR_TANKS_DESTROYED: "TANKS DESTROYED"
+  STR_UFO_RECOVERY: "HELL VESSEL RECOVERY"
+  STR_ALIEN_BASE_RECOVERY: "ALIEN BASE RECOVERY"
+  STR_BASE_UNDER_ATTACK: "{0} under attack!"
+  STR_BASE_DEFENSES_INITIATED: "BASE DEFENSES INITIATED"
+  STR_GRAV_SHIELD_REPELS_UFO: "GRAV SHIELD REPELS CRAFT!"
+  STR_FIRING: "FIRING"
+  STR_HIT: "HIT!"
+  STR_UFO_DESTROYED: "HELL VESSEL DESTROYED!"
+  STR_UFO_CRASH_RECOVERY: "HELL VESSEL CRASH RECOVERY"
+  STR_UFO_CRASH_RECOVERY_BRIEFING: "Exercise caution - There may be demons in the enemy vessel or around the crash site. Mission will be successful when all enemy units have been eliminated or neutralized. Recovery of the enemy vessel remains, artifacts and alien corpses can then be initiated. To abort the mission return UAC units to transport vehicle and click on the 'Abort Mission' icon."
+  STR_UFO_GROUND_ASSAULT: "HELL VESSEL GROUND ASSAULT"
+  STR_UFO_GROUND_ASSAULT_BRIEFING: "Explore landing site and, if possible, gain entry to the enemy vessel. Mission will be successful when all enemy units have been eliminated or neutralized. Recovery of the enemy vessel, artifacts and alien corpses can then be initiated. To abort the mission return UAC units to transport vehicle and click on the 'Abort Mission' icon."
+  STR_BASE_DEFENSE: "BASE DEFENSE"
+  STR_BASE_UC_: "BASE> {0}"
+  STR_BASE_DEFENSE_BRIEFING: "An Alien vessel has landed nearby. Our base is in severe danger. As per standard procedure all non-combat personnel and UAC craft have been evacuated. Alien units will enter the base via hangar doors or the access lift. Defend the base and its vital installations at all costs - this is a fight to the death. If you click on the 'abort mission' icon you will concede defeat and lose the base."
+  STR_ALIEN_BASE_ASSAULT: "DEMONIC BASE ASSAULT"
+  STR_ALIEN_BASE_ASSAULT_BRIEFING: "UAC units have gained entrance to an alien base. The control center must be destroyed to render the base inoperative. The mission will terminate when all enemies are eliminated, or when your squad has returned to the green exit area (click on the 'abort mission' icon to escape)."
+  STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON HELL VESSEL-TIME=5 Secs"
+  STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO LAST KNOWN HELL VESSEL POSITION"
+  STR_UFO_: "HELL VESSEL-{0}"
+  STR_ALIEN_BASE_: "DEMONIC ACTIVITY-{0}"
+  STR_XCOM_CRAFT_ARMAMENT: "UAC CRAFT & ARMAMENT"
+  STR_HEAVY_WEAPONS_PLATFORMS: "HEAVY WEAPONS PLATFORMS"
+  STR_WEAPONS_AND_EQUIPMENT: "WEAPONS AND EQUIPMENT"
+  STR_ALIEN_ARTIFACTS: "DEMONIC WEAPONRY"
+  STR_VEHICLES: "VEHICLES"
+  STR_BASE_FACILITIES: "BASE FACILITIES"
+  STR_ALIEN_LIFE_FORMS: "HELL LIFE FORMS"
+  STR_ALIEN_RESEARCH_UC: "HELL RESEARCH"
+  STR_UFO_COMPONENTS: "HELL VESSEL COMPONENTS"
+  STR_UFOS: "DEMONIC VEHICLES"
+  STR_UFO_COMPONENT: "Hell Vessel component"
+  STR_UFO_NAVIGATION: "Hell Vessel Navigation"
+  STR_UFO_CONSTRUCTION: "Hell Vessel Construction"
+  STR_INTERNATIONAL_RELATIONS: "Frontlines"
+  STR_COUNTRY: "Front"
+  STR_FUNDING: "Supplies"
+  STR_XCOM_PROJECT_MONTHLY_REPORT: "UAC CORPORATE REPORT"
+  STR_MONTH: "Month> {ALT}{0} {1}"
+  STR_COUNCIL_IS_GENERALLY_SATISFIED: "The UAC has endured the Demonic onslaught successfully and the Sectors remain under our control."
+  STR_COUNCIL_IS_VERY_PLEASED: "The UAC has endured the Demonic onslaught remarkably well and the Sectors remain under our control. Keep up the good work."
+  STR_COUNCIL_IS_DISSATISFIED: "The UAC has been having trouble repelling the Demonic onslaught and our forces are on the brink of breakdown. Try harder to defend the planet."
+  STR_YOU_HAVE_NOT_SUCCEEDED: "Despite our efforts, the UAC has failed to defend Mars. The Demonins have opened a large amount of portals to their dimension, forever dooming Mankind."
+  STR_COUNTRY_IS_PARTICULARLY_PLEASED: "Command at {0} is especially grateful of your ability to deal with the local Demonic threat and has sent more supplies."
+  STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "Commands in the {0} are especially appreciative of your ability to meet the local Demonic threat and have sent more supplies."
+  STR_COUNTRIES_COMMA: "{0}, {1}"
+  STR_COUNTRIES_AND: "{0} and {1}"
+  STR_COUNTRY_IS_UNHAPPY_WITH_YOUR_ABILITY: "Command in {0} reports heavy military and civilian casualties, they are in danger of being overrun. They have reduced the amount of supplies sent."
+  STR_COUNTRIES_ARE_UNHAPPY_WITH_YOUR_ABILITY: "Commands in the {0} report heavy military and civilian casualties, are in danger of being overrun. They have reduced the amount of supplies sent."
+  STR_KNOTS: "{0} knots"
+  STR_COUNTRY_HAS_SIGNED_A_SECRET_PACT: "{0} has been overrun by Demonic forces and we have lost contact with Sector Regional Command. There are reports of new Demonic activity in the area."
+  STR_COUNTRIES_HAVE_SIGNED_A_SECRET_PACT: "{0} have been overrun by Demonic forces and we have lost contact with the Regional Commands for those Sectors. There are reports of new Demonic activity in the area."
+  STR_MONTHLY_RATING: "Monthly Rating> {ALT}{0}{ALT} {1}"
+  STR_FUNDING_CHANGE: "Changes in supply flow> {ALT}{0}"
+  STR_COUNCIL_REDUCE_DEBTS: "Our supply system is on the verge of collapse, it is recommended to ration weapons and ammunition. Otherwise, we will not have enough equipment to continue the fight."
+  STR_THE_ALIENS_HAVE_DESTROYED_THE_UNDEFENDED_BASE: "The Demons have destroyed the undefended base {0}"
+  STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "UAC recon have located an alien base in {0}"
+  STR_UFO_HIT: "HELL VESSEL HIT!"
+  STR_UFO_CRASH_LANDS: "HELL VESSEL CRASH LANDS!"
+  STR_MINIMISE_AT_STANDOFF_RANGE_ONLY: "Minimize at Standoff Range Only"
+  STR_UFO_RETURN_FIRE: "HELL VESSEL RETURNS FIRE!"
+  STR_INTERCEPTOR_DAMAGED: ">>> INTERCEPTOR DAMAGED <<<"
+  STR_INTERCEPTOR_DESTROYED: ">>> INTERCEPTOR DESTROYED <<<"
+  STR_UFO_OUTRUNNING_INTERCEPTOR: "HELL VESSEL OUTRUNNING INTERCEPTOR!"
+  STR_ALIENS_TERRORISE: "DEMONIC INCURSION"
+  STR_XCOM_PERFORMANCE_ROSTER: "UAC Performance Roster"
+  STR_XCOM_BASE_CANNOT_BE_BUILT: "UAC facilities cannot be built underwater"
+  STR_SOLDIERS_RECRUITED: "Marines recruited"
+  STR_SOLDIERS_LOST: "Marines lost"
+  STR_TOTAL_UFOS: "Hell Vessels detected"
+  STR_TOTAL_ALIEN_BASES: "Demonic structures discovered"
+
+  
+  STR_MT_RATING_EXEMPLARY: "Exemplary"
+  STR_MT_RATING_EXCELLENT: "Excellent"
+  STR_MT_RATING_GREAT: "Great"
+  STR_MT_RATING_GOOD: "Good"
+  STR_MT_RATING_OK: "Sufficient"
+  STR_MT_RATING_POOR: "Poor"
+  STR_MT_RATING_BAD: "Bad"
+  STR_MT_RATING_TERRIBLE: "Terrible"
+  STR_MT_RATING_ABOMINABLE: "Abominable"

@@ -1,7 +1,57 @@
 alienRaces:
-  - id: STR_DOOM_MIXED
+  - id: STR_SECTOID # Possessed Humans
+    members:
+      - STR_DOOMGUY
+      - STR_DOOMGUY
+      - STR_DOOMGUY
+      - STR_DOOMGUY
+      - STR_ZOMBIEMAN
+      - STR_ZOMBIEMAN
+      - STR_IMP
+      - STR_IMP
+  - id: STR_SNAKEMAN # Easy Demonic Horde
     members:
       - STR_CACODEMON
+      - STR_IMP
+      - STR_ZOMBIEMAN
+      - STR_DOOMGUY
+      - STR_ZOMBIEMAN
+      - STR_ZOMBIEMAN
+      - STR_DEMON
+      - STR_LOSTSOUL
+  - id: STR_FLOATER # Medium Demonic Horde
+    members:
+      - STR_CACODEMON
+      - STR_CACODEMON
+      - STR_IMP
+      - STR_ZOMBIEMAN
+      - STR_ZOMBIEMAN
+      - STR_ZOMBIEMAN
+      - STR_DEMON
+      - STR_LOSTSOUL
+  - id: STR_ETHEREAL # Difficult Demonic Horde
+    members:
+      - STR_HELL_BARON
+      - STR_CACODEMON
+      - STR_IMP
+      - STR_CACODEMON
+      - STR_HELL_BARON
+      - STR_CACODEMON
+      - STR_DEMON
+      - STR_LOSTSOUL
+  - id: STR_MUTON # Hellhunters
+    members:
+      - STR_CACODEMON
+      - STR_CACODEMON
+      - STR_LOSTSOUL
+      - STR_SPECTRE
+      - STR_SPECTRE
+      - STR_SPECTRE
+      - STR_LOSTSOUL
+      - STR_LOSTSOUL
+  - id: STR_MIXED # Mixed Hellspawns
+    members:
+      - STR_LOSTSOUL
       - STR_CACODEMON
       - STR_IMP
       - STR_DOOMGUY

@@ -1,7 +1,7 @@
 name: "Doom: Hell & Fire"
-version: "0.0"
-author: "Reuged"
-description: "-"
+version: "0.1"
+author: "Reuged + IDT"
+description: "This is the end of the mankind as we know it"
 id: "Doom HellnFire"
 reservedSpace: 6
 master: xcom1

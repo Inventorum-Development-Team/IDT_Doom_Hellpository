@@ -1,0 +1,12 @@
+September 18th, 2024
+
+- Initial public release
+> Added UAC Marine
+> Added Hell forces: Zombie, Lost Soul, Imp, Demon, Cacodemon, Spectre, Hell Baron
+> Added starting UAC weapons, sprites by various creators
+> Added Advanced UAC weapons, sprites by Badfella
+> Added Filip's ammo resprite script
+
+2012-2020
+> Initial private releases
+> Gathered DOOM assets, by Luke83
