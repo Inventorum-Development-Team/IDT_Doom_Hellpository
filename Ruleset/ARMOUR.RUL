@@ -1033,7 +1033,7 @@ units:
     intelligence: 4
     aggression: 2
   - type: STR_POSSESSED_DOOMGUY # xCOM UNIT
-    race: STR_DOOM_MIXED
+    race: STR_POSSESSED_DOOMGUY
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 75
@@ -1056,7 +1056,7 @@ units:
     aggression: 3
     energyRecovery: 40
   - type: STR_IMP #ETHEREAL
-    race: STR_DOOM_MIXED
+    race: STR_IMP
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 68
@@ -1079,7 +1079,7 @@ units:
     aggression: 1
     energyRecovery: 40
   - type: STR_DEMON #REAPER
-    race: STR_DOOM_MIXED
+    race: STR_DEMON
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 62
@@ -1103,7 +1103,7 @@ units:
     energyRecovery: 34
     livingWeapon: true
   - type: STR_CACODEMON #CYBER DISK
-    race: STR_DOOM_MIXED
+    race: STR_CACODEMON
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 62
@@ -1131,7 +1131,7 @@ units:
     livingWeapon: true
     capturable: false
   - type: STR_SPECTRE
-    race: STR_DOOM_MIXED
+    race: STR_SPECTRE
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 84
@@ -1157,7 +1157,7 @@ units:
     # builtInWeapons:
     #   - AUX_DOOM_DEMON_WEAPON
   - type: STR_HELL_BARON
-    race: STR_DOOM_MIXED
+    race: STR_HELL_BARON
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 82
@@ -1179,7 +1179,7 @@ units:
     intelligence: 7
     aggression: 3
     energyRecovery: 50
-    livingWeapon: true
-    meleeWeapon: STR_GAUNTLET_CLAW
+    #livingWeapon: true
+    #meleeWeapon: STR_GAUNTLET_CLAW
     # builtInWeapons:
     #   - AUX_DOOM_HELL_BARON_WEAPON

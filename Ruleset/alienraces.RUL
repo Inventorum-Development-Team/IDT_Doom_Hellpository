@@ -1,10 +1,10 @@
 alienRaces:
   - id: STR_SECTOID # Possessed Humans
     members:
-      - STR_DOOMGUY
-      - STR_DOOMGUY
-      - STR_DOOMGUY
-      - STR_DOOMGUY
+      - STR_POSSESSED_DOOMGUY
+      - STR_POSSESSED_DOOMGUY
+      - STR_POSSESSED_DOOMGUY
+      - STR_POSSESSED_DOOMGUY
       - STR_ZOMBIEMAN
       - STR_ZOMBIEMAN
       - STR_IMP
@@ -14,7 +14,7 @@ alienRaces:
       - STR_CACODEMON
       - STR_IMP
       - STR_ZOMBIEMAN
-      - STR_DOOMGUY
+      - STR_POSSESSED_DOOMGUY
       - STR_ZOMBIEMAN
       - STR_ZOMBIEMAN
       - STR_DEMON
@@ -54,7 +54,7 @@ alienRaces:
       - STR_LOSTSOUL
       - STR_CACODEMON
       - STR_IMP
-      - STR_DOOMGUY
+      - STR_POSSESSED_DOOMGUY
       - STR_HELL_BARON
       - STR_ZOMBIEMAN
       - STR_DEMON

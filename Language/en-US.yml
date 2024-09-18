@@ -104,6 +104,7 @@ en-US:
 # UAC ARMORS 
   STR_SOLDIER: "UAC Marine"
   DOOMGUY_ARMOR: "Combat Armor Mk. III"
+  STR_DOOMGUY_CORPSE: "UAC Marine Corpse"
   
 ######################
 # ENDGAME
@@ -128,7 +129,7 @@ en-US:
   LOSTSOUL_ARMOR: "Lost Soul's intangible body"
   STR_POSSESSED_DOOMGUY: "Possessed UAC Marine"
   POSSESSED_DOOMGUY_ARMOR: "Demonic-infused Combat Armor Mk.III"
-  STR_DOOMGUY_CORPSE: "Possessed UAC Marine Corpse"
+  STR_POSSESSED_DOOMGUY_CORPSE: "Possessed UAC Marine Corpse"
   STR_IMP: "Imp"
   IMP_ARMOR: "Heavy muscular body"
   STR_IMP_CORPSE: "Imp Corpse"
