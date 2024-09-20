@@ -692,6 +692,14 @@ extraSprites:
       360: Resources/Sprites/BigUAC_SMG_ammo_nomag.png
       368: Resources/Sprites/BigUAC_SMG_ammo.png
       376: Resources/Sprites/BigUAC_SMG_Mag.png
+      384: Resources/Sprites/BigPlasmaRifle_nomag.png
+      392: Resources/Sprites/BigPlasmaRifle_ammo.png
+      #400: Resources/Sprites/BigBFG9000_nomag.png
+      #408: Resources/Sprites/BigBFG9000_ammo.png
+      416: Resources/Sprites/BigEnergyCell.png
+      424: Resources/Sprites/BigUAC_BasicSMG_nomag.png
+      432: Resources/Sprites/BigUAC_BasicSMG_ammo.png
+      440: Resources/Sprites/BigUAC_BasicSMGAmmo.png
 
   - type: FLOOROB.PCK
     files:
@@ -731,6 +739,14 @@ extraSprites:
       360: Resources/Sprites/FloorUAC_SMG_nomag.png
       368: Resources/Sprites/FloorUAC_SMG_ammo.png
       376: Resources/Sprites/FloorUAC_SMG_Mag.png
+      384: Resources/Sprites/FloorPlasmaRifle_nomag.png
+      392: Resources/Sprites/FloorPlasmaRifle_ammo.png
+      #400: Resources/Sprites/FloorBFG9000_nomag.png
+      #408: Resources/Sprites/FloorBFG9000_ammo.png
+      416: Resources/Sprites/FloorEnergyCell.png
+      424: Resources/Sprites/FloorUAC_BasicSMG_nomag.png
+      432: Resources/Sprites/FloorUAC_BasicSMG_ammo.png
+      440: Resources/Sprites/FloorUAC_BasicSMGAmmo.png
 
   - type: HANDOB.PCK
     width: 256
@@ -773,6 +789,14 @@ extraSprites:
       360: Resources/Sprites/HandUAC_SMG_nomag.png
       368: Resources/Sprites/HandUAC_SMG_ammo.png
       #376: Resources/Sprites/HandUAC_SMG_Mag.png
+      384: Resources/Sprites/HandPlasmaRifle_nomag.png
+      392: Resources/Sprites/HandPlasmaRifle_ammo.png
+      #400: Resources/Sprites/HandBFG9000_nomag.png
+      #408: Resources/Sprites/HandBFG9000_ammo.png
+      #416: Resources/Sprites/HandEnergyCell.png
+      424: Resources/Sprites/HandUAC_BasicSMG_nomag.png
+      432: Resources/Sprites/HandUAC_BasicSMG_ammo.png
+      #440: Resources/Sprites/HandUAC_BasicSMGAmmo.png
 
 #----------------------------------------------------
   - type: Projectiles
