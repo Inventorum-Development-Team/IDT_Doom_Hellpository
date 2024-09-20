@@ -78,6 +78,52 @@ armors:
       - 1.6
       - 1.0
     loftempsSet: [ 3 ]
+  - type: STR_SHOTGUNGUY_ARMOR # xCOM UNIT
+    spriteSheet: DEM_2.PCK
+    spriteInv: SHOTGUNGUYInventoryImage
+    allowInv: true
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_DOOMGUY_CORPSE
+    frontArmor: 20
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: STR_HEAVY_WEAPONS_DUDE_ARMOR # xCOM UNIT
+    spriteSheet: DEM_3.PCK
+    spriteInv: HEAVYWEAPONSDUDEInventoryImage
+    allowInv: true
+    storeItem: STR_NONE
+    corpseBattle:
+      - STR_DOOMGUY_CORPSE
+    frontArmor: 30
+    sideArmor: 20
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
   - type: IMP_ARMOR #ETHEREAL
     spriteSheet: IMP.PCK
     spriteInv: IMPInventoryImage
@@ -590,6 +636,24 @@ armors:
 ###### INVENTORY   #######
 
 extraSprites:
+   - type: HEAVYWEAPONSDUDEInventoryImage.SPK
+     width: 320
+     height: 200
+     singleImage: true
+     files:
+       0: Resources/Units/INVENTORY/Doom_Gunner.png
+   - type: SHOTGUNGUYInventoryImage.SPK
+     width: 320
+     height: 200
+     singleImage: true
+     files:
+       0: Resources/Units/INVENTORY/Doom_Sarge.png
+   - type: ZOMBIEMANInventoryImage.SPK
+     width: 320
+     height: 200
+     singleImage: true
+     files:
+       0: Resources/Units/INVENTORY/Doom_Soldier.png
    - type: ZOMBIEMANInventoryImage.SPK
      width: 320
      height: 200
@@ -640,10 +704,10 @@ extraSprites:
        0: Resources/Units/INVENTORY/Spectre_Inv.png
 
    - type: ZOMBIEMAN.PCK
-     width: 256                  
-     height: 400                 
-     subX: 32                     
-     subY: 40                     
+     width: 256
+     height: 400
+     subX: 32      
+     subY: 40    
      files:
        0: Resources/Units/ZOMBIEMAN.PNG
    - type: LOSTSOUL.PCK
@@ -695,6 +759,28 @@ extraSprites:
      subY: 40                     
      files:
        0: Resources/Units/hellbaron.PNG
+
+   - type: DEM_1.PCK
+     width: 512
+     height: 720
+     subX: 32      
+     subY: 40    
+     files:
+       0: Resources/Units/DEM_1.PNG
+   - type: DEM_2.PCK
+     width: 512
+     height: 720
+     subX: 32      
+     subY: 40    
+     files:
+       0: Resources/Units/DEM_2.PNG
+   - type: DEM_3.PCK
+     width: 512
+     height: 720
+     subX: 32      
+     subY: 40    
+     files:
+       0: Resources/Units/DEM_3.PNG
 
    - type: BIGOBS.PCK
      files:
@@ -1078,6 +1164,7 @@ units:
     deathSound: 10
     intelligence: 3
     aggression: 2
+    showFullNameInAlienInventory: 1
     builtInWeaponSets:
       - 
         - STR_UACRIFLE
@@ -1098,13 +1185,14 @@ units:
       psiStrength: 40
       psiSkill: 0
       melee: 76
-    armor: ZOMBIEMAN_ARMOR
+    armor: STR_SHOTGUNGUY_ARMOR
     standHeight: 16
     kneelHeight: 12
     value: 10
     deathSound: 10
     intelligence: 3
     aggression: 2
+    showFullNameInAlienInventory: 1
     builtInWeaponSets:
       - 
         - STR_UACSHOTGUN
@@ -1125,13 +1213,14 @@ units:
       psiStrength: 40
       psiSkill: 0
       melee: 76
-    armor: ZOMBIEMAN_ARMOR
+    armor: STR_HEAVY_WEAPONS_DUDE_ARMOR
     standHeight: 16
     kneelHeight: 12
     value: 10
     deathSound: 10
     intelligence: 3
     aggression: 2
+    showFullNameInAlienInventory: 1
     builtInWeaponSets:
       - 
         - STR_UACCHAIN
@@ -1160,6 +1249,7 @@ units:
     deathSound: 10
     moveSound: 15
     intelligence: 4
+    showFullNameInAlienInventory: 1
     aggression: 2
     builtInWeaponSets:
       - 
@@ -1186,6 +1276,7 @@ units:
     deathSound: 42
     intelligence: 8
     aggression: 3
+    showFullNameInAlienInventory: 1
     energyRecovery: 40
     builtInWeaponSets:
       - 
@@ -1213,6 +1304,7 @@ units:
     deathSound: 9
     intelligence: 6
     aggression: 1
+    showFullNameInAlienInventory: 1
     energyRecovery: 40
     meleeWeapon: AUX_DOOM_IMP_CLAWS
     builtInWeaponSets:
@@ -1240,6 +1332,7 @@ units:
     deathSound: 10
     intelligence: 2
     aggression: 2
+    showFullNameInAlienInventory: 1
     energyRecovery: 34
     livingWeapon: true
     meleeWeapon: MELEE_DEMON_ITEM
@@ -1272,6 +1365,7 @@ units:
     aggression: 1
     energyRecovery: 50
     specab: 1
+    showFullNameInAlienInventory: 1
     livingWeapon: true
     capturable: false
     meleeWeapon: MELEE_DEMON_ITEM
@@ -1300,6 +1394,7 @@ units:
     deathSound: 412
     intelligence: 2
     aggression: 4
+    showFullNameInAlienInventory: 1
     energyRecovery: 50
     livingWeapon: true
     meleeWeapon: MELEE_DEMON_ITEM
@@ -1328,6 +1423,7 @@ units:
     deathSound: 405
     intelligence: 7
     aggression: 3
+    showFullNameInAlienInventory: 1
     meleeWeapon: MELEE_DEMON_ITEM
     energyRecovery: 50
     livingWeapon: true
