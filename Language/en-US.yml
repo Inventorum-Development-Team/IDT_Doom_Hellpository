@@ -73,6 +73,13 @@ en-US:
   STR_UACHEVYNAILGUN_AMMO: "UAC Heavy Nailgun Clip"
   STR_UACRL_ADVANCED: "UAC Adv. Rocket Launcher"
   STR_UACRL_AMMO_ADVANCED: "UAC Adv. Rocket Launcher Ammo"
+  STR_LASRIFLE: "UAC Lasrifle"
+  STR_LASPISTOL: "UAC Laspistol"
+  STR_POWER_BATTERY: "Power Battery"
+  STR_UACBASICSMG: "UAC Compact SMG"
+  STR_UACBASICSMG_AMMO: "UAC Compact SMG Ammo"
+  STR_PLASMARIFLE: "Plasma Rifle"
+  STR_ENERGY_CELL: "Energy Cell"
 
 #----------------------------------------------------------------------------------------------------------------------------------------------
   STR_UACPISTOL_UFOPEDIA: "UAC 9x19mm pistol, the weapon of choice by UAC Marine rookies"
@@ -99,9 +106,13 @@ en-US:
 #----------------------------------------------------  
   STR_UACRL_ADVANCED_UFOPEDIA: "Portable Rocket Launcher Mark 2. Capable to launch more powerful HEAT rounds for better fire support."
 #----------------------------------------------------
-  #STR_LASRIFLE: "UAC Laser rifle prototype, it's capable to discharge 700MW laser beam in one shot, however, it's power battery only holds up to 15 shoots before overheating."
+  #STR_LASRIFLE_UFOPEDIA: "UAC Laser rifle prototype, it's capable to discharge 700MW laser beam in one shot, however, it's power battery only holds up to 15 shoots before overheating."
 #----------------------------------------------------
-  #STR_LASPISTOL: "UAC pistol prototype, with advance in laser technology UAC scentist is now capable to minutiturize the Laser Rifle into a standard issue UAC pistol size, due to size limitation the power battery can only holds up to 5 shots before overheating."
+  #STR_LASPISTOL_UFOPEDIA: "UAC pistol prototype, with advance in laser technology UAC scentist is now capable to minutiturize the Laser Rifle into a standard issue UAC pistol size, due to size limitation the power battery can only holds up to 5 shots before overheating."
+#----------------------------------------------------
+  STR_UACBASICSMG_UFOPEDIA: "Basic submachine gun meant for self-defense of recon and security teams. Often used as sidearm thanks to its lightweight and easiness of using one-handed."
+#----------------------------------------------------
+  STR_PLASMARIFLE_UFOPEDIA: "Standarized energy weapon, designed by UAC Miltary Applications Department. Its brutal rate of fire can easily destroy any poorly-armored enemy. Consumes one power unit from the Energy Cell, per shot."
 #----------------------------------------------------------------------------------------------------------------------------------------------
 
 ######################
