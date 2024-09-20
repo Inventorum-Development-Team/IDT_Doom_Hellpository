@@ -52,7 +52,7 @@ armors:
       - 0.0
     loftempsSet: [ 3 ]
   - type: POSSESSED_DOOMGUY_ARMOR # xCOM UNIT
-    spriteSheet: DOOMGUY.PCK
+    spriteSheet: DOOMGUY_SPRITESHEET.PCK
     spriteInv: DOOMGUYInventoryImage
     allowInv: true
     spriteFaceGroup: 6
@@ -653,7 +653,7 @@ extraSprites:
      subY: 40                     
      files:
        0: Resources/Units/LOSTSOUL.PNG
-   - type: DOOMGUY.PCK
+   - type: DOOMGUY_SPRITESHEET.PCK
      width: 256                  
      height: 1400                 
      subX: 32                     
@@ -873,7 +873,25 @@ items:
     recoveryPoints: 4
     armor: 40
   ###############WEAPONS######################
-  - type: AUX_DOOM_HELL_BARON_WEAPON
+  - type: MELEE_DEMON_ITEM
+    weight: 3
+    bigSprite: 59
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    clipSize: -1
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 100
+    tuMelee: 15
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    flatRate: true
+
+  - type: HELL_BARON_WEAPON
     weight: 1
     bigSprite: 4
     floorSprite: 0
@@ -985,6 +1003,58 @@ items:
     invHeight: 2
     recover: false
 
+  - type: STR_ZOMBIEMAN
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SHOTGUNGUY
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_HEAVY_WEAPONS_DUDE
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_LOSTSOUL
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000    
+  - type: STR_POSSESSED_DOOMGUY
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_IMP
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000    
+  - type: STR_DEMON
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_CACODEMON
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_SPECTRE
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+  - type: STR_HELL_BARON
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+
+
 units:
   - type: STR_ZOMBIEMAN
     race: STR_DOOM_MIXED
@@ -1008,6 +1078,65 @@ units:
     deathSound: 10
     intelligence: 3
     aggression: 2
+    builtInWeaponSets:
+      - 
+        - STR_UACRIFLE
+        - STR_UACRIFLE_AMMO
+        - STR_UACRIFLE_AMMO
+  - type: STR_SHOTGUNGUY
+    race: STR_DOOM_MIXED
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: ZOMBIEMAN_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 10
+    deathSound: 10
+    intelligence: 3
+    aggression: 2
+    builtInWeaponSets:
+      - 
+        - STR_UACSHOTGUN
+        - STR_UACSHOTGUN_AMMO
+        - STR_UACSHOTGUN_AMMO
+  - type: STR_HEAVY_WEAPONS_DUDE
+    race: STR_DOOM_MIXED
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 54
+      stamina: 90
+      health: 30
+      bravery: 80
+      reactions: 63
+      firing: 52
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 76
+    armor: ZOMBIEMAN_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 10
+    deathSound: 10
+    intelligence: 3
+    aggression: 2
+    builtInWeaponSets:
+      - 
+        - STR_UACCHAIN
+        - STR_UACCHAIN_AMMO
+        - STR_UACCHAIN_AMMO
   - type: STR_LOSTSOUL # FLOATER
     race: STR_DOOM_MIXED
     rank: STR_LIVE_SOLDIER
@@ -1032,6 +1161,9 @@ units:
     moveSound: 15
     intelligence: 4
     aggression: 2
+    builtInWeaponSets:
+      - 
+        - AUX_DOOM_DEMON_WEAPON
   - type: STR_POSSESSED_DOOMGUY # xCOM UNIT
     race: STR_POSSESSED_DOOMGUY
     rank: STR_LIVE_SOLDIER
@@ -1055,6 +1187,10 @@ units:
     intelligence: 8
     aggression: 3
     energyRecovery: 40
+    builtInWeaponSets:
+      - 
+        - STR_UACRL
+        - STR_UACRL_AMMO
   - type: STR_IMP #ETHEREAL
     race: STR_IMP
     rank: STR_LIVE_SOLDIER
@@ -1078,6 +1214,10 @@ units:
     intelligence: 6
     aggression: 1
     energyRecovery: 40
+    meleeWeapon: AUX_DOOM_IMP_CLAWS
+    builtInWeaponSets:
+      - 
+        - AUX_DOOM_IMP_WEAPON
   - type: STR_DEMON #REAPER
     race: STR_DEMON
     rank: STR_LIVE_SOLDIER
@@ -1102,6 +1242,10 @@ units:
     aggression: 2
     energyRecovery: 34
     livingWeapon: true
+    meleeWeapon: MELEE_DEMON_ITEM
+    builtInWeaponSets:
+      - 
+        - AUX_DOOM_CACODEMON_WEAPON
   - type: STR_CACODEMON #CYBER DISK
     race: STR_CACODEMON
     rank: STR_LIVE_SOLDIER
@@ -1130,6 +1274,10 @@ units:
     specab: 1
     livingWeapon: true
     capturable: false
+    meleeWeapon: MELEE_DEMON_ITEM
+    builtInWeaponSets:
+      - 
+        - AUX_DOOM_CACODEMON_WEAPON
   - type: STR_SPECTRE
     race: STR_SPECTRE
     rank: STR_LIVE_SOLDIER
@@ -1154,8 +1302,10 @@ units:
     aggression: 4
     energyRecovery: 50
     livingWeapon: true
-    # builtInWeapons:
-    #   - AUX_DOOM_DEMON_WEAPON
+    meleeWeapon: MELEE_DEMON_ITEM
+    builtInWeaponSets:
+      - 
+        - AUX_DOOM_DEMON_WEAPON
   - type: STR_HELL_BARON
     race: STR_HELL_BARON
     rank: STR_LIVE_SOLDIER
@@ -1178,8 +1328,9 @@ units:
     deathSound: 405
     intelligence: 7
     aggression: 3
+    meleeWeapon: MELEE_DEMON_ITEM
     energyRecovery: 50
-    #livingWeapon: true
-    #meleeWeapon: STR_GAUNTLET_CLAW
-    # builtInWeapons:
-    #   - AUX_DOOM_HELL_BARON_WEAPON
+    livingWeapon: true
+    builtInWeaponSets:
+      - 
+        - HELL_BARON_WEAPON

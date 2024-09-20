@@ -2,9 +2,9 @@ alienRaces:
   - id: STR_SECTOID # Possessed Humans
     members:
       - STR_POSSESSED_DOOMGUY
-      - STR_POSSESSED_DOOMGUY
-      - STR_POSSESSED_DOOMGUY
-      - STR_POSSESSED_DOOMGUY
+      - STR_SHOTGUNGUY
+      - STR_SHOTGUNGUY
+      - STR_ZOMBIEMAN
       - STR_ZOMBIEMAN
       - STR_ZOMBIEMAN
       - STR_IMP
@@ -24,9 +24,9 @@ alienRaces:
       - STR_CACODEMON
       - STR_CACODEMON
       - STR_IMP
+      - STR_HEAVY_WEAPONS_DUDE
       - STR_ZOMBIEMAN
-      - STR_ZOMBIEMAN
-      - STR_ZOMBIEMAN
+      - STR_SHOTGUNGUY
       - STR_DEMON
       - STR_LOSTSOUL
   - id: STR_ETHEREAL # Difficult Demonic Horde
@@ -54,7 +54,7 @@ alienRaces:
       - STR_LOSTSOUL
       - STR_CACODEMON
       - STR_IMP
-      - STR_POSSESSED_DOOMGUY
+      - STR_HEAVY_WEAPONS_DUDES
       - STR_HELL_BARON
       - STR_ZOMBIEMAN
       - STR_DEMON
