@@ -84,7 +84,7 @@ en-US:
 #----------------------------------------------------------------------------------------------------------------------------------------------
   STR_UACPISTOL_UFOPEDIA: "UAC 9x19mm pistol, the weapon of choice by UAC Marine rookies"
 #----------------------------------------------------
-  STR_UACRIFLE_UFOPEDIA: "UAC 5.56x45mm NATO Assault Rifle, ideal for mid range engagement."
+  STR_UACRIFLE_UFOPEDIA: "UAC 5.56x45mm Assault Rifle, ideal for mid range engagement."
 #----------------------------------------------------
   STR_UACCHAIN_UFOPEDIA: "UAC Portable Gatling Gun Prototype, it's very effective at mid-to-close range engagement."
 #----------------------------------------------------
@@ -283,3 +283,96 @@ en-US:
   STR_MT_RATING_BAD: "Bad"
   STR_MT_RATING_TERRIBLE: "Terrible"
   STR_MT_RATING_ABOMINABLE: "Abominable"
+
+########################
+#### WAR ON MARS #######
+########################
+
+#GLOBE
+  STR_ACIDALIA_PLANITIA_LABEL: Acidalia Planitia
+  STR_VASTITAS_BOREALIS_LABEL: Vastitas Borealis
+  STR_TERRA_MERIDIANI_LABEL: Terra Meridiani
+  STR_ARABIA_TERRA_LABEL: Arabia Terra
+  STR_ELYSIUM_PLANITIA_LABEL: Elysium Planitia
+  STR_AMAZONIS_PLANITIA_LABEL: Amazonis Planitia
+  STR_OLYMPUS_MONS_LABEL: Olympus Mons
+  STR_VALLES_MARINERIS_LABEL: Valles Marineris
+  STR_TERRA_SIRENUM_LABEL: Terra Sirenum
+  STR_ARGYRE_PLANITIA_LABEL: Argyre Planitia
+  STR_NOACHIS_TERRA_LABEL: Noachis Terra
+  STR_HELLAS_PLANITIA_LABEL: Hellas Planitia
+  STR_TERRA_CIMMERIA_LABEL: Terra Cimmeria
+  STR_THARSIS_MONTES_LABEL: Tharsis Montes
+
+  STR_ACIDALIA_PLANITIA: Acidalia Planitia
+  STR_VASTITAS_BOREALIS: Vastitas Borealis
+  STR_TERRA_MERIDIANI: Terra Meridiani
+  STR_ARABIA_TERRA: Arabia Terra
+  STR_ELYSIUM_PLANITIA: Elysium Planitia
+  STR_AMAZONIS_PLANITIA: Amazonis Planitia
+  STR_OLYMPUS_MONS: Olympus Mons
+  STR_VALLES_MARINERIS: Valles Marineris
+  STR_TERRA_SIRENUM: Terra Sirenum
+  STR_ARGYRE_PLANITIA: Argyre Planitia
+  STR_NOACHIS_TERRA: Noachis Terra
+  STR_HELLAS_PLANITIA: Hellas Planitia
+  STR_TERRA_CIMMERIA: Terra Cimmeria
+
+  STR_NATO_SECTOR_A: SECTOR A
+  STR_NATO_SECTOR_B: SECTOR B
+  STR_NATO_SECTOR_C: SECTOR C
+  STR_NATO_SECTOR_D: SECTOR D
+  STR_NATO_SECTOR_E: SECTOR E
+
+  STR_UN_SECTOR_1: SECTOR X
+  STR_UN_SECTOR_2: SECTOR D
+
+  STR_WARSAW_PACT_SECTOR_1: SECTOR 1
+  STR_WARSAW_PACT_SECTOR_2: SECTOR 2
+  STR_WARSAW_PACT_SECTOR_3: SECTOR 3
+  STR_WARSAW_PACT_SECTOR_4: SECTOR 4
+  STR_WARSAW_PACT_SECTOR_5: SECTOR 5
+  STR_WARSAW_PACT_SECTOR_6: SECTOR 6
+
+  MAP_IDT_MARS: "Southern Rocky Highlands"
+  MAP_IDT_HUMAN_STATION: "Human R&D Station"
+  MAP_IDT_MARS_DEBRIS: "Former Warzone"
+  MAP_IDT_MARS_DRYLAKE: "Dry Seabed"
+  MAP_MARS: "Alien Military Base"
+  MAP_MARSMOUNT: "Southern Highlands"
+  MAP_MARSURBAN: "Alien Civilian Complex"
+  MAP_MARSPLAIN: "Northern Lowlands"
+  MAP_MARSCRATER: "Southern Volcanic Plains"
+  MAP_MSTD: "Northern Volcanic Plains"
+  MAP_MSTDS: "Southern Plains"
+  MAP_MPOLN: "Polar Ice Caps"
+  MAP_MSTRK: "Volcanic Highlands"
+
+  STR_NATO_OUTPOST_1: Outpost
+  STR_NATO_MINING_POST: Outpost
+  STR_NATO_OUTPOST_2: Outpost
+  STR_NATO_ICE_PLANT: Outpost
+  STR_NATO_OUTPOST_3: Outpost
+  STR_WARSAW_PACT_OUTPOST_1: Outpost
+  STR_NATO_OUTPOST_4: Outpost
+  STR_NATO_LABORATORY: Outpost
+  STR_NATO_RESEARCH_STATION_1: Outpost
+  STR_NATO_OUTPOST_5: Outpost
+  STR_NATO_RESEARCH_STATION_2: Outpost
+  STR_NATO_OUTPOST_6: Outpost
+  STR_NATO_RESEARCH_STATION_3: Outpost
+  STR_NATO_OUTPOST_7: Outpost
+  STR_WARSAW_PACT_OUTPOST_2: Outpost
+  STR_WARSAW_PACT_RESEARCH_STATION_1: Outpost
+  STR_WARSAW_PACT_RESEARCH_STATION_2: Outpost
+  STR_WARSAW_PACT_OUTPOST_3: Outpost
+  STR_WARSAW_PACT_OUTPOST_4: Outpost
+  STR_WARSAW_PACT_RESEARCH_STATION_3: Outpost
+  STR_WARSAW_PACT_MINE_COMPLEX: Outpost
+  STR_WARSAW_PACT_OUTPOST_5: Outpost
+  STR_WARSAW_PACT_OUTPOST_6: Outpost
+  STR_WARSAW_PACT_ICE_PLANT: Outpost
+  STR_WARSAW_PACT_RESEARCH_STATION_4: Outpost
+  STR_WARSAW_PACT_OUTPOST_7: Outpost
+  STR_WARSAW_PACT_LABORATORY: Outpost
+  STR_WARSAW_PACT_MINE_COMPLEX_2: Outpost
