@@ -1,4 +1,24 @@
 #####################
+September X, 2024
+
+Version: 0.3
+* New weapons, by Reuged and efrenespartano
+- Laspistol
+- Lasrifle
+- Plasma Rifle
+- UAC SMG
+- Improved sprites for UAC Advanced Assault Rifle, UAC Adv. Rocket Launcher, UAC Heavy Nailgun
+* Custom UI, by efrenespartano
+
+#####################
+September 19th, 2024
+
+Version: 0.2 
+
+:weapons removed from manufacture now its needed to purchase
+-removed Herobrine
+
+#####################
 September 18th, 2024
 
 Version: 0.1 
