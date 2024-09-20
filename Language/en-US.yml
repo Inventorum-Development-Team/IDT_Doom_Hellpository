@@ -347,6 +347,8 @@ en-US:
   MAP_MSTDS: "Southern Plains"
   MAP_MPOLN: "Polar Ice Caps"
   MAP_MSTRK: "Volcanic Highlands"
+  MAP_HELLONEARTH: "Hellscape"
+  MAP_HELLONEARTH2: "Dark Hellscape"
 
   STR_NATO_OUTPOST_1: Outpost
   STR_NATO_MINING_POST: Outpost

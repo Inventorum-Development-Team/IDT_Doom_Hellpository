@@ -162,6 +162,10 @@ globe:
           area: [0, 360, -90, 0]
         - name: MARSMOUNT
           area: [0, 360, 0, 90]
+        - name: HELLONEARTH
+          weight: 5
+        - name: HELLONEARTH2
+          weight: 5
     - id: 12 # Permafrost ice on the poles
       terrain:
         - name: MPOLN

@@ -811,39 +811,39 @@ terrains:
       - name: MSTD06
         width: 10
         length: 10
-#      - name: MSTD07
-#        width: 10
-#        length: 10
+      - name: MSTD07
+        width: 10
+        length: 10
       - name: MSTD08
         width: 10
         length: 10
-#      - name: MSTD09
-#        width: 10
-#        length: 10
+      - name: MSTD09
+        width: 10
+        length: 10
       - name: MSTD10
         width: 10
         length: 10
       - name: MSTD11
         width: 10
         length: 10
-#      - name: MSTD12
-#        width: 10
-#        length: 10
+      - name: MSTD12
+        width: 10
+        length: 10
       - name: MSTD13
         width: 10
         length: 10
-#      - name: MSTD14
-#        width: 10
-#        length: 10
+      - name: MSTD14
+        width: 10
+        length: 10
       - name: MSTD15
         width: 10
         length: 10
-#      - name: MSTD16
-#        width: 20
-#        length: 20
-#      - name: MSTD17
-#        width: 20
-#        length: 20
+      - name: MSTD16
+        width: 20
+        length: 20
+      - name: MSTD17
+        width: 20
+        length: 20
       - name: MSTD20
         width: 10
         length: 10
@@ -867,15 +867,15 @@ terrains:
       - name: MSTD02
         width: 10
         length: 10
-#      - name: MSTD03
-#        width: 10
-#        length: 10
+      - name: MSTD03
+        width: 10
+        length: 10
       - name: MSTD04
         width: 10
         length: 10
-#      - name: MSTD05
-#        width: 10
-#        length: 10
+      - name: MSTD05
+        width: 10
+        length: 10
       - name: MSTD06
         width: 10
         length: 10
@@ -888,12 +888,12 @@ terrains:
       - name: MSTD09
         width: 10
         length: 10
-#      - name: MSTD10
-#        width: 10
-#        length: 10
-#      - name: MSTD11
-#        width: 10
-#        length: 10
+      - name: MSTD10
+        width: 10
+        length: 10
+      - name: MSTD11
+        width: 10
+        length: 10
       - name: MSTD12
         width: 10
         length: 10
@@ -906,12 +906,12 @@ terrains:
       - name: MSTD15
         width: 10
         length: 10
-#      - name: MSTD16
-#        width: 20
-#        length: 20
-#      - name: MSTD17
-#        width: 20
-#        length: 20
+      - name: MSTD16
+        width: 20
+        length: 20
+      - name: MSTD17
+        width: 20
+        length: 20
       - name: MSTD18
         width: 10
         length: 10
@@ -1020,6 +1020,116 @@ terrains:
       - name: MSTRK15
         width: 10
         length: 10
+
+# AquatoidX
+
+  - name: HELLONEARTH
+    mapDataSets:
+      - BLANKS
+      - HELL
+      - LAVA
+      - ATLANTDESERT
+    script: HELLGATE
+    mapBlocks:
+      - name: HELL00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: HELL01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: HELL02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: HELL03
+        width: 10
+        length: 10    
+      - name: HELL04
+        width: 10
+        length: 10
+      - name: HELL05
+        width: 10
+        length: 10
+      - name: HELL06
+        width: 10
+        length: 10
+      - name: HELL07
+        width: 10
+        length: 10
+      - name: HELL08
+        width: 10
+        length: 10
+      - name: HELL09
+        width: 10
+        length: 10
+      - name: HELL10
+        width: 10
+        length: 10
+      - name: HELL11
+        width: 10
+        length: 10
+      - name: HELL12
+        width: 20
+        length: 20
+      - name: HELL13
+        width: 20
+        length: 20	  
+
+  - name: HELLONEARTH2
+    mapDataSets:
+      - BLANKS
+      - HELL2
+      - LAVA
+      - ATLANTDESERT
+    script: HELLGATE
+    mapBlocks:
+      - name: HELL00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: HELL01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: HELL02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: HELL03
+        width: 10
+        length: 10    
+      - name: HELL04
+        width: 10
+        length: 10
+      - name: HELL05
+        width: 10
+        length: 10
+      - name: HELL06
+        width: 10
+        length: 10
+      - name: HELL07
+        width: 10
+        length: 10
+      - name: HELL08
+        width: 10
+        length: 10
+      - name: HELL09
+        width: 10
+        length: 10
+      - name: HELL10
+        width: 10
+        length: 10
+      - name: HELL11
+        width: 10
+        length: 10
+      - name: HELL12
+        width: 20
+        length: 20
+      - name: HELL13
+        width: 20
+        length: 20	
 
 mapScripts:
   - type: DEFAULT 
@@ -1155,3 +1265,26 @@ mapScripts:
       freqs: [1, 5, 1]
 
 #END FORT SURFACE UBASE
+
+  - type: HELLGATE
+    commands:
+    - type: resize
+      size: [6, 6, 12]	
+    - type: addBlock
+      size: [1,1,2]
+      executionChances: 100
+      executions: 1
+      verticalLevels:
+      - type: ground
+        size: [1,1,0]
+        terrain: HELLONEARTH	 
+        groups: 1
+      - type: middle
+        size: [1,1,2]
+        terrain: STARGATEENTRYX
+    - type: addBlock
+      executions: 1
+      size: 2	  
+      terrain: HELLONEARTH	  
+    - type: fillArea
+      terrain: HELLONEARTH
