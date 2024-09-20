@@ -102,7 +102,7 @@ alienDeployments:
             []
     width: 50
     length: 50
-    height: 7
+    height: 8
     civiliansByType:
       MALE_CIVILIAN: 4
       FEMALE_CIVILIAN: 4

@@ -1268,8 +1268,11 @@ mapScripts:
 
   - type: HELLGATE
     commands:
-    - type: resize
-      size: [6, 6, 12]	
+    - type: addCraft
+      executions: 1
+      groups: 0
+    - type: addUFO
+      groups: 1	
     - type: addBlock
       size: [1,1,2]
       executionChances: 100
