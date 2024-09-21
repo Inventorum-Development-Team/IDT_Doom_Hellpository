@@ -80,6 +80,10 @@ en-US:
   STR_UACBASICSMG_AMMO: "UAC Compact SMG Ammo"
   STR_PLASMARIFLE: "Plasma Rifle"
   STR_ENERGY_CELL: "Energy Cell"
+  STR_UACULTIMATESHOTGUN: "UAC Ultimate Shotgun"
+  STR_UACULTIMATESHOTGUN_BUCKSHOT: "Ultimate Shotgun Buckshot Shells"
+  STR_UACULTIMATESHOTGUN_SLUGS: "Ultimate Shotgun Slug Shells"
+  STR_UACULTIMATESHOTGUN_HELL_SHELLS: "Ultimate Shotgun Demonslayer Shells"
 
 #----------------------------------------------------------------------------------------------------------------------------------------------
   STR_UACPISTOL_UFOPEDIA: "UAC 9x19mm pistol, the weapon of choice by UAC Marine rookies"
@@ -113,7 +117,10 @@ en-US:
   STR_UACBASICSMG_UFOPEDIA: "Basic submachine gun meant for self-defense of recon and security teams. Often used as sidearm thanks to its lightweight and easiness of using one-handed."
 #----------------------------------------------------
   STR_PLASMARIFLE_UFOPEDIA: "Standarized energy weapon, designed by UAC Miltary Applications Department. Its brutal rate of fire can easily destroy any poorly-armored enemy. Consumes one power unit from the Energy Cell, per shot."
+#----------------------------------------------------
+  STR_UACULTIMATESHOTGUN_UFOPEDIA: "Heavy shotgun, firing 23mm rounds. The strong frame is specially designed to be operated in highly dangerous environments, even as a makeshift melee weapon. A variety of shells are available for any situation."
 #----------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ######################
 # UAC ARMORS 

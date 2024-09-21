@@ -700,6 +700,12 @@ extraSprites:
       424: Resources/Sprites/BigUAC_BasicSMG_nomag.png
       432: Resources/Sprites/BigUAC_BasicSMG_ammo.png
       440: Resources/Sprites/BigUAC_BasicSMGAmmo.png
+      448: Resources/Sprites/BigHeavyShotgun_nomag.png
+      456: Resources/Sprites/BigHeavyShotgun_ammo.png
+      464: Resources/Sprites/BigHeavyShotgunBuckshotAmmo.png
+      472: Resources/Sprites/BigHeavyShotgunSlugAmmo.png
+      480: Resources/Sprites/BigHeavyShotgunHellAmmo.png
+
 
   - type: FLOOROB.PCK
     files:
@@ -747,6 +753,11 @@ extraSprites:
       424: Resources/Sprites/FloorUAC_BasicSMG_nomag.png
       432: Resources/Sprites/FloorUAC_BasicSMG_ammo.png
       440: Resources/Sprites/FloorUAC_BasicSMGAmmo.png
+      448: Resources/Sprites/FloorHeavyShotgun_nomag.png
+      456: Resources/Sprites/FloorHeavyShotgun_ammo.png
+      464: Resources/Sprites/FloorHeavyShotgunBuckshotAmmo.png
+      472: Resources/Sprites/FloorHeavyShotgunSlugAmmo.png
+      480: Resources/Sprites/FloorHeavyShotgunHellAmmo.png
 
   - type: HANDOB.PCK
     width: 256
@@ -797,6 +808,11 @@ extraSprites:
       424: Resources/Sprites/HandUAC_BasicSMG_nomag.png
       432: Resources/Sprites/HandUAC_BasicSMG_ammo.png
       #440: Resources/Sprites/HandUAC_BasicSMGAmmo.png
+      448: Resources/Sprites/HandHeavyShotgun_nomag.png
+      456: Resources/Sprites/HandHeavyShotgun_ammo.png
+      #464: Resources/Sprites/HandHeavyShotgunBuckshotAmmo.png
+      #472: Resources/Sprites/HandHeavyShotgunSlugAmmo.png
+      #480: Resources/Sprites/HandHeavyShotgunHellAmmo.png
 
 #----------------------------------------------------
   - type: Projectiles
