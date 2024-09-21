@@ -2,7 +2,7 @@ items:
   - type: STR_UACPISTOL
     size: 0.1
     costSell: 150
-    weight: 3
+    weight: 6
     bigSprite: 108
     floorSprite: 108
     handSprite: 108
@@ -52,7 +52,7 @@ items:
   - type: STR_UACRIFLE
     size: 0.2
     costSell: 300
-    weight: 16
+    weight: 14
     bigSprite: 132
     floorSprite: 132
     handSprite: 132
@@ -88,7 +88,7 @@ items:
   - type: STR_UACRIFLE_AMMO
     size: 0.2
     costSell: 50
-    weight: 3
+    weight: 2
     bigSprite: 140
     floorSprite: 140
     hitSound: 22
@@ -107,7 +107,7 @@ items:
     size: 0.2
     costBuy: 1200
     costSell: 1050
-    weight: 8
+    weight: 10
     bigSprite: 156
     floorSprite: 156
     handSprite: 156
@@ -133,7 +133,7 @@ items:
     size: 0.1
     costBuy: 60
     costSell: 48
-    weight: 1
+    weight: 2
     bigSprite: 164
     floorSprite: 164
     hitSound: 22
@@ -158,7 +158,7 @@ items:
   - type: STR_UACCHAIN
     size: 0.3
     costSell: 300
-    weight: 26
+    weight: 24
     bigSprite: 216
     floorSprite: 216
     handSprite: 216
@@ -193,7 +193,7 @@ items:
   - type: STR_UACCHAIN_AMMO
     size: 0.06
     costSell: 150
-    weight: 9
+    weight: 8
     bigSprite: 224
     floorSprite: 224
     hitSound: 22
@@ -289,7 +289,7 @@ items:
     size: 0.2
    #costBuy: 1200
     costSell: 700
-    weight: 9
+    weight: 10
     bigSprite: 196
     floorSprite: 196
     handSprite: 196
@@ -333,7 +333,7 @@ items:
   - type: STR_UACPISTOL_ADVANCED
     size: 0.1
     costSell: 300
-    weight: 3
+    weight: 8
     bigSprite: 248
     floorSprite: 240
     handSprite: 248
@@ -381,7 +381,7 @@ items:
   - type: STR_UACRIFLE_ADVANCED
     size: 0.2
     costSell: 300
-    weight: 16
+    weight: 17
     bigSprite: 272
     floorSprite: 272
     handSprite: 272
@@ -417,7 +417,7 @@ items:
   - type: STR_UACRIFLE_AMMO_ADVANCED
     size: 0.2
     costSell: 50
-    weight: 3
+    weight: 2
     bigSprite: 280
     floorSprite: 280
     hitSound: 22
@@ -436,7 +436,7 @@ items:
     size: 0.2
     costBuy: 1400
     costSell: 1165
-    weight: 8
+    weight: 10
     bigSprite: 296
     floorSprite: 296
     handSprite: 296
@@ -487,7 +487,7 @@ items:
   - type: STR_UACSMG
     size: 0.7
     costSell: 300
-    weight: 20
+    weight: 14
     bigSprite: 368
     floorSprite: 368
     handSprite: 368
@@ -515,7 +515,7 @@ items:
   - type: STR_UACSMG_AMMO
     size: 0.06
     costSell: 150
-    weight: 9
+    weight: 2
     bigSprite: 376
     floorSprite: 376
     hitSound: 22
@@ -535,7 +535,7 @@ items:
   - type: STR_UACHEVYNAILGUN
     size: 0.2
     costSell: 300
-    weight: 16
+    weight: 20
     bigSprite: 344
     floorSprite: 344
     handSprite: 344
@@ -571,7 +571,7 @@ items:
   - type: STR_UACHEVYNAILGUN_AMMO
     size: 0.2
     costSell: 50
-    weight: 3
+    weight: 5
     bigSprite: 352
     floorSprite: 352
     hitSound: 22
