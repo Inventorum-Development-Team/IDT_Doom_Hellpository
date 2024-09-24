@@ -1,0 +1,2565 @@
+startingConditions:
+  - type: STR_CONCEALABLE
+    defaultArmor:
+      STR_CIA_AGENT:
+        STR_AGENT_SUIT_UC: 100
+      STR_ARMY_VETERAN:
+        STR_AGENT_SUIT_UC: 100
+      STR_KGB_OFFICER:
+        STR_AGENT_COAT_UC: 100
+    allowedArmors:
+      - STR_AGENT_SUIT_UC
+      - STR_AGENT_COAT_UC
+    allowedItemCategories:
+      - STR_CONCEALABLE
+      - STR_GHOST
+    allowedCraft:
+      - STR_CADILLAC
+  - type: STR_SILENCED
+    defaultArmor:
+      STR_CIA_AGENT:
+        STR_AGENT_SUIT_UC: 100
+      STR_ARMY_VETERAN:
+        STR_AGENT_SUIT_UC: 100
+      STR_KGB_OFFICER:
+        STR_AGENT_COAT_UC: 100
+    allowedArmors:
+      - STR_AGENT_SUIT_UC
+      - STR_AGENT_COAT_UC
+    allowedItemCategories:
+      - STR_SILENCED
+      - STR_GHOST
+    allowedCraft:
+      - STR_CADILLAC
+  - type: STR_GHOST
+    defaultArmor:
+      STR_CIA_AGENT:
+        STR_AGENT_SUIT_UC: 100
+      STR_ARMY_VETERAN:
+        STR_AGENT_SUIT_UC: 100
+      STR_KGB_OFFICER:
+        STR_AGENT_COAT_UC: 100
+    allowedArmors:
+      - STR_AGENT_SUIT_UC
+      - STR_AGENT_COAT_UC
+    allowedItemCategories:
+      - STR_GHOST
+    allowedCraft:
+      - STR_CADILLAC
+
+############################
+##### STORY MISSIONS ######
+##########################
+
+#################
+#### ACT 1 #####
+###############
+alienDeployments:
+  - delete: STR_HARVESTER
+  - delete: STR_ABDUCTOR
+  - delete: STR_TERROR_SHIP
+  - delete: STR_BATTLESHIP
+  - delete: STR_SUPPLY_SHIP
+
+  - type: STR_PROVING_GROUNDS_DEPLOYMENT
+    customUfo: STR_PROVING_GROUNDS_LARGE_SCOUT
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
+    height: 10
+    width: 40
+    length: 40
+    duration: [999, 999]
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_MALE_FARMER: 2
+    data: 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_PROVING_GROUNDS_DESCRIPTION
+      palette: 2
+    markerName: STR_PROVING_GROUNDS_MARKER
+    markerIcon: 27
+    alert: STR_SPECIAL_CASE_OPEN
+    alertBackground: BACK13.SCR
+    alertDescription: STR_PROVING_GROUNDS_DESCRIPTION
+    unlockedResearch: STR_NORISKA_KRASCHEN_MISSION_TRIGGER
+
+  - type: STR_NORISKA_KRASCHEN_DEPLOYMENT
+    unlockedResearch: STR_ACT_2_START
+    startingCondition: STR_CONCEALABLE
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
+    customUfo: STR_NORISKA_KRASCHEN_MEDIUM_SCOUT
+    height: 10
+    width: 50
+    length: 50
+    duration: [999, 999]
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_SWEDISH_ASSAULT: 3
+      STR_SWEDISH_RIFLEMAN: 2
+    data: 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+    terrains:
+      - IDT_FOREST
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_NORISKA_KRASCHEN_DESCRIPTION
+      palette: 2
+    alert: STR_SPECIAL_CASE_OPEN
+    alertBackground: BACK13.SCR
+    alertDescription: STR_NORISKA_KRASCHEN_DESCRIPTION
+    markerName: STR_NORISKA_KRASCHEN_MARKER
+    markerIcon: 27
+    missionBountyItem: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+
+#################
+#### ACT 2 #####
+###############
+
+  - type: STR_DISCOVERIES_DEPLOYMENT
+    customUfo: STR_DISCOVERIES_LARGE_SCOUT
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
+    height: 10
+    width: 60
+    length: 60
+    duration: [999, 999]
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_AMERICAN_ASSAULT: 4
+      STR_AMERICAN_RIFLEMAN: 5
+      STR_AMERICAN_SUPPORT: 3
+    data: 
+      - alienRank: 5
+        lowQty: 3
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    terrains:
+      - DISCOVERIES_CUSTOM_TERRAIN
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_DISCOVERIES_DESCRIPTION
+      palette: 2
+    markerName: STR_DISCOVERIES_MARKER
+    markerIcon: 28
+    alert: STR_SPECIAL_CASE_OPEN
+    alertBackground: BACK13.SCR
+    alertDescription: STR_NONE
+    unlockedResearch: STR_DISCOVERIES_SECTOID_ENGINEER
+
+  - type: STR_HIDE_AND_SEEK_DEPLOYMENT
+    customUfo: STR_HIDE_AND_SEEK_VAN
+    startingCondition: STR_SILENCED
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
+    height: 10
+    width: 40
+    length: 40
+    duration: [999, 999]
+    civiliansByType:
+      STR_GLADIO_OPERATIVE_M: 4
+      STR_GLADIO_OPERATIVE_F: 4
+    data: 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+    terrains:
+      - EXPANDED_TERROR_UFO
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_HIDE_AND_SEEK_DESCRIPTION
+      palette: 2
+    markerName: STR_HIDE_AND_SEEK_MARKER
+    markerIcon: 28
+    alert: STR_SPECIAL_CASE_OPEN
+    alertBackground: BACK13.SCR
+    alertDescription: STR_HIDE_AND_SEEK_DESCRIPTION
+    unlockedResearch: STR_HIDE_AND_SEEK_DATA_SUITCASE
+
+  - type: STR_SPIDERWEB_DEPLOYMENT
+    customUfo: STR_SPIDERWEB_LARGE_SCOUT
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
+    height: 10
+    width: 60
+    length: 60
+    duration: [999, 999]
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_AMERICAN_ASSAULT: 4
+      STR_AMERICAN_RIFLEMAN: 5
+      STR_AMERICAN_SUPPORT: 3
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 5
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_SPIDERWEB_DESCRIPTION
+      palette: 2
+    markerName: STR_SPIDERWEB_MARKER
+    markerIcon: 28
+    alert: STR_OPERATION_SPIDERWEB_APPROVED
+    alertBackground: BACK13.SCR
+    alertDescription: STR_SPIDERWEB_DESCRIPTION
+    #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    unlockedResearch: STR_WHISPERS_MISSION_TRIGGER
+
+#################
+#### ACT 3 #####
+###############
+
+  - type: STR_WHISPERS_DEPLOYMENT
+    startingCondition: STR_GHOST
+    customUfo: STR_WHISPERS_SAFEHOUSE_UFO
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
+    terrains:
+      - EXPANDED_TERROR_UFO
+    civilians: 10
+    civilianSpawnNodeRank: 0
+    height: 10
+    width: 50
+    length: 50
+    duration: [999, 999]
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_WHISPERS_DESCRIPTION
+      palette: 2
+    markerName: STR_WHISPERS_MARKER
+    markerIcon: 29
+    alert: STR_DISTRESS_SIGNAL_RECIEVED
+    alertBackground: BACK13.SCR
+    alertDescription: STR_WHISPERS_DESCRIPTION
+    #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    unlockedResearch: STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER
+
+  - type: STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT
+    loseCutscene: loseGameMidCampaign
+    abortCutscene: loseGameMidCampaign
+    #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
+    terrains:
+      - IDT_AIRPORT
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_SOVIET_RIFLEMAN: 5
+      STR_SOVIET_ASSAULT: 3
+      STR_D17_AGENT: 4
+      STR_D17_OFFICER: 2
+    height: 10
+    width: 50
+    length: 50
+    duration: [999, 999]
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 8
+        dQty: 2
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 4
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 2
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_THE_ENEMY_OF_MY_ENEMY_DESCRIPTION
+      palette: 2
+    markerName: STR_THE_ENEMY_OF_MY_ENEMY_MARKER
+    markerIcon: 29
+    alert: STR_DISTRESS_SIGNAL_RECIEVED
+    alertDescription: STR_THE_ENEMY_OF_MY_ENEMY_DESCRIPTION
+    alertBackground: BACK13.SCR
+    unlockedResearch: STR_OPERATION_HARBINGER_MISSION_TRIGGER
+    
+
+  - type: STR_OPERATION_HARBINGER_DEPLOYMENT
+    #customUfo: STR_WHISPERS_SAFEHOUSE_UFO
+    winCutscene: winGame
+    loseCutscene: loseGameFinal
+    abortCutscene: loseGameFinal
+    terrains:
+      - OPERATION_HARBINGER_CUSTOM_TERRAIN
+    civilianSpawnNodeRank: 0
+    civiliansByType:
+      STR_SOVIET_RIFLEMAN: 2
+      STR_SOVIET_ASSAULT: 2
+      STR_CUBAN_RIFLEMAN: 3
+      STR_CUBAN_ASSAULT: 3
+    height: 10
+    width: 60
+    length: 60
+    duration: [999, 999]
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 5
+        dQty: 5
+        percentageOutsideUfo: 30
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 2
+        highQty: 4
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 6
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 100
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    briefing:
+      #textOffset: -16
+      background: BACK01.SCR
+      showTarget: false
+      showCraft: true
+      desc: STR_OPERATION_HARBINGER_DESCRIPTION
+      palette: 2
+    markerName: STR_OPERATION_HARBINGER_MARKER
+    markerIcon: 29
+    alert: STR_OPERATION_APPROVED
+    alertBackground: BACK12.SCR
+    #missionBountyItem: STR_HIDE_AND_SEEK_DATA_SUITCASE
+
+##################
+##### UFOS ######
+################
+  - type: STR_SMALL_SCOUT
+    civilians: 2
+    height: 10
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+      #desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 6
+  - type: STR_MEDIUM_SCOUT
+    civilians: 3
+    height: 10
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+      #desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 6
+  - type: STR_LARGE_SCOUT
+    civilians: 4
+    height: 10
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 3
+        dQty: 5
+        percentageOutsideUfo: 65
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 1
+        dQty: 1
+        percentageOutsideUfo: 25
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 35
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: BACK16.SCR
+      showTarget: true
+      showCraft: true
+      #desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 6
+    
+###############################
+#### INVESTIGATION SITES #####
+#############################
+
+  - type: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_CONCEALABLE
+    customUfo: STR_CROP_CIRCLES_UFO
+    baseSelfDestructCode: STR_DELETE_CROP_CIRCLES_SITES
+    alienBaseUpgrades:
+      0:
+        STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: 100
+      1:
+        STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: 80
+        STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: 20
+      2:
+        STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: 60
+        STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: 40
+      3:
+        STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: 40
+        STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: 60
+      4:
+        STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT: 20
+        STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: 80
+      5:
+        STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT: 100
+    height: 10
+    width: 40
+    length: 40
+    data: &EvidenceData
+      - alienRank: 5
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+      - alienRank: 4
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+    briefing:
+      #textOffset: -16
+      background: CROP_CIRCLES_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 2
+    alertDescription: STR_SEMI_CONCEALED
+    markerName: STR_CROP_CIRCLE_INVESTIGATION
+    markerIcon: 30
+
+  - type: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_CONCEALABLE
+    customUfo: STR_CATTLE_MUTILATION_UFO
+    baseSelfDestructCode: STR_DELETE_CATTLE_MUTILATION_SITES
+    alienBaseUpgrades:
+      0:
+        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 100
+      1:
+        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 80
+        STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: 20
+      2:
+        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 60
+        STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: 40
+      3:
+        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 40
+        STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: 60
+      4:
+        STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT: 20
+        STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: 80
+      5:
+        STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT: 100
+    height: 10
+    width: 40
+    length: 40
+    data: *EvidenceData
+    briefing:
+      #textOffset: -16
+      background: CATTLE_MUTILATION_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 5
+    alertDescription: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+    markerName: STR_CATTLE_MUTILATION_INVESTIGATION
+    markerIcon: 31
+
+  - type: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_SILENCED
+    customUfo: STR_KGB_HIDEOUT_UFO
+    baseSelfDestructCode: STR_DELETE_COUNTER_INTELLIGENCE_SITES
+    height: 10
+    width: 40
+    length: 40
+    data: 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+    terrains:
+      - EXPANDED_TERROR_UFO
+    briefing:
+      #textOffset: -16
+      background: COUNTER_INTELLIGENCE_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DESCRIPTION
+      palette: 2
+    alertDescription: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DESCRIPTION
+    markerName: STR_COUNTER_INTELLIGENCE_INVESTIGATION
+    markerIcon: 32
+#############################################
+
+  - type: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_CONCEALABLE
+    customUfo: STR_ABDUCTION_CAR_UFO
+    baseSelfDestructCode: STR_DELETE_ABDUCTION_SITES
+    alienBaseUpgrades:
+      0:
+        STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: 100
+      1:
+        STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: 80
+        STR_ABDUCTION_AMBUSH_DEPLOYMENT: 20
+      2:
+        STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: 60
+        STR_ABDUCTION_AMBUSH_DEPLOYMENT: 40
+      3:
+        STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: 40
+        STR_ABDUCTION_AMBUSH_DEPLOYMENT: 60
+      4:
+        STR_ABDUCTION_INVESTIGATION_DEPLOYMENT: 20
+        STR_ABDUCTION_AMBUSH_DEPLOYMENT: 80
+      5:
+        STR_ABDUCTION_AMBUSH_DEPLOYMENT: 100
+    height: 10
+    width: 40
+    length: 40
+    data: &AbdctionData
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+      - alienRank: 4
+        lowQty: 1
+        highQty: 0
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+    briefing:
+      #textOffset: -16
+      background: ABDUCTION_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 5
+    alertDescription: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+    markerName: STR_ABDUCTION_INVESTIGATION
+    markerIcon: 33
+
+
+  - type: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
+    customUfo: STR_MAJOR_CATTLE_MUTILATION_UFO
+    baseSelfDestructCode: STR_DELETE_MAJOR_CATTLE_MUTILATION_SITES
+    height: 10
+    width: 40
+    length: 40
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 60
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 4
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+      - alienRank: 2
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+          -
+            - STR_MIND_PROBE
+    briefing:
+      #textOffset: -16
+      background: MAJOR_CATTLE_MUTILATION_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+      palette: 5
+    alertDescription: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT_DESCRIPTION
+    markerName: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION
+    markerIcon: 34
+
+  - type: STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DEPLOYMENT
+    startingCondition: STR_SILENCED
+    customUfo: STR_KGB_HIDEOUT_UFO
+    baseSelfDestructCode: STR_DELETE_COUNTER_INTELLIGENCE_SITES
+    civiliansByType:
+      STR_GLADIO_OPERATIVE_M: 2
+      STR_GLADIO_OPERATIVE_F: 2
+    height: 10
+    width: 40
+    length: 40
+    data: 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 10
+        itemSets:
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+          -
+            - STR_BANDAGES
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+      - alienRank: 3
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+          -
+            - STR_LISTENING_DEVICE
+    terrains:
+      - EXPANDED_TERROR_UFO
+      - RURAL
+    briefing:
+      #textOffset: -16
+      background: COUNTER_INTELLIGENCE_EUROPE_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DESCRIPTION
+      palette: 2
+    alertDescription: STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DESCRIPTION
+    markerName: STR_COUNTER_INTELLIGENCE_INVESTIGATION
+    markerIcon: 32
+
+#############################################
+  - type: STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
+    customUfo: STR_CROP_CIRCLES_UFO
+    baseSelfDestructCode: STR_DELETE_CROP_CIRCLES_SITES
+    height: 10
+    width: 40
+    length: 40
+    data: &EvidenceData 
+      - alienRank: 5
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+      - alienRank: 4
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM  
+    reinforcements: &KGBAmbush
+      - type: kgb_ambush
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 1
+            customUnitType: STR_D17_SCIENTIST
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+          - alienRank: 2
+            customUnitType: STR_D17_AGENT
+            lowQty: 3
+            highQty: 5
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+    briefing:
+      #textOffset: -16
+      background: CROP_CIRCLES_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_CROP_CIRCLE_AMBUSH_DEPLOYMENT_DESCRIPTION
+      palette: 2
+    alertDescription: STR_SEMI_CONCEALED
+    markerName: STR_CROP_CIRCLE_INVESTIGATION
+    markerIcon: 30
+
+  - type: STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
+    customUfo: STR_CATTLE_MUTILATION_UFO
+    baseSelfDestructCode: STR_DELETE_CATTLE_MUTILATION_SITES
+    height: 10
+    width: 40
+    length: 40
+    data:
+      - alienRank: 5
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+      - alienRank: 4
+        lowQty: 2
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+    reinforcements: &KGBAmbush
+      - type: kgb_ambush
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 1
+            customUnitType: STR_D17_SCIENTIST
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+          - alienRank: 2
+            customUnitType: STR_D17_AGENT
+            lowQty: 3
+            highQty: 5
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+    briefing:
+      #textOffset: -16
+      background: CATTLE_MUTILATION_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_CATTLE_MUTILATION_AMBUSH_DEPLOYMENT_DESCRIPTION
+      palette: 5
+    alertDescription: STR_SEMI_CONCEALED
+    markerName: STR_CATTLE_MUTILATION_INVESTIGATION
+    markerIcon: 31
+
+  - type: STR_ABDUCTION_AMBUSH_DEPLOYMENT
+    startingCondition: STR_SEMI_CONCEALED
+    customUfo: STR_ABDUCTION_CAR_UFO
+    baseSelfDestructCode: STR_DELETE_ABDUCTION_SITES
+    height: 10
+    width: 40
+    length: 40
+    data:
+      - alienRank: 5
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+      - alienRank: 4
+        lowQty: 1
+        highQty: 0
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+          -
+            - STR_DUMMY_EVIDENCE_ITEM
+    reinforcements: &KGBAmbush
+      - type: kgb_ambush
+        turns: [1]
+        maxRuns: 1
+        mapBlockFilterType: 2
+        spawnBlocks: [EDGES]
+        useSpawnNodes: false
+        spawnZLevels: [0]
+        minDistanceFromXcomUnits: 10
+        maxDistanceFromBorders: 1
+        data:
+          - alienRank: 1
+            customUnitType: STR_D17_SCIENTIST
+            lowQty: 1
+            highQty: 1
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+          - alienRank: 2
+            customUnitType: STR_D17_AGENT
+            lowQty: 3
+            highQty: 5
+            dQty: 0
+            extraQty: 0
+            percentageOutsideUfo: 0
+            itemSets:
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+              -
+                - STR_DUMMY_EVIDENCE_ITEM
+    briefing:
+      #textOffset: -16
+      background: ABDUCTION_BACKGROUND
+      showTarget: true
+      showCraft: true
+      desc: STR_ABDUCTION_AMBUSH_DEPLOYMENT_DESCRIPTION
+      palette: 5
+    alertDescription: STR_SEMI_CONCEALED
+    markerName: STR_ABDUCTION_INVESTIGATION
+    markerIcon: 33
+
+#############################################
+items:
+  - type: STR_NORISKA_KRASCHEN_SECTOID_CORPSE
+    size: 0.1
+  - type: STR_DISCOVERIES_SECTOID_ENGINEER
+    size: 0.1
+  - type: STR_HIDE_AND_SEEK_DATA_SUITCASE
+    categories: [STR_SOVIET_TECHNOLOGY]
+    #name: STR_KGB_TECH
+    weight: 10
+    bigSprite: 1016
+    floorSprite: 1016
+    handSprite: 1016
+    armor: 999
+    recoveryPoints: 50
+    recover: true
+  - type: STR_CORPSE_SUIT_DUMMY
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 500
+    floorSprite: 500
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
+    #battleType: 11
+  - type: STR_GLADIO_OPERATIVE_CORPSE_DUMMY
+    name: STR_CORPSE
+    size: 0.4
+    costSell: 1000
+    weight: 25
+    bigSprite: 1505
+    floorSprite: 1505
+    invWidth: 2
+    invHeight: 3
+    recover: false
+    #battleType: 11
+    armor: 40
+    listOrder: 1000
+  - type: STR_CORPSE_BDU_DUMMY
+    name: STR_CORPSE
+    weight: 60
+    bigSprite: 501
+    floorSprite: 501
+    invWidth: 2
+    invHeight: 3
+    armor: 50
+    recover: false
+
+
+
+ufos:
+#<delete>
+  - delete: STR_ABDUCTOR
+  - delete: STR_HARVESTER
+  - delete: STR_BATTLESHIP
+  - delete: STR_TERROR_SHIP
+  - delete: STR_SUPPLY_SHIP
+
+
+missionScripts:
+  - delete: gameStart
+  - delete: recon
+  - delete: invasion
+  - delete: researchRetaliation
+  - delete: beginnerRetaliation
+  - delete: experiencedRetaliation
+  - delete: veteranRetaliation
+  - delete: geniusRetaliation
+  - delete: superhumanRetaliation
+  - delete: recurringTerror
+
+#########################
+#### STORY MISSIONS #####
+#######################
+
+  - type: provingGrounds
+    varName: provingGrounds
+    missionWeights:
+      0:
+        STR_PROVING_GROUNDS_MISSION: 100
+    regionWeights:
+      0:
+        REGION_PROVING_GROUNDS: 100
+    #researchTriggers:
+      #STR_TERRORISTS_OPERATIONS: true
+      #STR_END_OF_TERRORISTS: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    lastMonth: 0
+    maxRuns: 1
+
+  - type: noriskaKraschen
+    varName: noriskaKraschen
+    missionWeights:
+      0:
+        STR_NORISKA_KRASCHEN_MISSION: 100
+    regionWeights:
+      0:
+        REGION_NORISKA_KRASCHEN: 100
+    researchTriggers:
+      STR_NORISKA_KRASCHEN_MISSION_TRIGGER: true
+      
+      STR_NORISKA_KRASCHEN_SECTOID_CORPSE: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    firstMonth: 4
+    maxRuns: 1
+
+  - type: discoveries
+    varName: discoveries
+    missionWeights:
+      0:
+        STR_DISCOVERIES_MISSION: 100
+    regionWeights:
+      0:
+        REGION_DISCOVERIES: 100
+    researchTriggers:
+      STR_NORISKA_KRASCHEN_SECTOID_CORPSE: true
+      STR_DISCOVERIES_SECTOID_ENGINEER: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    firstMonth: 9
+    maxRuns: 1
+
+  - type: hide_and_Seek
+    varName: hide_and_seek
+    missionWeights:
+      0:
+        STR_HIDE_AND_SEEK_MISSION: 100
+    regionWeights:
+      0:
+        REGION_HIDE_AND_SEEK: 100
+    researchTriggers:
+      STR_DISCOVERIES_SECTOID_ENGINEER: true
+      STR_HIDE_AND_SEEK_DATA_SUITCASE: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    firstMonth: 11
+    maxRuns: 1
+
+  - type: spiderweb
+    varName: spiderweb
+    missionWeights:
+      0:
+        STR_SPIDERWEB_MISSION: 100
+    regionWeights:
+      0:
+        REGION_SPIDERWEB: 100
+    researchTriggers:
+      STR_OPERATION_SPIDERWEB: true
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    firstMonth: 14
+    lastMonth: 16
+    maxRuns: 1
+
+  - type: whispers
+    varName: whispers
+    missionWeights:
+      0:
+        STR_WHISPERS_MISSION: 100
+    regionWeights:
+      0:
+        REGION_WHISPERS: 100
+    researchTriggers:
+      STR_WHISPERS_MISSION_TRIGGER: true
+      STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    firstMonth: 16
+    lastMonth: 17
+    executionOdds: 100
+
+  - type: enemy_of_my_enemy
+    varName: enemy_of_my_enemy
+    missionWeights:
+      0:
+        STR_THE_ENEMY_OF_MY_ENEMY_MISSION: 100
+    regionWeights:
+      0:
+        REGION_THE_ENEMY_OF_MY_ENEMY: 100
+    researchTriggers:
+      STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER: true
+      STR_OPERATION_HARBINGER_MISSION_TRIGGER: false
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    firstMonth: 18
+    lastMonth: 19
+    maxRuns: 1
+
+  - type: operation_Harbinger
+    varName: operation_Harbinger
+    missionWeights:
+      0:
+        STR_OPERATION_HARBINGER_MISSION: 100
+    regionWeights:
+      0:
+        REGION_OPERATION_HARBINGER: 100
+    researchTriggers:
+      STR_OPERATION_HARBINGER_MISSION_TRIGGER: true
+    useTable: false
+    startDelay: 37440 # 26 Days
+    executionOdds: 100
+    firstMonth: 21
+    lastMonth: 22
+    maxRuns: 1
+
+#########################
+#### SIDE MISSIONS #####
+#######################
+  - type: CropCirclesInvestigationSitesScript
+    missionWeights:
+      0:
+        STR_CROP_CIRCLE_INVESTIGATION_SITES: 100
+    startDelay: 10080 # 7 Days
+    targetBaseOdds: 100
+    useTable: false
+    researchTriggers:
+      STR_ACT_2_START: false
+    lastMonth: 6
+
+  - type: CattleMutilationInvestigationSitesScript
+    missionWeights:
+      0:
+        STR_CATTLE_MUTILATION_INVESTIGATION_SITES: 100
+    startDelay: 10080 # 7 Days
+    targetBaseOdds: 100
+    useTable: false
+    lastMonth: 6
+
+  - type: CounterIntelligenceInvestigationSitesScript1
+    missionWeights:
+      0:
+        STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: 100
+    researchTriggers:
+      STR_D17_BRIEFING: true
+    startDelay: 21600 # 15 Days
+    targetBaseOdds: 100
+    useTable: false
+    lastMonth: 6
+ 
+  - type: CounterIntelligenceInvestigationSitesScript2
+    missionWeights:
+      0:
+        STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES: 100
+    researchTriggers:
+      STR_D17_BRIEFING: true
+    startDelay: 21600 # 15 Days
+    targetBaseOdds: 100
+    executionOdds: 40
+    useTable: false
+    firstMonth: 7
+ 
+########################################
+  - type: AbductionInvestigationSitesScript
+    missionWeights:
+      0:
+        STR_ABDUCTION_INVESTIGATION_SITES: 100
+    startDelay: 10080 # 7 Days
+    targetBaseOdds: 100
+    useTable: false
+    researchTriggers:
+      STR_ACT_2_START: true
+
+  - type: MajorCattleMutilationInvestigationSitesScript
+    missionWeights:
+      0:
+        STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_SITES: 100
+    startDelay: 10080 # 7 Days
+    targetBaseOdds: 100
+    useTable: false
+    researchTriggers:
+      STR_ACT_2_START: true
+
+  - type: CounterIntelligenceEuropeInvestigationSitesScript
+    missionWeights:
+      0:
+        STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_SITES: 100
+    regionWeights:
+      0:
+        STR_EUROPE: 100
+    startDelay: 21600 # 15 Days
+    #targetBaseOdds: 100
+    executionOdds: 40
+    useTable: false
+    firstMonth: 7
+    researchTriggers:
+      STR_ACT_2_START: true
+      STR_WHISPERS_MISSION_TRIGGER: false
+
+################################
+
+  - type: invasionStart
+    missionWeights:
+      0:
+        STR_INVASION_START: 100
+    firstMonth: 18
+    lastMonth: 24
+    executionOdds: 100
+    targetBaseOdds: 100
+    researchTriggers:
+      STR_ENEMY_OF_MY_ENEMY_MISSION_TRIGGER: true
+    #raceWeights:
+      #0:
+        #STR_SECTOID: 100
+    maxRuns: 2
+    varName: InvasionStart
+    startDelay: 21600 # 15 Days
+    #randomDelay: 13500
+
+#############################
+alienMissions:
+  - delete: STR_ALIEN_RETALIATION
+
+#############################
+###### STORY MISSIONS ######
+###########################
+
+  - type: STR_PROVING_GROUNDS_MISSION
+    objective: 3
+    siteType: STR_PROVING_GROUNDS_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_D17_INFILTRATION: 100
+    waves:
+      - ufo: STR_PROVING_GROUNDS_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+  - type: STR_NORISKA_KRASCHEN_MISSION
+    objective: 3
+    siteType: STR_NORISKA_KRASCHEN_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_D17_AMBUSH: 100
+    waves:
+      - ufo: STR_NORISKA_KRASCHEN_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+  - type: STR_DISCOVERIES_MISSION
+    objective: 3
+    siteType: STR_DISCOVERIES_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_SECTOID: 100
+    waves:
+      - ufo: STR_DISCOVERIES_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+  - type: STR_HIDE_AND_SEEK_MISSION
+    objective: 3
+    siteType: STR_HIDE_AND_SEEK_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_D17_HIDE_AND_SEEK: 100
+    waves:
+      - ufo: STR_HIDE_AND_SEEK_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+  - type: STR_SPIDERWEB_MISSION
+    objective: 3
+    siteType: STR_SPIDERWEB_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_SECTOID: 100
+    waves:
+      - ufo: STR_SPIDERWEB_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+  - type: STR_WHISPERS_MISSION
+    objective: 3
+    siteType: STR_WHISPERS_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_THIN_MEN_WHISPERS: 100
+    waves:
+      - ufo: STR_WHISPERS_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+  - type: STR_THE_ENEMY_OF_MY_ENEMY_MISSION
+    objective: 3
+    siteType: STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_OPERATION_GLADIO_HYBRIDS: 100
+    waves:
+      - ufo: STR_THE_ENEMY_OF_MY_ENEMY_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+  - type: STR_OPERATION_HARBINGER_MISSION
+    objective: 3
+    siteType: STR_OPERATION_HARBINGER_DEPLOYMENT
+    spawnZone: 0
+    raceWeights:
+      0:
+          STR_SECTOID: 100
+    waves:
+      - ufo: STR_OPERATION_HARBINGER_DEPLOYMENT
+        count: 1
+        trajectory: STATIC_TRAJECTORY
+        timer: 0
+        objective: true
+
+
+
+############################
+###### SIDE MISSIONS ######
+##########################
+
+  - type: STR_CROP_CIRCLE_INVESTIGATION_SITES
+    points: 100
+    objective: 2
+    siteType: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_1: 100
+      1:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_1: 100
+      3:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_2: 100
+      4:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_2: 100
+      5:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_3: 100
+      6:
+        STR_CROP_CIRCLE_INVESTIGATION_RACE_STAGE_3: 100
+    waves:
+      - ufo: STR_CROP_CIRCLE_INVESTIGATION_DEPLOYMENT # spawn this site directly
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
+##########################################
+  - type: STR_CATTLE_MUTILATION_INVESTIGATION_SITES
+    points: 100
+    objective: 2
+    siteType: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_1: 100
+      1:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_1: 100
+      3:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_2: 100
+      4:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_2: 100
+      5:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_3: 100
+      6:
+        STR_CATTLE_MUTILATION_INVESTIGATION_RACE_STAGE_3: 100
+#    waves:
+#      - ufo: dummy #don't spawn a ufo, we only want the site
+#        count: 1
+#        trajectory: P10
+#        timer: 0
+#        objective: true
+    waves:
+      - ufo: STR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT # spawn this site directly
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
+####################################################
+
+  - type: STR_COUNTER_INTELLIGENCE_INVESTIGATION_SITES
+    points: 100
+    objective: 2
+    siteType: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_D17_INFILTRATION: 100
+      1:
+        STR_D17_INFILTRATION: 100
+      3:
+        STR_D17_INFILTRATION: 100
+      6:
+        STR_D17_INFILTRATION: 100
+      9:
+        STR_D17_INFILTRATION: 100
+    waves:
+      - ufo: STR_COUNTER_INTELLIGENCE_INVESTIGATION_DEPLOYMENT # spawn this site directly
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
+###################################
+
+  - type: STR_ABDUCTION_INVESTIGATION_SITES
+    points: 100
+    objective: 2
+    siteType: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      5:
+        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_1: 100
+      8:
+        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_2: 100
+      11:
+        STR_ABDUCTION_INVESTIGATION_RACE_STAGE_3: 100
+#    waves:
+#      - ufo: dummy #don't spawn a ufo, we only want the site
+#        count: 1
+#        trajectory: P10
+#        timer: 0
+#        objective: true
+    waves:
+      - ufo: STR_ABDUCTION_INVESTIGATION_DEPLOYMENT # spawn this site directly
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
+
+###################################
+  - type: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_SITES
+    points: 100
+    objective: 2
+    siteType: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      5:
+        STR_HYBRID_CIVILIAN: 100
+      8:
+        STR_HYBRID_CIVILIAN: 80
+        STR_THIN_MEN: 20
+      11:
+        STR_HYBRID_CIVILIAN: 50
+        STR_THIN_MEN: 30
+        STR_SECTOID: 20
+#    waves:
+#      - ufo: dummy #don't spawn a ufo, we only want the site
+#        count: 1
+#        trajectory: P10
+#        timer: 0
+#        objective: true
+    waves:
+      - ufo: STR_MAJOR_CATTLE_MUTILATION_INVESTIGATION_DEPLOYMENT # spawn this site directly
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
+
+  - type: STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_SITES
+    points: 100
+    objective: 2
+    siteType: STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DEPLOYMENT
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_D17_INFILTRATION: 100
+      1:
+        STR_D17_INFILTRATION: 100
+      3:
+        STR_D17_INFILTRATION: 100
+      6:
+        STR_D17_INFILTRATION: 100
+      9:
+        STR_D17_INFILTRATION: 100
+    waves:
+      - ufo: STR_COUNTER_INTELLIGENCE_EUROPE_INVESTIGATION_DEPLOYMENT # spawn this site directly
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 0
+        objective: true
+#############################################
+
+  - type: STR_INVASION_START
+    points: 50
+    raceWeights:
+      18:
+        STR_SECTOID: 50
+        STR_THIN_MEN: 50
+        #STR_HYBRID_CIVILIAN: 25
+      19:
+        STR_SECTOID: 50
+        STR_THIN_MEN: 25
+        STR_HYBRID_CIVILIAN: 25
+      20:
+        STR_SECTOID: 50
+        STR_THIN_MEN: 25
+        STR_HYBRID_CIVILIAN: 25
+      22:
+        STR_SECTOID: 50
+        STR_THIN_MEN: 25
+        STR_HYBRID_CIVILIAN: 25
+    waves:
+      - ufo: STR_SMALL_SCOUT
+        count: 3
+        trajectory: P2
+        timer: 5000
+        huntBehavior: 0
+        hunterKillerPercentage: 75
+        huntMode: 2
+      - ufo: STR_MEDIUM_SCOUT
+        count: 2
+        trajectory: P2
+        timer: 5000
+        huntBehavior: 0
+        hunterKillerPercentage: 75
+        huntMode: 2
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P4
+        timer: 5000
+        huntBehavior: 0
+        hunterKillerPercentage: 100
+        huntMode: 0
+
+  - type: STR_ALIEN_RETALIATION
+    points: 50
+    raceWeights:
+      0:
+        STR_SECTOID: 50
+        STR_THIN_MEN: 25
+        STR_HYBRID_CIVILIAN: 25
+    waves:
+      - ufo: STR_LARGE_SCOUT
+        count: 1
+        trajectory: P4
+        timer: 5000
+        huntBehavior: 0
+        hunterKillerPercentage: 100
+        huntMode: 0
+
+####################################################
+ufoTrajectories:
+  - id: STATIC_TRAJECTORY
+    groundTimer: 0
+    waypoints:
+      - [0, 0, 0]
+
+  - id: STATIC_TRAJECTORY_BASE
+    groundTimer: 0
+    waypoints:
+      - [4, 0, 0]
+
+terrains:
+  - name: DISCOVERIES_CUSTOM_TERRAIN 
+    script: DISCOVERIES_CUSTOM_TERRAIN_SCRIPT
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - BARN
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+      - name: CULTA13
+        width: 10
+        length: 10
+      - name: CULTA14
+        width: 10
+        length: 10
+      - name: CULTA15
+        width: 10
+        length: 10
+      - name: CULTA16
+        width: 10
+        length: 10
+      - name: CULTA17
+        width: 10
+        length: 10
+      - name: CULTA18
+        width: 10
+        length: 10
+
+  - name: OPERATION_HARBINGER_CUSTOM_TERRAIN
+    mapDataSets:
+      - BLANKS
+      - MOUNTTROP
+    script: OPERATION_HARBINGER_CUSTOM_TERRAIN_SCRIPT
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+
+mapScripts:
+  - type: DISCOVERIES_CUSTOM_TERRAIN_SCRIPT
+    commands:
+    - type: addCraft
+      groups: 1
+      executions: 1
+      executionChances: 100
+    - type: addUFO
+      groups: 1
+      executions: 1
+      executionChances: 100
+    - type: addBlock
+      terrain: FOREST
+      size: 1
+      executions: 4
+    - type: addBlock
+      terrain: IDT_RED_FARM
+      size: 1
+      executions: 4
+      groups:
+        - 6
+    - type: fillArea
+
+  - type: OPERATION_HARBINGER_CUSTOM_TERRAIN_SCRIPT
+    commands:
+    - type: addCraft
+      groups: 1
+    - type: addUFO
+      groups: 1
+      executions: 1
+      UFOName: STR_INVASION_FORTRESS
+    - type: addUFO
+      groups: 1
+      executions: 1
+      UFOName: STR_INVASION_BEACON
+    - type: addBlock
+      terrain: IDT_VILLAGE
+      size: 1
+      executions: 4
+    - type: addBlock
+      terrain: MOUNTTROP
+      size: 1
+      executions: 4
+    - type: fillArea
