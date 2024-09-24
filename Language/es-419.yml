@@ -1,0 +1,362 @@
+es-419:
+######################
+# MAIN MENU
+  STR_OPENXCOM: "DOOM: Hell & Fire"
+  STR_NEW_GAME: "Nuevo juego"
+  STR_NEW_BATTLE: "Simulador de la UAC"
+  STR_MISSION_GENERATOR: "SIMULADOR TÁCTICO DE LA UAC"
+  STR_UFOPAEDIA: "Pedia de la UAC"
+  STR_UFOPAEDIA_UC: "PEDIA DE LA UAC"
+  STR_XCOM_OPERATIVES_KILLED: "MARINES DE LA UAC MUERTOS"
+  STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "MARINES DE LA UAC DESAPARECIDOS"
+  STR_XCOM_CRAFT_LOST: "VEHÍCULO UAC PERDIDO"
+  STR_1_BEGINNER: "> SOY DEMASIADO JOVEN PARA MORIR <"
+  STR_2_EXPERIENCED: "> OYE, NO DEMASIADO DURO <"
+  STR_3_VETERAN: "> HAZME MUCHO DAÑO <"
+  STR_4_GENIUS: "> ULTRAVIOLENCIA <"
+  STR_5_SUPERHUMAN: "> ¡PESADILLA! <"
+
+######################
+
+  STR_SHIELD_S: "¡El escudo está {}%!"
+  STR_SHIELD_DOWN: "¡El escudo está caído!"
+  STR_AIMED_BURST: "Ráfaga dirigida"
+  STR_AIMED_BURST_SHORT: "Ráfaga dirigida {0}"
+  STR_BURST: "Ráfaga"
+  STR_BURST_SHORT: "Ráfaga {0}"
+  STR_FULL_AUTO: "Automático"
+  STR_FULL_AUTO_SHORT: "Automático {0}"
+  STR_SINGLE_SHOT: "Disparo único"
+  STR_THRUST: "Impulso"
+  STR_CUT: "Corte"
+  STR_DOUBLE_TAP: "Doble toque"
+  STR_SHORT_BURST: "Ráfaga corta"
+  STR_SUPPRESSION: "Supresión"
+  STR_SUPPRESSION_SHORT: "Supresión {0}"
+
+#######################
+# ARMAS
+
+  STR_DAMAGE_ARMOR_PIERCING: "CINÉTICO"
+  STR_DAMAGE_INCENDIARY: "INCENDIARIO"
+  STR_DAMAGE_HIGH_EXPLOSIVE: "ALTAMENTE EXPLOSIVO"
+  STR_DAMAGE_LASER_BEAM: "ENERGÍA DEMONÍACA"
+  STR_DAMAGE_PLASMA_BEAM: "ENERGÍA DE PLASMA"
+
+  STR_WEAPONS: "ARMAS"
+
+  STR_UACPISTOL: "Pistola UAC"
+  STR_UACPISTOL_AMMO: "Munición de Pistola UAC"
+  STR_UACRIFLE: "Rifle de asalto UAC"
+  STR_UACRIFLE_AMMO: "Munición de Rifle UAC"
+  STR_UACSHOTGUN: "Escopeta UAC"
+  STR_UACSHOTGUN_AMMO: "Cartuchos de escopeta UAC"
+  STR_UACCHAIN: "Ametralladora de cadena UAC"
+  STR_UACCHAIN_AMMO: "Munición para Ametralladora de cadena UAC"
+  STR_UACCHAIN_AMMO_ADVANCED: "Munición para Ametralladora de cadena UAC avanzada"
+  STR_UACRL: "Lanzacohetes UAC"
+  STR_UACRL_AMMO: "Munición para Lanzacohetes UAC"
+  STR_CHAINSAW: "Motosierra"
+
+  STR_UACPISTOL_ADVANCED: "Pistola avanzada UAC"
+  STR_UACPISTOL_AMMO_ADVANCED: "Munición para Pistola avanzada UAC"
+  STR_UACRIFLE_ADVANCED: "Rifle de asalto avanzado UAC"
+  STR_UACRIFLE_AMMO_ADVANCED: "Munición para Rifle avanzado UAC"
+  STR_UACSHOTGUN_ADVANCED: "Escopeta avanzada UAC"
+  STR_UACSHOTGUN_ADVANCED_AMMO: "Cartuchos de Escopeta avanzada UAC"
+  STR_UACSMG: "Subfusil avanzado UAC"
+  STR_UACSMG_AMMO: "Munición para Subfusil avanzado UAC"
+  STR_UACHEVYNAILGUN: "Pistola de clavos pesada UAC"
+  STR_UACHEVYNAILGUN_AMMO: "Cartucho para Pistola de clavos pesada UAC"
+  STR_UACRL_ADVANCED: "Lanzacohetes avanzado UAC"
+  STR_UACRL_AMMO_ADVANCED: "Munición para Lanzacohetes avanzado UAC"
+  STR_LASRIFLE: "Rifle láser UAC"
+  STR_LASPISTOL: "Pistola láser UAC"
+  STR_POWER_BATTERY: "Batería de energía"
+  STR_UACBASICSMG: "Subfusil compacto UAC"
+  STR_UACBASICSMG_AMMO: "Munición para Subfusil compacto UAC"
+  STR_PLASMARIFLE: "Rifle de plasma"
+  STR_ENERGY_CELL: "Celda de energía"
+  STR_UACULTIMATESHOTGUN: "Escopeta Pesada UAC"
+  STR_UACULTIMATESHOTGUN_BUCKSHOT: "Cartuchos de perdigones para Escopeta pesada"
+  STR_UACULTIMATESHOTGUN_SLUGS: "Cartuchos de perdigones para Escopeta pesada"
+  STR_UACULTIMATESHOTGUN_HELL_SHELLS: "Asesino de demonios para Escopeta pesada Proyectiles"
+
+#------------------------------------------------------------------------------------------------------------------------------------------
+  STR_UACPISTOL_UFOPEDIA: "Pistola UAC 9x19mm, el arma preferida de los Marines novatos de la UAC"
+#----------------------------------------------------
+  STR_UACRIFLE_UFOPEDIA: "Rifle de asalto UAC 5,56x45mm, ideal para enfrentamientos a media distancia."
+#----------------------------------------------------
+  STR_UACCHAIN_UFOPEDIA: "Prototipo de ametralladora Gatling portátil UAC, es muy eficaz en enfrentamientos a media y corta distancia."
+#----------------------------------------------------
+  STR_UACRL_UFOPEDIA: "Lanzacohetes portátil UAC, capaz de lanzar con precisión cohetes HEAT a largas distancias."
+#----------------------------------------------------
+  STR_CHAINSAW_UFOPEDIA: "Una herramienta común de leñador reutilizada para atacar personalmente a las fuerzas terrestres demoníacas."
+#----------------------------------------------------
+  STR_UACSHOTGUN_UFOPEDIA: "Escopeta de acción de bombeo calibre 12 para combate cuerpo a cuerpo. Diseño clásico con armazón de madera. Amplia dispersión con gran cantidad de perdigones por cartucho."
+#----------------------------------------------------
+  STR_UACPISTOL_ADVANCED_UFOPEDIA: "Arma de mano reforzada para una mejor precisión a distancia y mayores velocidades de salida del cañón."
+#----------------------------------------------------
+  STR_UACRIFLE_ADVANCED_UFOPEDIA: "Variante Mark 2 del fusil de asalto estándar de la UAC. Ergonomía mejorada y cargador más grande para tiroteos más prolongados."
+#----------------------------------------------------
+  STR_UACSHOTGUN_ADVANCED_UFOPEDIA: "Escopeta táctica semiautomática. Armazón sintético con culata y empuñadura resistentes a los golpes, que reduce el retroceso."
+#----------------------------------------------------
+  STR_UACSMG_UFOPEDIA: "Arma de defensa personal de fuego rápido y potencia media, para acercarse a los enemigos y ganar la pelea."
+#----------------------------------------------------
+  STR_UACHEVYNAILGUN_UFOPEDIA: "Pistola de clavos portátil UAC, herramienta estándar de alta resistencia que se usa comúnmente en la industria UAC para mantener en su lugar vigas de aleación de acero al carbono nano pesadas."
+#----------------------------------------------------
+  STR_UACRL_ADVANCED_UFOPEDIA: "Lanzacohetes portátil Mark 2. Capaz de lanzar rondas HEAT más potentes para un mejor apoyo de fuego."
+#----------------------------------------------------
+#  STR_LASRIFLE_UFOPEDIA: "Prototipo de rifle láser UAC, es capaz de descargar un rayo láser de 700 MW en un disparo, sin embargo, su batería de energía solo tiene capacidad para 15 disparos antes de sobrecalentarse."
+#----------------------------------------------------
+#  STR_LASPISTOL_UFOPEDIA: "Prototipo de pistola UAC, con el avance en la tecnología láser, el especialista en aromas de UAC ahora puede convertir el rifle láser en una pistola UAC de tamaño estándar, debido a la limitación de tamaño, la batería de energía solo puede tener capacidad para 5 disparos antes de sobrecalentarse."
+#----------------------------------------------------
+  STR_UACBASICSMG_UFOPEDIA: "Subametralladora básica diseñada para la autodefensa de los equipos de reconocimiento y seguridad. A menudo se utiliza como arma de mano gracias a su peso ligero y facilidad de uso con una sola mano."
+#----------------------------------------------------
+  STR_PLASMARIFLE_UFOPEDIA: "Arma de energía estandarizada, diseñada por el Departamento de Aplicaciones Militares de la UAC. Su brutal cadencia de fuego puede destruir fácilmente a cualquier enemigo con un blindaje deficiente. Consume una unidad de energía de la célula de energía por disparo."
+#----------------------------------------------------
+  STR_UACULTIMATESHOTGUN_UFOPEDIA: "Escopeta pesada que dispara proyectiles de 23 mm. Su resistente armazón está especialmente diseñado para funcionar en entornos altamente peligrosos, incluso como arma cuerpo a cuerpo improvisada. Hay una variedad de proyectiles disponibles para cualquier situación."
+#----------------------------------------------------------------------------------------------------------------------------------------------
+
+######################
+# ARMADURAS UAC
+  STR_SOLDIER: "Marine UAC"
+  DOOMGUY_ARMOR: "Armadura de combate Mk. I"
+  STR_DOOMGUY_CORPSE: "Cadáver de marine UAC"
+
+#######################
+# ENDGAME
+
+  STR_ELERIUM_115: "Combustible del reactor Argent"
+  STR_ELERIUM_115_UFOPEDIA: "Elementos radiactivos dentro de una cámara de contención. Estar cerca de ellos sin protección especial puede ser peligroso, pero hasta ahora no hemos encontrado ningún problema. ¡Algunos de ellos forman una cristalería muy bonita que brilla bajo la luz ultravioleta!"
+
+  STR_UFO_POWER_SOURCE: "Reactor Argent"
+  STR_UFO_POWER_SOURCE_UFOPEDIA: "El enemigo utiliza tecnología de fisión para alimentar sus estructuras y vehículos. Si bien nosotros también pudimos lograr dicho proceso, su tecnología es mucho más eficiente y sustentable que la nuestra."
+
+  STR_ALIEN_ALLOYS: "Piel demoníaca"
+  STR_ALIEN_ALLOYS_UFOPEDIA: "Plaqueta de aleación de acero ligera, utilizada por los demoníacos para construir una amplia gama de herramientas y armamento. Fácilmente moldeable con las herramientas adecuadas, pero inmune a todo tipo de daño..."
+
+#######################
+# ENEMIGOS
+
+  STR_ZOMBIEMAN: "Zombie"
+  ZOMBIEMAN_ARMOR: "Piel podrida"
+  STR_ZOMBIEMAN_CORPSE: "Cadáver de zombie"
+  STR_SHOTGUNGUY: "El tipo de la escopeta"
+  STR_SHOTGUNGUY_ARMOR: "Piel podrida"
+  STR_SHOTGUNGUY_CORPSE: "Cadáver de zombie"
+  STR_HEAVY_WEAPONS_DUDE: "El tipo de las armas pesadas"
+  STR_HEAVY_WEAPONS_DUDE_ARMOR: "Piel podrida"
+  STR_HEAVY_WEAPONS_DUDE_CORPSE: "Cadáver de tipo"
+  STR_LOSTSOUL: "Alma perdida"
+  STR_LOSTSOUL_CORPSE: "Cadáver de alma perdida"
+  LOSTSOUL_ARMOR: "Cuerpo intangible de alma perdida"
+  STR_POSSESSED_DOOMGUY: "Marine de la UAC poseído"
+  POSSESSED_DOOMGUY_ARMOR: "Armadura de combate Mk.III con infusión demoníaca"
+  STR_POSSESSED_DOOMGUY_CORPSE: "Cadáver de marine de la UAC poseído"
+  STR_IMP: "Diablillo"
+  IMP_ARMOR: "Cuerpo musculoso y pesado"
+  STR_IMP_CORPSE: "Cadáver de diablillo"
+  STR_DEMON: "Demonio"
+  STR_DEMON_CORPSE:
+  DEMON_ARMOR: "Armadura infundida con el infierno de un demonio"
+  STR_CACODEMON: "Cacodemonio"
+  STR_CACODEMON_CORPSE: "Cadáver de un cacodemonio"
+  CACODEMON_ARMOR: "Biomasa esférica de un cacodemonio"
+  STR_SPECTRE: "Espectro"
+  STR_SPECTRE_DEMON_CORPSE: "Cadáver de un espectro"
+  SPECTRE_ARMOR: "Armadura invisible de un espectro"
+  STR_HELL_BARON: "Barón del infierno"
+  STR_DOOM_HELL_BARON_CORPSE: "Cadáver de un barón del infierno"
+  HELL_BARON_ARMOR: "Armadura superdemoníaca"
+
+  STR_SECTOID: "Humanos poseídos"
+  STR_SNAKEMAN: "Horda demoníaca fácil"
+  STR_FLOATER: "Horda demoníaca media"
+  STR_MUTON: "Cazadores del infierno"
+  STR_ETHEREAL: "Horda demoníaca difícil"
+  STR_MIXED: "Engendros del infierno mixtos"
+
+######################
+# TEXTO DEL MENÚ CAMBIADO
+
+  STR_UFO_ACTIVITY_IN_AREAS: "Actividad demoníaca en áreas"
+  STR_UFO_ACTIVITY_IN_COUNTRIES: "Actividad demoníaca en sectores"
+  STR_XCOM_ACTIVITY_IN_AREAS: "Actividad de la UAC en áreas"
+  STR_XCOM_ACTIVITY_IN_COUNTRIES: "Actividad de la UAC en sectores"
+  STR_NOT_ENOUGH_ITEM_TO_REFUEL_CRAFT_AT_BASE: "No hay {0} suficiente para reabastecer {1} en {2}"
+  STR_NOT_ENOUGH_ITEM_TO_REARM_CRAFT_AT_BASE: "No hay {0} suficiente para rearmarse {1} en {2}"
+  STR_UFO_IS_NOT_RECOVERED: "La nave demoníaca no se ha recuperado"
+  STR_UFO_IS_RECOVERED: "Se recuperó la nave demoníaca"
+  STR_CRAFT_IS_LOST: "Se perdió la nave"
+  STR_TERROR_CONTINUES: "El terror continúa"
+  STR_ALIENS_DEFEATED: "Demonio derrotado"
+  STR_BASE_IS_LOST: "Se perdió la base"
+  STR_BASE_IS_SAVED: "Se salvó la base"
+  STR_ALIEN_BASE_STILL_INTACT: "La base alienígena sigue intacta"
+  STR_ALIEN_BASE_DESTROYED: "La base alienígena está destruida"
+  STR_ALIENS_KILLED: "UNIDADES DEMÓNICAS MUERTAS"
+  STR_ALIEN_CORPSES_RECOVERED: "CUERPOS ALIENÍGENAS RECUPERADOS"
+  STR_LIVE_ALIENS_RECOVERED: "UNIDADES DEMÓNICAS VIVAS RECUPERADAS"
+  STR_ALIEN_ARTIFACTS_RECOVERED: "ARTEFACTOS ALIENÍGENAS RECUPERADOS"
+  STR_ALIEN_BASE_CONTROL_DESTROYED: "CONTROL DE BASE ALIENÍGENA DESTRUIDO"
+  STR_CIVILIANS_KILLED_BY_ALIENS: "CIVILES ASESINADOS POR UNIDADES DEMONÍACAS"
+  STR_CIVILIANS_KILLED_BY_XCOM_OPERATIVES: "CIVILES ASESINADOS POR OPERATIVOS DE LA FUERZA OPERATIVA"
+  STR_CIVILIANS_SAVED: "CIVILES SALVADOS"
+  STR_TANKS_DESTROYED: "TANQUES DESTRUIDOS"
+  STR_UFO_RECOVERY: "RECUPERACIÓN DE LA NAVE INFERNAL"
+  STR_ALIEN_BASE_RECOVERY: "RECUPERACIÓN DE LA BASE ALIENÍGENA"
+  STR_BASE_UNDER_ATTACK: "¡{0} bajo ataque!"
+  STR_BASE_DEFENSES_INITIATED: "DEFENSAS DE LA BASE INICIADAS"
+  STR_GRAV_SHIELD_REPELS_UFO: "¡EL ESCUDO GRAV REPELE LA NAVE!"
+  STR_FIRING: "DISPARANDO"
+  STR_HIT: "¡GOLPEADO!"
+  STR_UFO_DESTROYED: "¡NAVE INFERNAL DESTRUIDA!"
+  STR_UFO_CRASH_RECOVERY: "RECUPERACIÓN DE LA NAVE INFERNAL TRAS EL CHOQUE"
+  STR_UFO_CRASH_RECOVERY_BRIEFING: "Ten cuidado: puede haber demonios en la nave enemiga o alrededor del lugar del accidente. La misión será exitosa cuando todas las unidades enemigas hayan sido eliminadas o neutralizadas. Luego se puede iniciar la recuperación de los restos de la nave enemiga, los artefactos y los cadáveres alienígenas. Para abortar la misión, devuelva las unidades de la UAC al vehículo de transporte y haga clic en el ícono 'Abortar misión'."
+  STR_UFO_GROUND_ASSAULT: "ASALTO TERRESTRE A LA NAVE INFERNAL"
+  STR_UFO_GROUND_ASSAULT_BRIEFING: "Explora el lugar de aterrizaje y, si es posible, accede a la nave enemiga. La misión será exitosa cuando todas las unidades enemigas hayan sido eliminadas o neutralizadas. Luego se podrá iniciar la recuperación de la nave enemiga, los artefactos y los cadáveres alienígenas. Para abortar la misión, regresa las unidades de la UAC al vehículo de transporte y haz clic en el ícono 'Abortar misión'."
+  STR_BASE_DEFENSE: "DEFENSA DE LA BASE"
+  STR_BASE_UC_: "BASE > {0}"
+  STR_BASE_DEFENSE_BRIEFING: "Una nave alienígena ha aterrizado cerca. Nuestra base está en grave peligro. Según el procedimiento estándar, todo el personal no combatiente y las naves de la UAC han sido evacuadas. Las unidades alienígenas entrarán a la base a través de las puertas del hangar o el ascensor de acceso. Defiende la base y sus instalaciones vitales a toda costa: esta es una lucha a muerte. Si haces clic en el icono de 'abortar misión', admitirás la derrota y perderás la base."
+  STR_ALIEN_BASE_ASSAULT: "ASALTO A LA BASE DEMÓNICA"
+  STR_ALIEN_BASE_ASSAULT_BRIEFING: "Las unidades de la UAC han logrado entrar a una base alienígena. El centro de control debe ser destruido para que la base quede inoperativa. La misión terminará cuando todos los enemigos sean eliminados o cuando tu escuadrón haya regresado al área de salida verde (haz clic en el icono de 'abortar misión' para escapar)."
+  STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTRAR EN LA NAVE INFERNAL - TIEMPO=5 segundos"
+  STR_GO_TO_LAST_KNOWN_UFO_POSITION: "IR A LA ÚLTIMA POSICIÓN CONOCIDA DE LA NAVE INFERNAL"
+  STR_UFO_: "NAVE INFERNAL -{0}"
+  STR_ALIEN_BASE_: "ACTIVIDAD DEMÓNICA -{0}"
+  STR_XCOM_CRAFT_ARMAMENT: "NAVE Y ARMAMENTO UAC"
+  STR_HEAVY_WEAPONS_PLATFORMS: "PLATAFORMAS DE ARMAS PESADAS"
+  STR_WEAPONS_AND_EQUIPMENT: "ARMAS Y EQUIPO"
+  STR_ALIEN_ARTIFACTS: "ARMAMENTO DEMÓNICO"
+  STR_VEHICLES: "VEHÍCULOS"
+  STR_BASE_FACILITIES: "INSTALACIONES DE LA BASE"
+  STR_ALIEN_LIFE_FORMS: "FORMAS DE VIDA DEL INFIERNO"
+  STR_ALIEN_RESEARCH_UC: "INVESTIGACIÓN DEL INFIERNO"
+  STR_UFO_COMPONENTS: "COMPONENTES DE LA NAVE DEL INFIERNO"
+  STR_UFOS: "NAVES DEMÓNICAS"
+  STR_UFO_COMPONENT: "Componente de la nave del Infierno"
+  STR_UFO_NAVIGATION: "Navegación de la nave del Infierno"
+  STR_UFO_CONSTRUCTION: "Construcción de la nave del Infierno"
+  STR_INTERNATIONAL_RELATIONS: "Líneas del frente"
+  STR_COUNTRY: "Frente"
+  STR_FUNDING: "Suministros"
+  STR_XCOM_PROJECT_MONTHLY_REPORT: "INFORME CORPORATIVO DE LA UAC"
+  STR_MONTH: "Mes > {ALT}{0} {1}"
+  STR_COUNCIL_IS_GENERALLY_SATISFIED: "La UAC ha resistido el ataque demoníaco con éxito y los sectores siguen bajo nuestro control."
+  STR_COUNCIL_IS_VERY_PLEASED: "La UAC ha resistido el ataque demoníaco notablemente bien y los sectores siguen bajo nuestro control. Sigan con el buen trabajo."
+  STR_COUNCIL_IS_DISSATISFIED: "La UAC ha tenido problemas para repeler el ataque demoníaco y nuestras fuerzas están al borde del colapso. Esfuércense más para defender el planeta."
+  STR_YOU_HAVE_NOT_SUCCEEDED: "A pesar de nuestros esfuerzos, la UAC no ha podido defender Marte. Los Demonios han abierto una gran cantidad de portales a su dimensión, condenando para siempre a la Humanidad."
+  STR_COUNTRY_IS_PARTICULARLY_PLEASED: "Los puestos de avanzada corporativos en {0} están especialmente agradecidos por su capacidad para hacer frente a la amenaza demoníaca local y han enviado más suministros."
+  STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "Los puestos de avanzada corporativos en {0} están especialmente agradecidos por su capacidad para hacer frente a la amenaza demoníaca local y han enviado más suministros."
+  STR_COUNTRIES_COMMA: "{0}, {1}"
+  STR_COUNTRIES_AND: "{0} y {1}"
+  STR_COUNTRY_IS_UNHAPPY_WITH_YOUR_ABILITY: "Los puestos de avanzada corporativos en {0} informan de una fuerte presencia demoníaca y corren el riesgo de ser invadidos. Han reducido la cantidad de suministros enviados."
+  STR_COUNTRIES_ARE_UNHAPPY_WITH_YOUR_ABILITY: "Los puestos de avanzada corporativos en {0} informan de una presencia demoníaca y corren el riesgo de ser invadidos. Han reducido la cantidad de suministros enviados."
+  STR_KNOTS: "{0} nudos"
+  STR_COUNTRY_HAS_SIGNED_A_SECRET_PACT: "{0} ha sido invadido por fuerzas demoníacas y hemos perdido contacto con el Comando Regional del Sector. Hay informes de nueva actividad demoníaca en la zona."
+  STR_COUNTRIES_HAVE_SIGNED_A_SECRET_PACT: "{0} han sido invadidos por fuerzas demoníacas y hemos perdido contacto con los Comandos Regionales de esos Sectores. Hay informes de nueva actividad demoníaca en el área."
+  STR_MONTHLY_RATING: "Calificación mensual > {ALT}{0}{ALT} {1}"
+  STR_FUNDING_CHANGE: "Cambios en el flujo de suministro > {ALT}{0}"
+  STR_COUNCIL_REDUCE_DEBTS: "Nuestro sistema de suministro está al borde del colapso, se recomienda racionar armas y municiones. De lo contrario, no tendremos suficiente equipo para continuar la lucha."
+  STR_THE_ALIENS_HAVE_DESTROYED_THE_UNDEFENDED_BASE: "Los demonios han destruido la base indefensa {0}"
+  STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "El equipo de reconocimiento de la UAC ha localizado una base alienígena en {0}"
+  STR_UFO_HIT: "¡NAVE INFERNAL IMPACTADA!"
+  STR_UFO_CRASH_LANDS: "¡NAVE INFERNAL SE ESTRELLA!"
+  STR_MINIMISE_AT_STANDOFF_RANGE_ONLY: "Minimizar solo en rango de distancia de seguridad"
+  STR_UFO_RETURN_FIRE: "¡NAVE INFERNAL DEVUELVE EL FUEGO!"
+  STR_INTERCEPTOR_DAMAGED: ">>> INTERCEPTOR DAÑADO <<<"
+  STR_INTERCEPTOR_DESTROYED: ">>> INTERCEPTOR DESTRUIDO <<<"
+  STR_UFO_OUTRUNNING_INTERCEPTOR: "¡LA NAVE INFERNÁNDEA SUPERA AL INTERCEPTOR!"
+  STR_ALIENS_TERRORISE: "INCURSIÓN DEMÓNICA"
+  STR_XCOM_PERFORMANCE_ROSTER: "Lista de desempeño de la UAC"
+  STR_XCOM_BASE_CANNOT_BE_BUILT: "No se pueden construir instalaciones de la UAC bajo el agua"
+  STR_SOLDIERS_RECRUITED: "Marines reclutados"
+  STR_SOLDIERS_LOST: "Marines perdidos"
+  STR_TOTAL_UFOS: "Naves infernales detectadas"
+  STR_TOTAL_ALIEN_BASES: "Estructuras demoníacas descubiertas"
+
+  STR_MT_RATING_EXEMPLARY: "Ejemplar"
+  STR_MT_RATING_EXCELLENT: "Excelente"
+  STR_MT_RATING_GREAT: "Genial"
+  STR_MT_RATING_GOOD: "Bueno"
+  STR_MT_RATING_OK: "Suficiente"
+  STR_MT_RATING_POOR: "Pobre"  
+  STR_MT_RATING_BAD: "Malo"  
+  STR_MT_RATING_TERRIBLE: "Terrible"  
+  STR_MT_RATING_ABOMINABLE: "Abominable" 
+  
+  ####################### #### GUERRA EN MARTE ####### ####################### #  STR_AC IDALIA_PLANITIA_LABEL: Acidalia Planitia  STR_VASTITAS_BOREALIS_LABEL: Vastitas Borealis  STR_TERRA_MERIDIANI_LABEL: Terra Meridiani  STR_ARABIA_TERRA_LABEL: Arabia Terra  STR_ELYSIUM_PLANITIA_LABEL: Elysium Planitia
+  STR_AMAZONIS_PLANITIA_LABEL: Amazonis Planitia  
+  STR_OLYMPUS_MONS_LABEL: Olympus Mons  
+  STR_VALLES_MARINERIS_LABEL: Valles Marineris  
+  STR_TERRA_SIRENUM_LABEL: Terra Sirenum  
+  STR_ARGYRE_PLANITIA_LABEL: Argyre Planitia  
+  STR_NOACHIS_TERRA_LABEL: Noachis Terra  
+  STR_HELLAS_PLANITIA_LABEL: Hellas Planitia  
+  STR_ TERRA_CIMMERIA_LABEL: Terra Cimmeria  
+  STR_THARSIS_MONTES_LABEL: Tharsis Montes  
+  STR_ACIDALIA_PLANITIA_LABEL: Acidalia Planitia  
+  STR_VASTITAS_BOREALIS_LABEL: Vastitas Borealis  
+  STR_TERRA_MERIDIANI_LABEL: Terra Meridiani  
+  STR_ARABIA_TERRA_LABEL: Arabia Terra
+  STR_ELYSIUM_PLANITIA_LABEL: Elysium Planitia  
+ 
+  STR_NATO_SECTOR_A: SECTOR A  
+  STR_NATO_SECTOR_B: SECTOR B  
+  STR_NATO_SECTOR_C: SECTOR C  
+  STR_NATO_SECTOR_D: SECTOR D  
+  STR_NATO_SECTOR_E: SECTOR E  
+  STR_UN_SECTOR_1: SECTOR X
+  STR_UN_SECTOR_2: SECTOR D
+
+  STR_WARSAW_PACT_SECTOR_1: SECTOR 1
+  STR_WARSAW_PACT_SECTOR_2: SECTOR 2
+  STR_WARSAW_PACT_SECTOR_3: SECTOR 3
+  STR_WARSAW_PACT_SECTOR_4: SECTOR 4
+  STR_WARSAW_PACT_SECTOR_5: SECTOR 5
+  STR_WARSAW_PACT_SECTOR_6: SECTOR 6
+
+  MAP_IDT_MARS: "Altiplanicies Rocosas del Sur"
+  MAP_IDT_HUMAN_STATION: "Estación de I+D humana"
+  MAP_IDT_MARS_DEBRIS: "Antigua zona de guerra"
+  MAP_IDT_MARS_DRYLAKE: "Fondo marino seco"
+  MAP_MARS: "Base militar alienígena"
+  MAP_MARSMOUNT: "Tierras altas del sur"
+  MAP_MARSURBAN: "Complejo civil alienígena"
+  MAP_MARSPLAIN: "Tierras bajas del norte"
+  MAP_MARSCRATER: "Llanuras volcánicas del sur"
+  MAP_MSTD: "Llanuras volcánicas del norte"
+  MAP_MSTDS: "Llanuras del sur"
+  MAP_MPOLN: "Casquetes polares"
+  MAP_MSTRK: "Tierras altas volcánicas"
+  MAP_HELLONEARTH: "Paisaje infernal"
+  MAP_HELLONEARTH2: "Paisaje infernal oscuro"
+  STR_NATO_OUTPOST_1: Puesto de avanzada
+  STR_NATO_MINING_POST: Puesto de avanzada
+  STR_NATO_OUTPOST_2: Puesto de avanzada
+  STR_NATO_ICE_PLANT: Puesto de avanzada
+  STR_NATO_OUTPOST_3: Puesto de avanzada
+  STR_WARSAW_PACT_OUTPOST_1: Puesto de avanzada
+  STR_NATO_OUTPOST_4: Puesto de avanzada
+  STR_NATO_LABORATORY: Puesto de avanzada
+  STR_NATO_RESEARCH_STATION_1: Puesto de avanzada
+  STR_NATO_OUTPOST_5: Puesto de avanzada
+  STR_NATO_RESEARCH_STATION_2: Puesto de avanzada
+  STR_NATO_OUTPOST_6: Puesto de avanzada
+  STR_NATO_RESEARCH_STATION_3: Puesto de avanzada
+  STR_NATO_OUTPOST_7: Puesto de avanzada
+  STR_WARSAW_PACT_OUTPOST_2: Puesto de avanzada
+  STR_WARSAW_PACT_RESEARCH_STATION_1: Puesto de avanzada
+  STR_WARSAW_PACT_RESEARCH_STATION_2: Puesto de avanzada
+  STR_WARSAW_PACT_OUTPOST_3: Puesto de avanzada
+  STR_WARSAW_PACT_OUTPOST_4: Puesto de avanzada
+  STR_WARSAW_PACT_RESEARCH_STATION_3: Puesto de avanzada
+  STR_WARSAW_PACT_MINE_COMPLEX: Puesto de avanzada
+  STR_WARSAW_PACT_OUTPOST_5: Puesto de avanzada
+  STR_WARSAW_PACT_OUTPOST_6: Puesto de avanzada
+  STR_WARSAW_PACT_ICE_PLANT: Puesto de avanzada
+  STR_WARSAW_PACT_RESEARCH_STATION_4: Puesto de avanzada
+  STR_WARSAW_PACT_OUTPOST_7: Puesto de avanzada
+  STR_WARSAW_PACT_LABORATORY: Puesto de avanzada
+  STR_WARSAW_PACT_MINE_COMPLEX_2: Puesto de avanzada

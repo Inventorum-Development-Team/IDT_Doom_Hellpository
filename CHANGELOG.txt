@@ -12,6 +12,8 @@ Version: 0.3
 * Added Mars Arescape; data by liberation, textures by Dr. Hans Woofington, terrains by liberation, ceveralien, efrenespartano
 * Added Hellscape and Dark Hellscape terrains, by AquatoidX
 * Enabled Former Humans Battlescape sprites
+* Added Spanish translation, by efrenespartano
+-removed Herobrine
 
 #####################
 September 19th, 2024
