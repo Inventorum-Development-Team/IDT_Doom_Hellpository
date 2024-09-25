@@ -5,15 +5,10 @@ alienMissions:
     spawnZone: 0
     raceWeights:
       0:
-        STR_SECTOID: 25
-        STR_SNAKEMAN: 25
-        STR_FLOATER: 50
+        STR_SECTOID: 100
       4:
-        STR_SECTOID: 10
-        STR_SNAKEMAN: 20
-        STR_ETHEREAL: 40
-        STR_MUTON: 20
-        STR_FLOATER: 10
+        STR_SECTOID: 70
+        STR_SNAKEMAN: 30
     waves:
       - ufo: STR_ACT1_SKIRMISH_DEPLOYMENT
         count: 1
@@ -123,3 +118,14 @@ alienDeployments:
     #markerIcon: 32
     duration: [78, 99]
     despawnPenalty: 100
+
+ufoTrajectories:
+  - id: STATIC_TRAJECTORY
+    groundTimer: 0
+    waypoints:
+      - [0, 0, 0]
+
+  - id: STATIC_TRAJECTORY_BASE
+    groundTimer: 0
+    waypoints:
+      - [4, 0, 0]
