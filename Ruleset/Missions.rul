@@ -1,7 +1,7 @@
 alienMissions:
-  - type: STR_ACT1_SKIRMISH_MISSION
+  - type: STR_MINOR_SKIRMISH_MISSION
     objective: 3
-    siteType: STR_ACT1_SKIRMISH_DEPLOYMENT
+    siteType: STR_MINOR_SKIRMISH_DEPLOYMENT
     spawnZone: 0
     raceWeights:
       0:
@@ -10,7 +10,7 @@ alienMissions:
         STR_SECTOID: 70
         STR_SNAKEMAN: 30
     waves:
-      - ufo: STR_ACT1_SKIRMISH_DEPLOYMENT
+      - ufo: STR_MINOR_SKIRMISH_DEPLOYMENT
         count: 1
         trajectory: STATIC_TRAJECTORY
         timer: 0
@@ -27,10 +27,10 @@ missionScripts:
     varName: act1Skirmish
     missionWeights:
       0:
-        STR_ACT1_SKIRMISH_MISSION: 100
+        STR_MINOR_SKIRMISH_MISSION: 100
     regionWeights:
       0:
-        REGION_ACT1_SKIRMISH: 100
+        REGION_MINOR_SKIRMISH: 100
     #researchTriggers:
       #STR_TERRORISTS_OPERATIONS: true
       #STR_END_OF_TERRORISTS: false
@@ -45,8 +45,8 @@ alienDeployments:
 #################
 #### ACT 1 #####
 ###############
-  - type: STR_ACT1_SKIRMISH_DEPLOYMENT
-    #baseSelfDestructCode: STR_DELETE_ACT1_SKIRMISHS
+  - type: STR_MINOR_SKIRMISH_DEPLOYMENT
+    #baseSelfDestructCode: STR_DELETE_MINOR_SKIRMISHS
     height: 10
     width: 40
     length: 40
@@ -108,13 +108,13 @@ alienDeployments:
       background: BACK02.SCR
       showTarget: true
       showCraft: true
-      desc: STR_ACT1_SKIRMISH_DESCRIPTION
+      desc: STR_MINOR_SKIRMISH_DESCRIPTION
       palette: 2
-    markerName: STR_ACT1_SKIRMISH_MARKER_NAME
-    alert: STR_ACT1_SKIRMISH_ALERT
+    markerName: STR_MINOR_SKIRMISH_MARKER_NAME
+    alert: STR_MINOR_SKIRMISH_ALERT
     alertBackground: BACK02.SCR
-    missionCompleteText: STR_ACT1_SKIRMISH_COMPLETE
-    missionFailedText: STR_ACT1_SKIRMISH_FAILURE
+    missionCompleteText: STR_MINOR_SKIRMISH_COMPLETE
+    missionFailedText: STR_MINOR_SKIRMISH_FAILURE
     #markerIcon: 32
     duration: [78, 99]
     despawnPenalty: 100

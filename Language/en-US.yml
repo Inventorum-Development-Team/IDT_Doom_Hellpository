@@ -205,13 +205,13 @@ en-US:
   STR_ALIEN_RETALIATION: "Demonic Counterattack"
   STR_ALIEN_SUPPLY: "Demonic Supply"
   
-  STR_COUNTER_INSURGENCY_OPERATION_MISSION: "Counter-Insurgency Operation"
-  STR_COUNTER_INSURGENCY_OPERATION_DEPLOYMENT: "COUNTER-INSURGENCY OPERATION"
-  STR_COUNTER_INSURGENCY_OPERATION_DESCRIPTION: "Allied forces operating in the area have reported Insurgent activity, most likely aimed to compromise their safety. We have been tasked to engage the alien guerrilla before they manage to damage our assets and retreat. "
-  STR_COUNTER_INSURGENCY_OPERATION_MARKER_NAME: "Counter-Insurgency Operation Requested"
-  STR_COUNTER_INSURGENCY_OPERATION_ALERT: "Counter-Insurgency"
-  STR_COUNTER_INSURGENCY_OPERATION_COMPLETE: "The alien guerrillas were neutralized!"
-  STR_COUNTER_INSURGENCY_OPERATION_FAILURE: "The enemy managed to flee the warzone."
+  STR_MINOR_SKIRMISH_MISSION: "Minor Skirmish"
+  STR_MINOR_SKIRMISH_DEPLOYMENT: "MINOR SKIRMISH"
+  STR_MINOR_SKIRMISH_DESCRIPTION: "There are reports of several unknown lifeforms in this particular area. You must conduct a field recon to assess the potential danger to corporate assets in the Zone. You have permission to engage if the lifeforms are hostile."
+  STR_MINOR_SKIRMISH_MARKER_NAME: "Minor Skirmish"
+  STR_MINOR_SKIRMISH_ALERT: "Minor Skirmish"
+  STR_MINOR_SKIRMISH_COMPLETE: "Hostile lifeforms eradicated!"
+  STR_MINOR_SKIRMISH_FAILURE: "Hostile lifeforms have escaped."
 
 ######################
 # CHANGED MENU TEXT
