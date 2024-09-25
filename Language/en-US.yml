@@ -182,6 +182,18 @@ en-US:
   STR_MIXED: "Mixed Hellspawns"
 
 ######################
+# HELL VESSELS
+
+  STR_SMALL_SCOUT: "Dark Messenger" # scout
+  STR_MEDIUM_SCOUT: "Profane Harbinger" # armed scout
+  STR_LARGE_SCOUT: "Dark Arcana" # attack ship
+  STR_HARVESTER: "Utopia" # base builder
+  STR_ABDUCTOR: "Blasphemus Betrayer" # transport
+  STR_TERROR_SHIP: "Unholy Prophet" # carrier
+  STR_BATTLESHIP: "Babylon's Dragon" # flagship
+  STR_SUPPLY_SHIP: "Hell Carriage" # cargo ship
+
+######################
 # CHANGED MENU TEXT
 
   STR_UFO_ACTIVITY_IN_AREAS: "Demonic Activity in Areas"

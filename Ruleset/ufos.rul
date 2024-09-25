@@ -1,6 +1,7 @@
 ufos:
-  - type: STR_SMALL_SCOUT
+  - type: STR_SMALL_SCOUT # Dark Messenger, scout
     size: STR_VERY_SMALL
+    modSprite: NIMBLE_FIGHTER_INTERWIN
     sprite: 0
     damageMax: 50
     speedMax: 2200
@@ -10,17 +11,22 @@ ufos:
     reload: 56
     breakOffTime: 200
     battlescapeTerrainData:
-      name: UFO1A
+      name: SNAKEFLEET01
       mapDataSets:
         - BLANKS
-        - UFO1
+        - SnakeFleet6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
       mapBlocks:
-        - name: UFO1A
+        - name: SNAKEFLEET01
           width: 10
           length: 10
-  - type: STR_MEDIUM_SCOUT
+  - type: STR_MEDIUM_SCOUT # Profane Harbinger, armed scout
     size: STR_SMALL
-    sprite: 1
+    modSprite: NIMBLE_FIGHTER_INTERWIN
     damageMax: 200
     speedMax: 2400
     power: 20
@@ -29,19 +35,22 @@ ufos:
     reload: 56
     breakOffTime: 250
     battlescapeTerrainData:
-      name: UFO_110
+      name: SNAKEFLEET03
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_BITS
+        - SnakeFleet6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
       mapBlocks:
-        - name: UFO_110
+        - name: SNAKEFLEET03
           width: 10
-          length: 10
-  - type: STR_LARGE_SCOUT
+          length: 20
+  - type: STR_LARGE_SCOUT # Dark Arcana, attack ship
     size: STR_SMALL
-    sprite: 2
+    modSprite: BLOCKADE_RUNNER_INTERWIN
     damageMax: 250
     speedMax: 2700
     power: 20
@@ -50,19 +59,22 @@ ufos:
     reload: 48
     breakOffTime: 300
     battlescapeTerrainData:
-      name: UFO_120
+      name: SNAKEFLEET03
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_BITS
+        - SnakeFleet6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
       mapBlocks:
-        - name: UFO_120
-          width: 20
+        - name: SNAKEFLEET03
+          width: 10
           length: 20
-  - type: STR_HARVESTER
+  - type: STR_HARVESTER # Utopia, base builder
     size: STR_MEDIUM_UC
-    sprite: 3
+    modSprite: SUPPORT_BOAT_INTERWIN
     damageMax: 500
     speedMax: 4000
     power: 40
@@ -71,20 +83,22 @@ ufos:
     reload: 48
     breakOffTime: 500
     battlescapeTerrainData:
-      name: UFO_130
+      name: SNAKEFLEET04
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_DISEC2
-        - U_BITS
+        - SnakeFleet6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
       mapBlocks:
-        - name: UFO_130
+        - name: SNAKEFLEET04
           width: 20
           length: 20
-  - type: STR_ABDUCTOR
+  - type: STR_ABDUCTOR # Blasphemus Betrayer, transport
     size: STR_MEDIUM_UC
-    sprite: 4
+    modSprite: DESTROYER_INTERWIN
     damageMax: 500
     speedMax: 4300
     power: 40
@@ -93,19 +107,22 @@ ufos:
     reload: 32
     breakOffTime: 500
     battlescapeTerrainData:
-      name: UFO_140
+      name: SNAKEFLEET06
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_OPER2
-        - U_BITS
+        - SnakeFleet6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
       mapBlocks:
-        - name: UFO_140
+        - name: SNAKEFLEET06
           width: 20
           length: 20
-  - type: STR_TERROR_SHIP
+  - type: STR_TERROR_SHIP # Unholy Prophet, carrier
     size: STR_LARGE
+    modSprite: TRANSPORT_BARGE_INTERWIN
     sprite: 5
     damageMax: 1200
     speedMax: 4800
@@ -115,20 +132,22 @@ ufos:
     reload: 24
     breakOffTime: 2000
     battlescapeTerrainData:
-      name: UFO_150
+      name: SNAKEFLEET02
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_PODS
-        - U_BITS
+        - SnakeFleet6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
       mapBlocks:
-        - name: UFO_150
-          width: 30
-          length: 20
-  - type: STR_BATTLESHIP
+        - name: SNAKEFLEET02
+          width: 20
+          length: 10
+  - type: STR_BATTLESHIP # Babylon's Dragon, flagship
     size: STR_VERY_LARGE
-    sprite: 6
+    modSprite: FRIGATE_INTERWIN
     damageMax: 3000
     speedMax: 5000
     power: 140
@@ -137,20 +156,22 @@ ufos:
     reload: 24
     breakOffTime: 4000
     battlescapeTerrainData:
-      name: UFO_160
+      name: SNAKEFLEET05
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_PODS
-        - U_BITS
+        - SnakeFleet6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
       mapBlocks:
-        - name: UFO_160
-          width: 30
+        - name: SNAKEFLEET05
+          width: 20
           length: 30
-  - type: STR_SUPPLY_SHIP
+  - type: STR_SUPPLY_SHIP # Hell Carriage, cargo ship
     size: STR_LARGE
-    sprite: 7
+    modSprite: CRUISER_INTERWIN
     damageMax: 2200
     speedMax: 3200
     power: 60
@@ -159,14 +180,62 @@ ufos:
     reload: 24
     breakOffTime: 3000
     battlescapeTerrainData:
-      name: UFO_170
+      name: SNAKEFLEET07
       mapDataSets:
         - BLANKS
-        - U_EXT02
-        - U_WALL02
-        - U_DISEC2
-        - U_BITS
+        - SnakeFleet6
+        - SnakePit_v2
+        - SnakePit_v3
+        - LifterL83
+        - UINT2L83
+        - UNDERG-2
       mapBlocks:
-        - name: UFO_170
-          width: 30
-          length: 20
+        - name: SNAKEFLEET07
+          width: 20
+          length: 30
+
+##############################
+
+extraSprites:
+  - type: NIMBLE_FIGHTER_INTERWIN
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/NIMBLE_FIGHTER_INTERWIN.png
+  - type: TRANSPORT_BARGE_INTERWIN
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/TRANSPORT_BARGE_INTERWIN.png
+  - type: BLOCKADE_RUNNER_INTERWIN
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/BLOCKADE_RUNNER_INTERWIN.png
+  - type: SUPPORT_BOAT_INTERWIN
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/SUPPORT_BOAT_INTERWIN.png
+  - type: FRIGATE_INTERWIN
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/FRIGATE_INTERWIN.png
+  - type: DESTROYER_INTERWIN
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/DESTROYER_INTERWIN.png
+  - type: CRUISER_INTERWIN
+    singleImage: true
+    width: 160
+    height: 52
+    files:
+      0: Resources/Interwin/CRUISER_INTERWIN.png

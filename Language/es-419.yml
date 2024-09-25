@@ -178,6 +178,18 @@ es-419:
   STR_MIXED: "Engendros del infierno mixtos"
 
 ######################
+# NAVES DEL INFIERNO
+
+  STR_SMALL_SCOUT: "Mensajero oscuro" # explorador
+  STR_MEDIUM_SCOUT: "Presagio profano" # explorador armado
+  STR_LARGE_SCOUT: "Arcano oscuro" # nave de ataque
+  STR_HARVESTER: "Utopía" # constructor de bases
+  STR_ABDUCTOR: "Traidor blasfemo" # transporte
+  STR_TERROR_SHIP: "Profeta impío" # portaaviones
+  STR_BATTLESHIP: "Dragón de Babilonia" # nave insignia
+  STR_SUPPLY_SHIP: "Carruaje del infierno" # nave de carga
+
+######################
 # TEXTO DEL MENÚ CAMBIADO
 
   STR_UFO_ACTIVITY_IN_AREAS: "Actividad demoníaca en áreas"
