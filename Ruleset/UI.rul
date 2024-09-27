@@ -87,3 +87,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UI/Shock.png
+  - type: BASEBITS.PCK
+    files:
+      0: Resources/UI/MARS_BASEBITS.png

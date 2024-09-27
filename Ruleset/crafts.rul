@@ -1,0 +1,150 @@
+crafts:
+  - type: STR_SKYRANGER
+    sprite: 25
+    fuelMax: 1500
+    damageMax: 150
+    speedMax: 760
+    accel: 2
+    weapons: 2
+    soldiers: 10
+    vehicles: 0
+    costBuy: 500000
+    costRent: 500000
+    forceShowInMonthlyCosts: true
+    refuelRate: 50
+    transferTime: 72
+    score: 200
+    battlescapeTerrainData:
+      name: PLANE2
+      mapDataSets:
+        - BLANKS
+        - PLANE2
+      mapBlocks:
+        - name: PLANE2
+          width: 20
+          length: 10
+  - type: STR_LIGHTNING
+    requires:
+      - STR_NEW_FIGHTER_TRANSPORTER
+    sprite: 22
+    fuelMax: 30
+    damageMax: 800
+    speedMax: 3100
+    accel: 9
+    weapons: 3
+    soldiers: 7
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    score: 300
+    battlescapeTerrainData:
+      name: BLKBRD
+      mapDataSets:
+        - BLANKS
+        - BLKBRD
+      mapBlocks:
+        - name: BLKBRD
+          width: 10
+          length: 20
+    deployment:
+      - [5, 13, 1, 0]
+      - [4, 12, 1, 2]
+      - [6, 12, 1, 6]
+      - [4, 11, 1, 2]
+      - [6, 11, 1, 6]
+      - [4, 10, 1, 2]
+      - [6, 10, 1, 6]
+  - type: STR_AVENGER
+    requires:
+      - STR_ULTIMATE_CRAFT
+    sprite: 2
+    fuelMax: 60
+    damageMax: 1200
+    speedMax: 5400
+    accel: 10
+    weapons: 2
+    soldiers: 26
+    vehicles: 4
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    score: 400
+    spacecraft: true
+    battlescapeTerrainData:
+      name: AVENGER
+      mapDataSets:
+        - BLANKS
+        - AVENGER
+      mapBlocks:
+        - name: AVENGER
+          width: 10
+          length: 20
+    deployment:
+      - [4, 9, 1, 0]
+      - [5, 9, 1, 0]
+      - [4, 10, 1, 0]
+      - [5, 10, 1, 0]
+      - [4, 11, 1, 0]
+      - [5, 11, 1, 0]
+      - [4, 12, 1, 0]
+      - [5, 12, 1, 0]
+      - [4, 13, 1, 0]
+      - [5, 13, 1, 0]
+      - [4, 14, 1, 0]
+      - [5, 14, 1, 0]
+      - [4, 15, 1, 0]
+      - [5, 15, 1, 0]
+      - [4, 16, 1, 0]
+      - [5, 16, 1, 0]
+      - [3, 10, 1, 0]
+      - [3, 11, 1, 0]
+      - [3, 12, 1, 0]
+      - [3, 13, 1, 0]
+      - [3, 14, 1, 0]
+      - [6, 10, 1, 0]
+      - [6, 11, 1, 0]
+      - [6, 12, 1, 0]
+      - [6, 13, 1, 0]
+      - [6, 14, 1, 0]
+  - type: STR_INTERCEPTOR
+    sprite: 24
+    fuelMax: 1000
+    damageMax: 100
+    speedMax: 2100
+    accel: 3
+    weapons: 3
+    costBuy: 600000
+    costRent: 600000
+    forceShowInMonthlyCosts: true
+    refuelRate: 50
+    transferTime: 96
+    score: 250
+  - type: STR_FIRESTORM
+    requires:
+      - STR_NEW_FIGHTER_CRAFT
+    sprite: 23
+    fuelMax: 20
+    damageMax: 500
+    speedMax: 4200
+    accel: 9
+    weapons: 4
+    refuelItem: STR_ELERIUM_115
+    refuelRate: 5
+    score: 250
+
+extraSprites:
+  - type: BASEBITS.PCK
+    files:
+      55: Resources/Aircraft/Blackbird_base.png
+      56: Resources/Aircraft/Stormrider_base.png
+      57: Resources/Aircraft/Thunderstorm_base.png
+      58: Resources/Aircraft/Dropship_base.png
+  - type: INTICON.PCK
+    files:
+      22: Resources/Aircraft/Blackbird_minimised.png
+      23: Resources/Aircraft/Stormrider_minimised.png
+      24: Resources/Aircraft/Thunderstorm_minimised.png
+      25: Resources/Aircraft/Dropship_minimised.png
+######################################################
+      33: Resources/Aircraft/Blackbird_dogfight.png
+      34: Resources/Aircraft/Stormrider_dogfight.png
+      35: Resources/Aircraft/Thunderstorm_dogfight.png
+      36: Resources/Aircraft/Dropship_dogfight.png

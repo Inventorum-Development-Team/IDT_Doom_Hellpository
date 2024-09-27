@@ -1,0 +1,206 @@
+
+ufopaedia:
+#--
+  - id: STR_UACPISTOL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACPISTOL_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACPISTOL_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------
+  - id: STR_UACRIFLE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACRIFLE_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACRIFLE_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#---------------------------------------------------
+  - id: STR_UACSHOTGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACSHOTGUN_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACSHOTGUN_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#-----------------------------------------------------    
+  - id: STR_UACCHAIN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACCHAIN_UFOPEDIA
+#---------------------------------------------------
+  - id: STR_UACCHAIN_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_UACCHAIN_AMMO_ADVANCED
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------
+  - id: STR_UACRL
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACRL_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACRL_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------------------------------------------------------------------------------------------------
+  - id: STR_UACPISTOL_ADVANCED
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACPISTOL_ADVANCED_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACPISTOL_AMMO_ADVANCED
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------
+  - id: STR_UACRIFLE_ADVANCED
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACRIFLE_ADVANCED_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACRIFLE_AMMO_ADVANCED
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#---------------------------------------------------
+  - id: STR_UACSHOTGUN_ADVANCED
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACSHOTGUN_ADVANCED_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACSHOTGUN_ADVANCED_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE 
+#----------------------------------------------------
+  - id: STR_UACSMG
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACSMG_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACSMG_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#--------------------------------------------------- 
+  - id: STR_UACRL_ADVANCED
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACRL_ADVANCED_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACRL_AMMO_ADVANCED
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#--------------------------------------------------- 
+  - id: STR_UACHEVYNAILGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACHEVYNAILGUN_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACHEVYNAILGUN_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------    
+
+###############################################
+# CRAFTS
+
+  - id: STR_SKYRANGER
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_SKYRANGER_UFOPEDIA
+    #listOrder: 1503
+    rect_stats:
+      x: 5
+      y: 140
+      width: 140
+      height: 60
+    rect_text:
+      x: 110
+      y: 5
+      width: 205
+      height: 80
+    image_id: DROPSHIP_UFOPEDIA
+
+  - id: STR_LIGHTNING
+    type_id: 1
+    #listOrder: 409
+    requires:
+      - STR_NEW_FIGHTER_TRANSPORTER
+    rect_stats:
+      x: 5
+      y: 140
+      width: 100
+      height: 60
+    rect_text:
+      x: 115
+      y: 130
+      width: 200
+      height: 65
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: BLACKBIRD_UFOPEDIA
+    text: STR_LIGHTNING_UFOPEDIA
+
+  - id: STR_INTERCEPTOR
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_INTERCEPTOR_UFOPEDIA
+    #listOrder: 405
+    rect_stats:
+      x: 5
+      y: 120
+      width: 140
+      height: 60
+    rect_text:
+      x: 170
+      y: 5
+      width: 145
+      height: 90
+    image_id: THUNDERSTORM_UFOPEDIA
+
+  - id: STR_FIRESTORM
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_FIRESTORM_UFOPEDIA
+    #listOrder: 505
+    requires:
+      - STR_NEW_FIGHTER_CRAFT
+    rect_stats:
+      x: 5
+      y: 120
+      width: 140
+      height: 60
+    rect_text:
+      x: 170
+      y: 120
+      width: 145
+      height: 90
+    image_id: STORMRIDER_UFOPEDIA
+
+extraSprites:
+  - type: BLACKBIRD_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/BLACKBIRD_UFOPEDIA.png
+  - type: STORMRIDER_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/STORMRIDER_UFOPEDIA.png
+  - type: THUNDERSTORM_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/THUNDERSTORM_UFOPEDIA.png
+  - type: DROPSHIP_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Aircraft/DROPSHIP_UFOPEDIA.png
