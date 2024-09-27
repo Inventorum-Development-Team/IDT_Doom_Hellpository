@@ -21,3 +21,4 @@
 * AquatoidX: Hellscape and Dark Hellscape terrains
 * Roxis231: Blackbird assets
 * tyran_nick: Thunderstorm, Stormrider sprites
+* Half-Dead: UAC Marines background screens
