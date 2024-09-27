@@ -213,6 +213,49 @@ en-US:
   STR_MINOR_SKIRMISH_COMPLETE: "Hostile lifeforms eradicated!"
   STR_MINOR_SKIRMISH_FAILURE: "Hostile lifeforms have escaped."
 
+#######################
+# AIRCRAFT 
+
+  STR_SKYRANGER: "VINDICATOR"
+  STR_LIGHTNING: "CHERUB"
+  STR_AVENGER: "SERAPH"
+  STR_INTERCEPTOR: "ANGEL"
+  STR_FIRESTORM: "ARCHANGEL"
+
+  STR_SKYRANGER_UFOPEDIA: "Standard UAC combat transport for off-world security purposes. Includes reinforced armor can ferry a fully-equipped Marine platoon anywhere in Mars."
+  STR_LIGHTNING_UFOPEDIA: "Stealth infiltration dropship, using demonic technology to booster its performance."
+  STR_AVENGER_UFOPEDIA: "The ultimate amalgamation of UAC and Hell technology."
+  STR_INTERCEPTOR_UFOPEDIA: "Multirole exoatmospheric fighter, equipped with ramjets to quickly intercept any non-autorized craft."
+  STR_FIRESTORM_UFOPEDIA: "Improved exoatmospheric interceptor, aimed at contesting and reclaiming back the Martian skies of demonic vessels."
+
+########################
+# AIRCRAFT WEAPONS
+
+  STR_STINGRAY: "THUNDER MISSILE"
+  STR_AVALANCHE: "HURRICANE MISSILE"
+  STR_CANNON_UC: "HAILSTORM CANNON"
+  STR_FUSION_BALL_UC: "HELLORB LAUNCHER"
+  STR_LASER_CANNON_UC: "LASER CANNON"
+  STR_PLASMA_BEAM_UC: "PLASMA CANNON"
+
+  STR_STINGRAY_LAUNCHER: "Thunder Launcher"
+  STR_AVALANCHE_LAUNCHER: "Hurricane Launcher"
+  STR_CANNON: "Hailstorm Cannon"
+  STR_FUSION_BALL_LAUNCHER: "Hellorb Launcher"
+  STR_PLASMA_BEAM: "Plasma Cannon"
+  STR_STINGRAY_MISSILES: "Thunder Missiles"
+  STR_AVALANCHE_MISSILES: "Hurricane Missiles"
+  STR_CANNON_ROUNDS_X50: "Hailstorm Cannon Rounds(x50)"
+  STR_FUSION_BALL: "Hellorb Projectile"
+
+  STR_STINGRAY_UFOPEDIA: "ADVANCED AIR TO AIR MISSILE WITH SPECIALLY SHIELDED ELECTRONICS."
+  STR_AVALANCHE_UFOPEDIA: "AIR TO AIR MISSILE WITH NUCLEAR WARHEAD, BUT AN EXTREMELY HEAVY LOAD."
+  STR_CANNON_UFOPEDIA: "HIGH POWERED CANNON WHICH FIRES ARMOR PIERCING ROUNDS CAPABLE OF PENETRATING 16 INCHES OF STEEL."
+  STR_FUSION_BALL_UFOPEDIA: "THIS LAUNCHER FIRES A BALL SHAPED MISSILE POWERED BY ANTI-MATTER REACTION. THE BALL DESTROYS THE TARGET WITH A GRAVITY WAVE IMPLOSION."
+  STR_LASER_CANNON_UFOPEDIA: "THIS CONVENTIONAL LASER BEAM IS POWERED BY AN ANTI-MATTER REACTION CHAMBER."
+  STR_PLASMA_BEAM_UFOPEDIA: "THE GRAVITY BEAM DIRECTS A FINELY CHANNELED IMPLODING GRAVITY FIELD."
+
+
 ######################
 # CHANGED MENU TEXT
 

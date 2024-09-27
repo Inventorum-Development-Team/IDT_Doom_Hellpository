@@ -189,6 +189,68 @@ es-419:
   STR_BATTLESHIP: "Dragón de Babilonia" # nave insignia
   STR_SUPPLY_SHIP: "Carruaje del infierno" # nave de carga
 
+##################
+#Misiones
+  STR_INSTANT_INFILTRATION_UFO: "Portal al infierno instantáneo"
+  STR_ALIEN_RESEARCH: "Reconocimiento infernal"
+  STR_ALIEN_HARVEST: "Cosecha demoníaca"
+  STR_ALIEN_ABDUCTION: "Recolecta de sectarios"
+  STR_ALIEN_INFILTRATION: "Usurpación infernal"
+  STR_ALIEN_BASE: "Ruptura demoníaca"
+  STR_ALIEN_TERROR: "Incursión infernal"
+  STR_ALIEN_RETALIATION: "Contraataque demoníaco"
+  STR_ALIEN_SUPPLY: "Suministro demoníaco"
+
+  STR_MINOR_SKIRMISH_MISSION: "Escaramuza menor"
+  STR_MINOR_SKIRMISH_DEPLOYMENT: "ESCARAMUZA MENOR"
+  STR_MINOR_SKIRMISH_DESCRIPTION: "Hay informes de varias formas de vida desconocidas en esta área en particular. Debes realizar un reconocimiento de campo para evaluar el peligro potencial para los activos corporativos en la Zona. Tienes permiso para atacar si las formas de vida son hostiles."
+  STR_MINOR_SKIRMISH_MARKER_NAME: "Escaramuza menor"
+  STR_MINOR_SKIRMISH_ALERT: "Escaramuza menor"
+  STR_MINOR_SKIRMISH_COMPLETE: "¡Formas de vida hostiles erradicadas!"
+  STR_MINOR_SKIRMISH_FAILURE: "Las formas de vida hostiles han escapado."
+
+#######################
+# AVIÓN
+
+  STR_SKYRANGER: "VINDICADOR"
+  STR_LIGHTNING: "QUERUBÍN"
+  STR_AVENGER: "SERAFÍN"
+  STR_INTERCEPTOR: "ÁNGEL"
+  STR_FIRESTORM: "ARCÁNGEL"
+
+  STR_SKYRANGER_UFOPEDIA: "Transporte de combate estándar de la UAC para fines de seguridad fuera del mundo. Incluye blindaje reforzado y puede transportar un pelotón de marines completamente equipado a cualquier lugar de Marte."
+  STR_LIGHTNING_UFOPEDIA: "Nave de desembarco de infiltración furtiva, que utiliza tecnología demoníaca para potenciar su rendimiento."
+  STR_AVENGER_UFOPEDIA: "La fusión definitiva de la tecnología de la UAC y del infierno."
+  STR_INTERCEPTOR_UFOPEDIA: "Caza exoatmosférico multifunción, equipado con estatorreactores para interceptar rápidamente cualquier nave no autorizada."
+  STR_FIRESTORM_UFOPEDIA: "Interceptor exoatmosférico mejorado, destinado a desafiar y recuperar los cielos marcianos de las naves demoníacas."
+
+########################
+# ARMAS DE AERONAVES
+
+  STR_STINGRAY: "MISIL TRUENO"
+  STR_AVALANCHE: "MISIL HURACÁN"
+  STR_CANNON_UC: "CAÑÓN GRANIZO"
+  STR_FUSION_BALL_UC: "LANZADOR HELLORB"
+  STR_LASER_CANNON_UC: "CAÑÓN LÁSER"
+  STR_PLASMA_BEAM_UC: "CAÑÓN DE PLASMA"
+
+  STR_STINGRAY_LAUNCHER: "Lanzador Trueno"
+  STR_AVALANCHE_LAUNCHER: "Lanzador Huracán"
+  STR_CANNON: "Cañón Granizo"
+  STR_FUSION_BALL_LAUNCHER: "Lanzador Hellorb"
+  STR_PLASMA_BEAM: "Cañón de plasma"
+  STR_STINGRAY_MISSILES: "Misiles Trueno"
+  STR_AVALANCHE_MISSILES: "Misiles Huracán"
+  STR_CANNON_ROUNDS_X50: "Municiones de cañón Granizo (x50)"
+  STR_FUSION_BALL: "Proyectil Hellorb"
+
+  STR_STINGRAY_UFOPEDIA: "MISIL AIRE-AIRE AVANZADO CON ELECTRÓNICA ESPECIALMENTE PROTEGIDA."
+  STR_AVALANCHE_UFOPEDIA: "MISIL AIRE-AIRE CON OJIVA NUCLEAR, PERO CON UNA CARGA EXTREMADAMENTE PESADA."
+  STR_CANNON_UFOPEDIA: "CAÑÓN DE ALTA POTENCIA QUE DISPARA MUNICIONES PERFORANTES CAPACES DE ATRAVESAR 16 PULGADAS DE ACERO."
+  STR_FUSION_BALL_UFOPEDIA: "ESTE LANZADOR DISPARA UN MISIL EN FORMA DE BOLA IMPULSADO POR UNA REACCIÓN DE ANTIMATERIA. LA BOLA DESTRUYE EL OBJETIVO CON UNA IMPLOSIÓN DE ONDAS DE GRAVEDAD."
+  STR_LASER_CANNON_UFOPEDIA: "ESTE RAYO LÁSER CONVENCIONAL ESTÁ IMPULSADO POR UNA CÁMARA DE REACCIÓN DE ANTIMATERIA."
+  STR_PLASMA_BEAM_UFOPEDIA: "EL RAYO DE GRAVEDAD DIRIGE UN CAMPO DE GRAVEDAD IMPLOSIVO FINALMENTE CANALIZADO."
+
 ######################
 # TEXTO DEL MENÚ CAMBIADO
 
