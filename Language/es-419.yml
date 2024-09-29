@@ -406,31 +406,31 @@ es-419:
   MAP_MSTRK: "Tierras altas volcánicas"
   MAP_HELLONEARTH: "Paisaje infernal"
   MAP_HELLONEARTH2: "Paisaje infernal oscuro"
-  STR_NATO_OUTPOST_1: Puesto de avanzada
-  STR_NATO_MINING_POST: Puesto de avanzada
-  STR_NATO_OUTPOST_2: Puesto de avanzada
-  STR_NATO_ICE_PLANT: Puesto de avanzada
-  STR_NATO_OUTPOST_3: Puesto de avanzada
-  STR_WARSAW_PACT_OUTPOST_1: Puesto de avanzada
-  STR_NATO_OUTPOST_4: Puesto de avanzada
-  STR_NATO_LABORATORY: Puesto de avanzada
-  STR_NATO_RESEARCH_STATION_1: Puesto de avanzada
-  STR_NATO_OUTPOST_5: Puesto de avanzada
-  STR_NATO_RESEARCH_STATION_2: Puesto de avanzada
-  STR_NATO_OUTPOST_6: Puesto de avanzada
-  STR_NATO_RESEARCH_STATION_3: Puesto de avanzada
-  STR_NATO_OUTPOST_7: Puesto de avanzada
-  STR_WARSAW_PACT_OUTPOST_2: Puesto de avanzada
-  STR_WARSAW_PACT_RESEARCH_STATION_1: Puesto de avanzada
-  STR_WARSAW_PACT_RESEARCH_STATION_2: Puesto de avanzada
-  STR_WARSAW_PACT_OUTPOST_3: Puesto de avanzada
-  STR_WARSAW_PACT_OUTPOST_4: Puesto de avanzada
-  STR_WARSAW_PACT_RESEARCH_STATION_3: Puesto de avanzada
-  STR_WARSAW_PACT_MINE_COMPLEX: Puesto de avanzada
-  STR_WARSAW_PACT_OUTPOST_5: Puesto de avanzada
-  STR_WARSAW_PACT_OUTPOST_6: Puesto de avanzada
-  STR_WARSAW_PACT_ICE_PLANT: Puesto de avanzada
-  STR_WARSAW_PACT_RESEARCH_STATION_4: Puesto de avanzada
-  STR_WARSAW_PACT_OUTPOST_7: Puesto de avanzada
-  STR_WARSAW_PACT_LABORATORY: Puesto de avanzada
-  STR_WARSAW_PACT_MINE_COMPLEX_2: Puesto de avanzada
+  STR_NATO_OUTPOST_1: Estación Uncy 
+  STR_NATO_MINING_POST: Estación L-83
+  STR_NATO_OUTPOST_2: Estación R-U-ED
+  STR_NATO_ICE_PLANT: Estación Esparta
+  STR_NATO_OUTPOST_3: Estación Necro-D
+  STR_WARSAW_PACT_OUTPOST_1: Estación Mitra
+  STR_NATO_OUTPOST_4: Estación BAD-F
+  STR_NATO_LABORATORY: Estación Crypto
+  STR_NATO_RESEARCH_STATION_1: Estación Schwabauer
+  STR_NATO_OUTPOST_5: Estación Liberation
+  STR_NATO_RESEARCH_STATION_2: Estación CEVAR
+  STR_NATO_OUTPOST_6: Estación HANS-W
+  STR_NATO_RESEARCH_STATION_3: Estación Ballen
+  STR_NATO_OUTPOST_7: Estación ROX-231
+  STR_WARSAW_PACT_OUTPOST_2: Estación Tyran
+  STR_WARSAW_PACT_RESEARCH_STATION_1: Estación Getfreur
+  STR_WARSAW_PACT_RESEARCH_STATION_2: Estación Muralha
+  STR_WARSAW_PACT_OUTPOST_3: Estación H-D
+  STR_WARSAW_PACT_OUTPOST_4: Estación Romero
+  STR_WARSAW_PACT_RESEARCH_STATION_3: Estación Carmack
+  STR_WARSAW_PACT_MINE_COMPLEX: Estación Aqua-X
+  STR_WARSAW_PACT_OUTPOST_5: Estación 
+  STR_WARSAW_PACT_OUTPOST_6: Estación 
+  STR_WARSAW_PACT_ICE_PLANT: Estación 
+  STR_WARSAW_PACT_RESEARCH_STATION_4: Estación 
+  STR_WARSAW_PACT_OUTPOST_7: Estación 
+  STR_WARSAW_PACT_LABORATORY: Estación 
+  STR_WARSAW_PACT_MINE_COMPLEX_2: Estación 
