@@ -1,0 +1,64 @@
+extraSprites:
+##########################################
+############ GLOBE MARKERS ###############
+##########################################
+  - delete: GlobeMarkers
+  - type: GlobeMarkers
+    width: 63
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      0: Resources/GlobeMarkers/BaseGlobeMarkers.png
+  - type: GlobeMarkers # ignoreDuplicate
+    width: 182
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      9: Resources/GlobeMarkers/CraftGlobeMarkersDoom.png
+crafts:
+  - type: STR_SKYRANGER
+    marker: 9
+  - type: STR_LIGHTNING
+    marker: 12
+  - type: STR_AVENGER
+    marker: 13
+  - type: STR_INTERCEPTOR
+    marker: 10
+  - type: STR_FIRESTORM
+    marker: 11
+
+ufos:
+  - type: STR_SMALL_SCOUT # NIMBLE_FIGHTER
+    marker: 14
+    markerLand: 21
+    markerCrash: 28
+  - type: STR_MEDIUM_SCOUT # NIMBLE_FIGHTER
+    marker: 14
+    markerLand: 21
+    markerCrash: 28
+  - type: STR_TERROR_SHIP # TRANSPORT_BARGE
+    marker: 15
+    markerLand: 22
+    markerCrash: 29
+  - type: STR_LARGE_SCOUT # BLOCKADE_RUNNER
+    marker: 16
+    markerLand: 23
+    markerCrash: 30
+  - type: STR_HARVESTER # SUPPORT_BOAT
+    marker: 17
+    markerLand: 24
+    markerCrash: 31
+  - type: STR_BATTLESHIP # FRIGATE
+    marker: 18
+    markerLand: 25
+    markerCrash: 32
+  - type: STR_ABDUCTOR # DESTROYER
+    marker: 19
+    markerLand: 26
+    markerCrash: 33
+  - type: STR_SUPPLY_SHIP # CRUISER
+    marker: 20
+    markerLand: 27
+    markerCrash: 34
