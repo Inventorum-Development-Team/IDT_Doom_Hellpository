@@ -654,9 +654,9 @@ alienDeployments:
     terrains:
       - IDT_HUMAN_STATION_NO_UFO
     alert: STR_ALIENS_TERRORISE
-    alertBackground: OUTPOST_TERROR_SITE_ALERT_BACKGROUND
+    alertBackground: OUTPOST_TERROR_SITE_ALERT_BACKGROUND.SCR
     briefing:
-      background: OUTPOST_TERROR_SITE_BACKGROUND
+      background: OUTPOST_TERROR_SITE_BACKGROUND.SCR
       palette: 2
       music: GMENBASE
     markerName: STR_TERROR_SITE
@@ -664,25 +664,25 @@ alienDeployments:
     despawnPenalty: 500
 
 extraSprites:
-  - type: HELL_INCURSION_ALERT_BACKGROUND
+  - type: HELL_INCURSION_ALERT_BACKGROUND.SCR
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/HELL_INCURSION_ALERT_BACKGROUND.PNG
-  - type: HELL_INCURSION_BACKGROUND
+  - type: HELL_INCURSION_BACKGROUND.SCR
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/HELL_INCURSION_BACKGROUND.PNG
-  - type: OUTPOST_TERROR_SITE_ALERT_BACKGROUND
+  - type: OUTPOST_TERROR_SITE_ALERT_BACKGROUND.SCR
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/OUTPOST_TERROR_SITE_ALERT_BACKGROUND.PNG
-  - type: OUTPOST_TERROR_SITE_BACKGROUND
+  - type: OUTPOST_TERROR_SITE_BACKGROUND.SCR
     singleImage: true
     width: 320
     height: 200
