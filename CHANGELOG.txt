@@ -14,6 +14,11 @@ Version: 0.3
 * Enabled Former Humans Battlescape sprites
 * Added Spanish translation, by efrenespartano
 * Removed vanilla starting weapons
+* Replaced vanilla UFOs with organic Hellships, by Luke83
+* Replaced Interceptor and Firestom with Tyran_nick's crafts (Angel and Archangel)
+* Replaced Skyranger with bulletdesigner's craft (Vindicator)
+* Replaced Lightning with Roxis231's craft (Cherub)
+* Balance pass on UAC weapons, by Kildarien "red king" Hyton
 -removed Herobrine
 
 #####################

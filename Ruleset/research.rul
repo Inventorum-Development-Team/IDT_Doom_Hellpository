@@ -1,0 +1,4 @@
+research:
+  - name: STR_LASER_WEAPONS
+    cost: 50
+    points: 10
