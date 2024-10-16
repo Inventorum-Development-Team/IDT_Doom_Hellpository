@@ -131,6 +131,12 @@ en-US:
 ######################
 # ENDGAME
 
+  STR_SECURITY_CLEARANCE_1: 
+  STR_SECURITY_CLEARANCE_1_UFOPEDIA:
+  
+  STR_HELL_ARTEFACT: 
+  STR_HELL_ARTEFACT_UFOPEDIA: "This ancient art"
+  
   STR_ELERIUM_115: "Argent Reactor Fuel"
   STR_ELERIUM_115_UFOPEDIA: "Radioactive elements within a containment chamber. Standing near them without special protection may be dangerous, but so far we have not found any issue. Some of them make pretty glassware that is bright under UV light!"
 
@@ -138,7 +144,13 @@ en-US:
   STR_UFO_POWER_SOURCE_UFOPEDIA: "The enemy uses fission technology to power their structures and vehicles. While we were able to achieve said process as well, their technology is far more efficient and sustainable than ours."
 
   STR_ALIEN_ALLOYS: "Demonic Skin"
-  STR_ALIEN_ALLOYS_UFOPEDIA: "Lightweight steel alloy plating, used by the Demonic to construct a large range of utilities and weaponry. Easily moldable with the right tools, but impervious to all kinds of damage.."
+  STR_ALIEN_ALLOYS_UFOPEDIA: "Lightweight steel alloy plating, used by the Demonic to construct a large range of utilities and weaponry. Easily moldable with the right tools, but impervious to all kinds of damage."
+
+######################
+# ACT 1 SIDEQUEST 
+
+  STR_CORPORATE_COMPETITION: "Corporate Competition"
+  STR_CORPORATE_COMPETITION_UFOPEDIA: "Despite being the largest corporation on Mars, we have competition from foreign companies based on Earth. Our strongest oponent is Togokahn Zaibatsu, the ruling Asian conglomerate. Their public policy regarding their Martian endeavor is 'mineral extraction' but we strongly suspect they are involved in secret high technology development."
 
 #######################
 # ENEMIES
