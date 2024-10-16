@@ -150,7 +150,9 @@ en-US:
 # ACT 1 SIDEQUEST 
 
   STR_CORPORATE_COMPETITION: "Corporate Competition"
-  STR_CORPORATE_COMPETITION_UFOPEDIA: "Despite being the largest corporation on Mars, we have competition from foreign companies based on Earth. Our strongest oponent is Togokahn Zaibatsu, the ruling Asian conglomerate. Their public policy regarding their Martian endeavor is 'mineral extraction' but we strongly suspect they are involved in secret high technology development."
+  STR_CORPORATE_COMPETITION_UFOPEDIA: "Despite being the largest corporation on Mars, we have competition from foreign companies based on Earth. Our strongest oponent is Togokahn Zaibatsu, the ruling Asian conglomerate. Their public motivation regarding their Martian endeavor is 'mineral extraction' but we strongly suspect they are involved in secret high technology development. So far from home, there is no effective way yo prevent clandestine operations, so we can expect some kind of harassment from them. And they can expect retaliation from us as well."
+  STR_TOGOKHAN_ZAIBATSU_INTEL: "Togokahn Zaibatsu Intel"
+  STR_TOGOKHAN_ZAIBATSU_INTEL_UFOPEDIA: "Founded in the late 19th Century, it saw an important rising after supporting the Japanese government in the Third Sino-Japanese War, eventually becoming the "
 
 #######################
 # ENEMIES
