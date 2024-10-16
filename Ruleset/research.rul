@@ -2,3 +2,38 @@ research:
   - name: STR_LASER_WEAPONS
     cost: 50
     points: 10
+
+items:
+  - type: STR_ANCIENT_ARTIFACT_ITEM
+    size: 0.1
+    costSell: 40000
+    weight: 5
+    invHeight: 2
+    invWidth: 2
+    bigSprite: 99
+    floorSprite: 99
+    handSprite: 99
+    battleType: 0
+
+extraSprites:
+#########################################
+########### HUMAN WEAPONS ###############
+#########################################
+  - type: BIGOBS.PCK
+    files:
+      99: Resources/Research/BigGrayTechItem.png
+
+
+  - type: FLOOROB.PCK
+    files:
+      99: Resources/Research/FloorGrayTechItem.png
+
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      99: Resources/Research/HandGrayTechItem.png
+
