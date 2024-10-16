@@ -96,17 +96,17 @@ globe:
         - name: IDT_MARS
           area: [0, 360, 0, 90]
           weight: 50
-    - id: 5 # Unused
+    - id: 5 # Light vegetation
       terrain:
-        - name: MARS
+        - name: JUNGLE
           area: [0, 360, -90, 0]
-        - name: IDT_MARS
+        - name: JUNGLE
           area: [0, 360, 0, 90]
-    - id: 6 # Unused
+    - id: 6 # Heavy vegetation
       terrain:
-        - name: MARS
+        - name: JUNGLE
           area: [0, 360, -90, 0]
-        - name: IDT_MARS
+        - name: JUNGLE
           area: [0, 360, 0, 90]
     - id: 7 # Volcanic plains, very high land. Light color
       terrain:
