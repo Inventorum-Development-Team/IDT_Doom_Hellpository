@@ -668,7 +668,7 @@ extraSprites:
       172: Resources/Sprites/BigUAC_RL_nomag.png
       180: Resources/Sprites/BigUAC_RL_ammo.png
       188: Resources/Sprites/BigUAC_RLAmmo.png
-      196: Resources/Sprites/BigChainsaw.gif
+      196: Resources/Sprites/BigChainsaw.png
       208: Resources/Sprites/BigUAC_Chain_nomag.png
       216: Resources/Sprites/BigUAC_Chain_ammo.png
       224: Resources/Sprites/BigUAC_ChainAmmo.png
@@ -721,7 +721,7 @@ extraSprites:
       172: Resources/Sprites/FloorUAC_RL_nomag.png
       180: Resources/Sprites/FloorUAC_RL_ammo.png
       188: Resources/Sprites/FloorUAC_RLAmmo.png
-      196: Resources/Sprites/FloorChainsaw.gif
+      196: Resources/Sprites/FloorChainsaw.png
       208: Resources/Sprites/FloorUAC_Chain_nomag.png
       216: Resources/Sprites/FloorUAC_Chain_ammo.png
       224: Resources/Sprites/FloorUAC_ChainAmmo.png
