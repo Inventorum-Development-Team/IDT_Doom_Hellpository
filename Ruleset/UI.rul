@@ -90,3 +90,93 @@ extraSprites:
   - type: BASEBITS.PCK
     files:
       0: Resources/UI/MARS_BASEBITS.png
+
+customPalettes:
+  - type: PAL_UFOPAEDIA_CUSTOM
+    target: PAL_BATTLEPEDIA
+    file: Resources/Pals/PAL_BATTLEPEDIA_CTO.pal
+
+interfaces:
+  - type: ufopaedia
+    backgroundImage: BACK01.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 239   # bright green
+      - id: text
+        color: 138   # yellow
+      - id: list
+        color: 133
+        color2: 90
+        border: 239
+      - id: listExtended
+        color: 100
+        color2: 138
+        border: 239
+      - id: button1
+        color: 133   # minty green
+      - id: button2
+        color: 239   # bright green
+  - type: articleText
+    elements:
+      - id: button
+        color: 80    # very light grey
+      - id: title
+        color: 244   # light blue
+      - id: text
+        color: 239   # grey
+        color2: 244  # light blue
+  - type: articleTextImage
+    elements:
+      - id: button
+        color: 83    # light grey
+      - id: title
+        color: 128   # light blue
+      - id: text
+        color: 191   # grey
+        color2: 128  # light blue
+  - type: articleArmor
+    elements:
+      - id: button
+        color: 15    # orange
+      - id: text
+        color: 191   # grey
+        color2: 128  # light blue
+      - id: list
+        color: 191   # grey
+        color2: 128  # light blue
+  - type: articleItem
+    elements:
+      - id: button
+        color: 144   # orange
+      - id: text
+        color: 191  # grey orig:239, 6
+        color2: 128  # light blue orig:244
+      - id: list
+        color: 191   # grey orig:239, 6
+        color2: 128  # light blue orig:244
+      - id: ammoColor
+        color: 32    # red
+      - id: ammoColor
+        color: 32    # red
+      - id: ammoColorDTAP
+        color: 161     #gray # 112 steely blue, AP
+      - id: ammoColorDTIN
+        color: 147    # orange, Incendiary
+      - id: ammoColorDTHE
+        color: 100    # dark orange, HE
+      - id: ammoColorDTLaser
+        color: 34    # 32 red
+      - id: ammoColorDTPlasma
+        color: 67    # green, Plasma
+      - id: ammoColorDTStun
+        color: 195    # purple, Stun
+      - id: ammoColorDTMelee
+        color: 176    # fleshy pink, Melee
+      - id: ammoColorDTAcid
+        color: 64    # lime green, Acid
+      - id: ammoColorDTSmoke
+        color: 2     # White
+      - id: ammoColorDT10
+        color: 17    # golden, Elerium Fusion

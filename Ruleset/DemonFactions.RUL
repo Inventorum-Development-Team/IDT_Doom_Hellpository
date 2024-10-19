@@ -985,7 +985,7 @@ items:
     bulletSprite: 5
     fireSound: 4
     hitSound: 19
-    hitAnimation: 12
+    hitAnimation: 46
     power: 120
     damageType: 8
     damageAlter:
@@ -1069,8 +1069,8 @@ items:
     handSprite: 0
     bulletSprite: 5
     fireSound: 4
-    hitSound: 12
-    hitAnimation: 12
+    hitSound: 19
+    hitAnimation: 46
     power: 80
     damageType: 5
     damageAlter:
