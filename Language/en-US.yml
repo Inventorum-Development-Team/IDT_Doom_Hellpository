@@ -125,26 +125,46 @@ en-US:
 ######################
 # UAC ARMORS 
   STR_SOLDIER: "UAC Marine"
-  DOOMGUY_ARMOR: "Combat Armor Mk. III"
+  DOOMGUY_ARMOR: "Security Armor Mk. III"
   STR_DOOMGUY_CORPSE: "UAC Marine Corpse"
   
 ######################
-# ENDGAME
+# CAMPAIGN 
 
-  STR_SECURITY_CLEARANCE_1: 
-  STR_SECURITY_CLEARANCE_1_UFOPEDIA:
-  
-  STR_HELL_ARTEFACT: 
-  STR_HELL_ARTEFACT_UFOPEDIA: "This ancient art"
-  
-  STR_ELERIUM_115: "Argent Reactor Fuel"
+# VANILLA UFO COMPONENTS 
+
+STR_ELERIUM_115: "Argent Reactor Fuel"
+
   STR_ELERIUM_115_UFOPEDIA: "Radioactive elements within a containment chamber. Standing near them without special protection may be dangerous, but so far we have not found any issue. Some of them make pretty glassware that is bright under UV light!"
+
 
   STR_UFO_POWER_SOURCE: "Argent Reactor"
   STR_UFO_POWER_SOURCE_UFOPEDIA: "The enemy uses fission technology to power their structures and vehicles. While we were able to achieve said process as well, their technology is far more efficient and sustainable than ours."
 
   STR_ALIEN_ALLOYS: "Demonic Skin"
   STR_ALIEN_ALLOYS_UFOPEDIA: "Lightweight steel alloy plating, used by the Demonic to construct a large range of utilities and weaponry. Easily moldable with the right tools, but impervious to all kinds of damage."
+  
+  STR_UFO_NAVIGATION: "Death Speaker" 
+  STR_UFO_NAVIGATION_UFOPEDIA: "The '"
+
+# ACT 1
+
+  STR_THARSIS_STONE_PRIME_FRAGMENTS: "Tharsis Stone Prime Fragments"
+  STR_THARSIS_STONE_PRIME_FRAGMENTS_UFOPEDIA: "Our survey teams looking for mineral assets in the volcanic region of Tharsis found several alien artifacts buried inside a cave that resembled an artificial sarcophagus. The pieces are made of a mineral not found in the periodic table and markings in the stone seem to be a combination of ancient human languages and pictographs, specially Sumerian. We must conduct additional research to understand the origin and purpose of this unknown message."
+  
+  STR_THARSIS_STONE_RESEARCH: "The Tharsis Stone"
+  STR_THARSIS_STONE_RESEARCH_UFOPEDIA: "Our research efforts have concluded this alien table predates mankind by several million years yet somehow related to our race. The translation is not fully complete, but we could unravel significant mentions of some kind of 'invasion' or 'occupation' of the 'chosen grounds' where the fragments were found. We are led to believe Mars was visited by alien entities in the past and perhaps even saw a conflict in the distant past. We must focus on researching any further extraterrestrial assets found in the future, as we could obtain critical data of any potential energy source... or weapon."
+  
+  STR_ANCIENT_ENEMY: "Ancient Enemy"
+  STR_ANCIENT_ENEMY_UFOPEDIA: ""
+  
+  STR_SECURITY_CLEARANCE_1: "> SECURITY CLEARANCE 1 <"
+  STR_SECURITY_CLEARANCE_1_UFOPEDIA: "In light of the rising threat posed by the actions of illicit corporate competition and the increasingly abundant cases of violent insurrections, the Board has authorized you the use and deployment of heavy infantry support weapons to booster our security forces, plus specialized personal protection focused on engaging energy weaponry-wielding opposition."
+  
+  STR_HELL_ARTEFACT: 
+  STR_HELL_ARTEFACT_UFOPEDIA: "This ancient art"
+  
+  
 
 ######################
 # ACT 1 SIDEQUEST 
