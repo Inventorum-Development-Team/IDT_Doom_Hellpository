@@ -145,8 +145,13 @@ en-US:
   STR_UFO_NAVIGATION: "Death Speaker" 
   STR_UFO_NAVIGATION_UFOPEDIA: "The 'Transdimentional Hellwave Radio Receptor/Emitter', colloquially known as the 'Death Speaker' is the enemy equivalent of a potent radio transmitter. The biomechanical computer 'hears' the orders and instructions from the Demonic 'control tower', guiding the vessel towards its located target, as if were a remote-controlled drone."
 
+
+######################
 # ACT 1
 
+  STR_PLAYER_INTRODUCTION: "CSO Briefing"
+  STR_PLAYER_INTRODUCTION_UFOPEDIA: "Thank you for coming so fast, Chief. It's widely know that your role as the Chief Security Officer is usually related to Earth-based affairs, but we appreciate your involvement in the Martian endeavor. As you know, we have experienced certain clashes with rival companies that we need to keep in check here. But this is not the only reason why you are here. We made a recent xenopaleontology discovery and the Board of Directors have agreed to our request for an increase on security measures in order to properly assess the situation. All the UAC defense assets in Mars are now under your command, ground personnel and aircraft alike. Per standard procedure, your current Security Clearance is the lowest, as you should only expect to be engaged in riot-control tasks, but could be increased if needed."
+  
   STR_THARSIS_STONE_PRIME_FRAGMENTS: "Tharsis Stone Prime Fragments"
   STR_THARSIS_STONE_PRIME_FRAGMENTS_UFOPEDIA: "Our survey teams looking for mineral assets in the volcanic region of Tharsis found several alien artifacts buried inside a cave that resembled an artificial sarcophagus. The pieces are made of a mineral not found in the periodic table and markings in the stone seem to be a combination of ancient human languages and pictographs, specially Sumerian. We must conduct additional research to understand the origin and purpose of this unknown message."
   
@@ -171,12 +176,19 @@ en-US:
   STR_CORPORATE_COMPETITION: "Corporate Competition"
   STR_CORPORATE_COMPETITION_UFOPEDIA: "Despite being the largest corporation on Mars, we have competition from foreign companies based on Earth. Our strongest oponent is Togokahn Zaibatsu, the ruling Asian conglomerate. Their public motivation regarding their Martian endeavor is 'mineral extraction' but we strongly suspect they are involved in secret high technology development. So far from home, there is no effective way yo prevent clandestine operations, so we can expect some kind of harassment from them. And they can expect retaliation from us as well."
   STR_TOGOKHAN_ZAIBATSU_INTEL: "Togokahn Zaibatsu Intel"
-  STR_TOGOKHAN_ZAIBATSU_INTEL_UFOPEDIA: "Founded in the late 19th Century, it saw an important rising after supporting the Japanese government in the Third Sino-Japanese War, eventually becoming the "
+  STR_TOGOKHAN_ZAIBATSU_INTEL_UFOPEDIA: "Founded in the late 19th Century, it saw an important rising after supporting the Japan government in the Third Sino-Japanese War, eventually becoming synonym with the Japanese regimen. Togokahn is practically involved in all kind of business in Asia, from public transportation to defense industries, including minery and aerospace development. This puts them in the unique position to challenge our off-world efforts, as they possess their own interplanetary fleet as well."
+  
+  STR_TOGOKHAN_ZAIBATSU_AGENT_INTERROGATION: "Togokahn Zaibatsu Agent Interrogation"
+  STR_TOGOKHAN_ZAIBATSU_AGENT_INTERROGATION_UFOPEDIA: "The captured Togokahn agent was no match for our enhanced interrogation techniques. We confirmed what we suspected, before: TZ has direct links with the Yakuza, often having them in their payroll, specially for off-world operations. Lower ranks have lesser training, but they compensate it with the use of good quality equipment. We should not underestimate their courage, though, as most of them have seen combat since very young age. There is no need for further capture them."
+  
+  STR_TOGOKHAN_ZAIBATSU_LASER_REVERSE_ENGINEERING: "TZ Laser Reverse Engineering"
+  STR_TOGOKHAN_ZAIBATSU_LASER_REVERSE_ENGINEERING_UFOPEDIA: "Recent skirmishes against Togokahn security forces made evident their advantage in the Laser development field. The high-powered energy weapons used against our Marines are definitely prototypes, not seen back on Earth... yet. By conducting reverse-engineering on their improved energy cells, we could adapt them to power our own lasers and gain an advantage over them."
 
 #############
 # ACT 2
 
   STR_SECURITY_CLEARANCE_2: "> SECURITY CLEARANCE 2 <"
+  STR_SECURITY_CLEARANCE_2_UFOPEDIA: "Chief, the recent turn of events require a change in our approach. This is not longer a series of disconnected violent uprisings but rather the first steps of a planetary invasion. This is why you have been granted access"
 
 ##############
 # ACT 3
