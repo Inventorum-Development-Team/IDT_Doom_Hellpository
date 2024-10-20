@@ -133,10 +133,8 @@ en-US:
 
 # VANILLA UFO COMPONENTS 
 
-STR_ELERIUM_115: "Argent Reactor Fuel"
-
+  STR_ELERIUM_115: "Argent Reactor Fuel"
   STR_ELERIUM_115_UFOPEDIA: "Radioactive elements within a containment chamber. Standing near them without special protection may be dangerous, but so far we have not found any issue. Some of them make pretty glassware that is bright under UV light!"
-
 
   STR_UFO_POWER_SOURCE: "Argent Reactor"
   STR_UFO_POWER_SOURCE_UFOPEDIA: "The enemy uses fission technology to power their structures and vehicles. While we were able to achieve said process as well, their technology is far more efficient and sustainable than ours."
@@ -145,7 +143,7 @@ STR_ELERIUM_115: "Argent Reactor Fuel"
   STR_ALIEN_ALLOYS_UFOPEDIA: "Lightweight steel alloy plating, used by the Demonic to construct a large range of utilities and weaponry. Easily moldable with the right tools, but impervious to all kinds of damage."
   
   STR_UFO_NAVIGATION: "Death Speaker" 
-  STR_UFO_NAVIGATION_UFOPEDIA: "The '"
+  STR_UFO_NAVIGATION_UFOPEDIA: "The 'Transdimentional Hellwave Radio Receptor/Emitter', colloquially known as the 'Death Speaker' is the enemy equivalent of a potent radio transmitter. The biomechanical computer 'hears' the orders and instructions from the Demonic 'control tower', guiding the vessel towards its located target, as if were a remote-controlled drone."
 
 # ACT 1
 
