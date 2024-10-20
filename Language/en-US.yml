@@ -153,8 +153,11 @@ en-US:
   STR_THARSIS_STONE_RESEARCH: "The Tharsis Stone"
   STR_THARSIS_STONE_RESEARCH_UFOPEDIA: "Our research efforts have concluded this alien table predates mankind by several million years yet somehow related to our race. The translation is not fully complete, but we could unravel significant mentions of some kind of 'invasion' or 'occupation' of the 'chosen grounds' where the fragments were found. We are led to believe Mars was visited by alien entities in the past and perhaps even saw a conflict in the distant past. We must focus on researching any further extraterrestrial assets found in the future, as we could obtain critical data of any potential energy source... or weapon."
   
+  STR_BASIC_DEMON_INTEL: "Unknown Being Intel"
+  STR_BASIC_DEMON_INTEL_UFOPEDIA: "The unknown beings we have encountered so far have a extremely distinct biology compared to anything cataloged in Earth so far. About communication... completely impossible, they seem to lack any kind of social skills. The good news, we can kill them. They seem slightly more resistant to our ballistic weapons than the regular armor-clad human, but we still can shoot them, punch them, kick them, stab them, explode them, rip them and tear them. Every corpse returned to base will be carefully analyzed to find their weaknesses and advantages."
+  
   STR_ANCIENT_ENEMY: "Ancient Enemy"
-  STR_ANCIENT_ENEMY_UFOPEDIA: ""
+  STR_ANCIENT_ENEMY_UFOPEDIA: "As further we delve into the topic, the more unusual findings we get. The autopsies carried on the alien beings killed by the security forces shed light on a particularly disturbing fact: by sharing the exact same composition with the Tharsis Stone, meaning they have been alive for millennia. It is very possible some of them were as old as the dinosaurs. We theorize they are natives to Mars and our mining efforts have awake them somehow. We must continue to research them as soon as we collect more samples. We count on you, Chief."
   
   STR_SECURITY_CLEARANCE_1: "> SECURITY CLEARANCE 1 <"
   STR_SECURITY_CLEARANCE_1_UFOPEDIA: "In light of the rising threat posed by the actions of illicit corporate competition and the increasingly abundant cases of violent insurrections, the Board has authorized you the use and deployment of heavy infantry support weapons to booster our security forces, plus specialized personal protection focused on engaging energy weaponry-wielding opposition."
