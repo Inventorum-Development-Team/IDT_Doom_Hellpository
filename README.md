@@ -5,28 +5,36 @@
 
 # CREDITS
 
-* Reuged: IDT lead dev
-* Kildarien "red king" Hyton: official tester
-* Ballefroide (yes): official tester
-* efrenespartano: IDT lead, Mars terrains
-* Filip-H: IDT member, ammo resprite script
-* MitraLightbringer: IDT tester
-* Luke83: IDT initial dev
-* Badfella: Advanced UAC weapon sprites
-* CryptoCactus: menu difficulty level names
-* Kael Schwabauer: tester
-* liberation: original globe data (WORLD.DAT), Martian Rocky, Plain and Polar maps and terrains 
-* cevaralien: MARSMOUNT, MARSURBAN, MARSPLAIN, MARSCRATER map and terrains
-* Dr. Hans Woofington: Mars Arescape textures
-* AquatoidX: Hellscape and Dark Hellscape terrains
-* Roxis231: Blackbird assets
-* tyran_nick: Thunderstorm, Stormrider sprites
-* Half-Dead: UAC Marines background screens
+* Abiko: IDT member, ideas
 * AlenBlu: DOOM Eternal weapon sprites
-* Brain64: Togokhan Zaibatsu weapons, Combat Armor sprites
-* wolwerin: Exoskeleton Armor sprites, Heavy Shotgun, SSG, Double SSG, Superior Pistol sprites
+* AquatoidX: Hellscape and Dark Hellscape terrains
+* b1ackwolf: lead dev
+* Badfella: Advanced UAC weapon sprites
+* Ballefroide (yes): official tester
 * Bethesda: DOOM IP holder
+* Brain64: Togokhan Zaibatsu weapons, Combat Armor sprites
+* Brother^2: IDT member, ideas
+* cevaralien: MARSMOUNT, MARSURBAN, MARSPLAIN, MARSCRATER map and terrains
+* CryptoCactus: menu difficulty level names
+* Dr. Hans Woofington: Mars Arescape textures
+* efrenespartano: IDT lead dev, Mars terrains
+* Filip-H: IDT member, ammo resprite script
+* getfreur: beta tester, ideas
+* Half-Dead: UAC Marines background screens
+* Ice~: beta tester
 * idSoftware: original DOOM creators
+* Kael Schwabauer: tester
+* Kildarien "red king" Hyton: official tester
+* liberation: original globe data (WORLD.DAT), Martian Rocky, Plain and Polar maps and terrains 
+* Luke83: IDT initial dev
+* MitraLightbringer: IDT tester
+* Reuged: IDT lead dev
+* Roxis231: Blackbird assets
+* Salvador: beta tester
+* tyran_nick: Thunderstorm, Stormrider sprites
+* Uncy: original dev, DOOM sprites rip
+* wolwerin: Exoskeleton Armor sprites, Heavy Shotgun, SSG, Double SSG, Superior Pistol sprites
+
 
 ==================================================
 ######################
