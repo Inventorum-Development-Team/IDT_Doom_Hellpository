@@ -2,12 +2,16 @@
 October, 2024
 
 Version: 0.3
+<<<<<<< Updated upstream
 * New weapons, by Reuged and efrenespartano
 - Laspistol
 - Lasrifle
 - Plasma Rifle
 - UAC SMG
 - Improved sprites for UAC Advanced Assault Rifle, UAC Adv. Rocket Launcher, UAC Heavy Nailgun
+=======
+- Improved sprites for UAC Advanced Assault Rifle, UAC Adv. Rocket Launcher, UAC Heavy Nailgun, by Reuged
+>>>>>>> Stashed changes
 * Custom UI, by efrenespartano
 * Added Mars Arescape; data by liberation, textures by Dr. Hans Woofington, terrains by liberation, ceveralien, efrenespartano
 * Added Hellscape and Dark Hellscape terrains, by AquatoidX
