@@ -127,6 +127,39 @@ en-US:
   STR_SOLDIER: "UAC Marine"
   DOOMGUY_ARMOR: "Security Armor Mk. III"
   STR_DOOMGUY_CORPSE: "UAC Marine Corpse"
+
+# Expanding UAC Armor
+
+
+
+
+# Marine Armor
+# Marine Hvy Armor; more armor more weight more accuracy and range
+# Hazmat Suit
+# Advance Hazmat Suit
+# Marsec Armor
+# Marsec Armor Sensors; motion scanners; and radar detectrs and visions
+
+
+# 
+# UAC Advance Armor: Wildcat; Shepard; Raven; Asp
+
+# Bounty Hunt: Warden; Justice; Bloodhound; Outlaw;
+
+# Embrace Hell Path
+# Demonic: Desolator; Ancient; Vile; Ravenous; Get demon corpses to fuse
+# Hell Robot: Solonoid; Isolator; Capacitor; Catalyst; For AI Soldier Type
+# Cyberndemon: Ruiner; Tormentor; Deathgrip; Hellburst;
+# Evil Cultist: Acolyte; Zealot; Fanatic; Hierophant;
+
+# Destruction of Davoth
+# Argent D Nurs Templars: Knight; Ascendant; Fanatic; Devout; Get Diplomacy
+# AI Armor; Vector; Prime; Omicron; Helix; For AI Soldier Type
+
+# Final Tier
+# Praetor Suit Prototype Arena
+# Praetor Suit Mk I
+# Praetor Suit Mk II < With full armor and flight modes
   
 ######################
 # CAMPAIGN 
@@ -547,8 +580,8 @@ en-US:
 
   # Brimstone
   # Longhorn Revolver
-  # STrucker 3
-  # Iron Blast
+  # Strucker 3 Auto Shotgun
+  # Iron Blast Smart Shotgun
   # Pulverizer
   # Matriarch
   # Dynamite
@@ -602,10 +635,11 @@ en-US:
   # Moloch Multi Rocket Cannon
   # Azazel Arcane Autocannon
 
-  # Basic Armor
-  # Enhanced Armor
-  # Gladiator Armor
-  # Cyber Armor
+  # Squire Armor;
+  # Gladiator; 
+  # Knight Armor;
+  # Noble Armor; Heavon of Baron
+  # Cyber Armor; Archeon of Baron
   # Icon of Saint Armor
 
   ### Argent'D Nurs Empire
