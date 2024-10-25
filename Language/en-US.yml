@@ -133,31 +133,43 @@ en-US:
 
 
 
-# Marine Armor
-# Marine Hvy Armor; more armor more weight more accuracy and range
-# Hazmat Suit
-# Advance Hazmat Suit
-# Marsec Armor
-# Marsec Armor Sensors; motion scanners; and radar detectrs and visions
+# Marine Armor x
+# Marine Hvy Armor; more armor more weight more accuracy and range x
+# Hazmat Suit x
+# Advance Hazmat Suit 
+# Marsec Armor x
+# Marsec Armor Sensors; motion scanners; and radar detectrs and visions and Flight Ability x
 
+#
+#
+#
 
-# 
-# UAC Advance Armor: Wildcat; Shepard; Raven; Asp
+# UAC Advance Armor: 
+# Wildcat; 
+# Shepard; 
+# Raven; 
+# Asp; Sniper Class
 
 # Bounty Hunt: Warden; Justice; Bloodhound; Outlaw;
 
 # Embrace Hell Path
 # Demonic: Desolator; Ancient; Vile; Ravenous; Get demon corpses to fuse
 # Hell Robot: Solonoid; Isolator; Capacitor; Catalyst; For AI Soldier Type
-# Cyberndemon: Ruiner; Tormentor; Deathgrip; Hellburst;
+# Cyberndemon: Ruiner; Tormentor; Deathgrip; Hellburst; Capture Demons to manufacture these creatures
 # Evil Cultist: Acolyte; Zealot; Fanatic; Hierophant;
 
 # Destruction of Davoth
-# Argent D Nurs Templars: Knight; Ascendant; Fanatic; Devout; Get Diplomacy
+# Argent D Nurs Templars: You need Diplomacy
+# Squire
+# Knight
+# Crusader
+# Paladin: Higher Psi Strength; 
+
 # AI Armor; Vector; Prime; Omicron; Helix; For AI Soldier Type
 
 # Final Tier
 # Praetor Suit Prototype Arena
+# Praetor Suit Complete Arena 
 # Praetor Suit Mk I
 # Praetor Suit Mk II < With full armor and flight modes
   
@@ -638,9 +650,9 @@ en-US:
   # Squire Armor;
   # Gladiator; 
   # Knight Armor;
-  # Noble Armor; Heavon of Baron
-  # Cyber Armor; Archeon of Baron
-  # Icon of Saint Armor
+  # Noble Armor;
+  # Archeron Armor; 
+  # Saint Cardinal Armor
 
   ### Argent'D Nurs Empire
 
