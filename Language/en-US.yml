@@ -195,7 +195,7 @@ en-US:
 # ACT 1
 
   STR_PLAYER_INTRODUCTION: "CSO Briefing"
-  STR_PLAYER_INTRODUCTION_UFOPEDIA: "Thank you for coming so fast, Chief. It's widely know that your role as the Chief Security Officer is usually related to Earth-based affairs, but we appreciate your involvement in the Martian endeavor. As you know, we have experienced certain clashes with rival companies that we need to keep in check here. But this is not the only reason why you are here. We made a recent xenopaleontology discovery and the Board of Directors have agreed to our request for an increase on security measures in order to properly assess the situation. All the UAC defense assets in Mars are now under your command, ground personnel and aircraft alike. Per standard procedure, your current Security Clearance is the lowest, as you should only expect to be engaged in riot-control tasks, but could be increased if needed."
+  STR_PLAYER_INTRODUCTION_UFOPEDIA: "Thank you for arriving promptly, Chief. It's widely know that your role as the Chief Security Officer is usually related to Earth-based affairs, but we appreciate your involvement in the Martian endeavor. As you're aware, we've encountered conflicts with rival companies that require our attention. But this is not the only reason why you are here. We made a recent xenopaleontology discovery and the Board of Directors have agreed to our request for an increase on security measures in order to properly assess the situation. All UAC defense assets on Mars are now under your command, including ground personnel and aircraft. Per standard procedure, your current Security Clearance is the lowest, as you should only expect to be engaged in riot-control tasks, but could be increased if needed."
   
   STR_THARSIS_STONE_PRIME_FRAGMENTS: "Tharsis Stone Prime Fragments"
   STR_THARSIS_STONE_PRIME_FRAGMENTS_UFOPEDIA: "Our survey teams looking for mineral assets in the volcanic region of Tharsis found several alien artifacts buried inside a cave that resembled an artificial sarcophagus. The pieces are made of a mineral not found in the periodic table and markings in the stone seem to be a combination of ancient human languages and pictographs, specially Sumerian. We must conduct additional research to understand the origin and purpose of this unknown message."
@@ -233,15 +233,33 @@ en-US:
 # ACT 2
 
   STR_SECURITY_CLEARANCE_2: "> SECURITY CLEARANCE 2 <"
-  STR_SECURITY_CLEARANCE_2_UFOPEDIA: "Chief, the recent turn of events require a change in our approach. This is not longer a series of disconnected violent uprisings but rather the first steps of a planetary invasion. This is why you have been granted access"
+  STR_SECURITY_CLEARANCE_2_UFOPEDIA: "Chief, the recent turn of events require a change in our approach. This is not longer a series of disconnected violent uprisings but rather the first steps of a planetary invasion. the Board has authorized enhanced security clearances. You are now cleared for military-grade firearms, advanced Combat Armor, and upgraded interceptor capabilities. Engage demonic forces with extreme prejudice, protect UAC personnel and assets, and collaborate with remaining security teams to establish defensive perimeters."
+  
+  STR_IMPROVED_BATTLE_ARMOR_VARIANTS: "Improved Battle Armor Variants"
+  STR_IMPROVED_BATTLE_ARMOR_VARIANTS_UFOPEDIA: "UAC's R&D division has successfully developed two specialized variants of Combat Armor, designed to counter specific threats. Optimized for engagements against energy-wielding enemies, Variant E incorporates advanced shielding technology and enhanced insulation. Variant F is engineered to withstand high-temperature assaults and features heat-resistant materials and thermal dissipation systems. Both variants are now available for production and deployment. Choose the optimal armor variant for each mission. "
+  
+  STR_RELIC_STONE_FRAGMENT: "Relic Stone Fragment"
+  STR_RELIC_STONE_FRAGMENT_UFOPEDIA: "Recovery teams at Anomaly Sites have discovered mysterious rock fragments, seemingly part of a larger, ancient relic. Preliminary analysis links them to the Tharsis Stone, suggesting a shared origin. The fragments' mineral structure appears to be a twisted amalgamation of Martian geological formations and an unknown, otherworldly material. This anomalous composition defies conventional classification. These fragments may hold secrets to understanding the demonic invasion's origins and motivations. Further research is crucial to unlocking their potential significance."
+  
+  STR_COMBINED_ANCIENT_STONE_TABLE: "Combined Ancient Stone Table"
+  STR_COMBINED_ANCIENT_STONE_TABLE_UFOPEDIA: "Analysis of Relic Stone Fragments and the Tharsis Stone reveals a shocking connection: they comprise pieces of an ancient key. This key, when complete, may unlock Hellgates, facilitating large-scale demonic incursions. The Relic Stone Fragments serve as catalysts, amplifying the Tharsis Stone's latent energy. Demons may already be seeking the remaining fragments. To counter potential demonic exploitation, UAC must research and develop a method to construct and utilize this key.. Expedite research and recovery efforts to prevent enemy acquisition."
+
+  STR_HELL_PORTAL_APERTURE: "Hell Portal Aperture"
+  STR_HELL_PORTAL_APERTURE_UFOPEDIA: "UAC's strategic objective is to temporarily stabilize a large Hellgate, enabling covert insertion of a research team to assess the demonic realm, gather critical intel, and develop a permanent closure solution. Opening a large Hellgate poses significant risks, including uncontrolled demonic influx, team compromise or loss, and unstable portal collapse. Real-time monitoring and support will be crucial to mitigate these risks. Once ready, accept the mission and send your team through the gate. Tell the team to have their eyes open for any potential findings."
 
 ##############
 # ACT 3
-  STR_HELL_ARTEFACT: "Unknown Demon Artifact"
 
-  STR_HELL_ARTEFACT_UFOPEDIA: "This ancient art"
-
+  STR_RECOVERED_HELL_ARTIFACT: "Recovered Hell Artifact"
+  STR_RECOVERED_HELL_ARTIFACT_UFOPEDIA: "The research team's daring Hellgate expedition yielded a significant discovery: a large, black monolith unearthed from the demonic realm's depths. Initial analysis suggests this artifact holds secrets to Hell's inner workings. The monolith's dark energy signature resonates with the Relic Stone Fragments and Tharsis Stone, indicating a shared origin. Understanding the monolith's secrets can inform strategic countermeasures and enhance humanity's chances of survival. UAC scientists are racing to decipher the artifact's encrypted knowledge. Breakthroughs will be reported as available."
   
+  STR_HELL_RELICS_1: "Hell Relics 1"
+  STR_HELL_RELICS_1_UFOPEDIA: "Research on the recovered black monolith has revealed its shocking connection to smaller, portable counterparts utilized by Hell forces. These relics, dubbed 'Hell Keys', facilitate portal creation and stability, enabling the demonic invasion. Our scientists have made significant strides in understanding the relics' energy signatures and dimensional manipulation capabilities."
+  STR_HELL_RELICS_2: "Hell Relics 2"
+  STR_HELL_RELICS_2_UFOPEDIA: "This discovery presents a strategic fork in the road. Embracing the dark technology behind Hell Keys could grant us a crucial advantage in combating the invasion. However, integrating demonic relics into our arsenal risks compromising humanity's values and potentially unleashing unforeseen consequences. Conversely, rejecting these relics outright may preserve our moral integrity but could also cede valuable ground to the enemy. The decision will shape the course of humanity's survival."
+  
+  STR_CHAOS_ROUTE: ""
+  STR_CHAOS_ROUTE_UFOPEDIA: "With the decision to integrate Hell Keys into our arsenal, UAC's research focus has shifted toward harnessing demonic technology. Scientists are adapting the relics' energy signatures to power cutting-edge weaponry and equipment. As humanity wades deeper into the abyss, concerns mount regarding the long-term effects of embracing demonic technology. Psychological evaluations reveal growing unease among personnel, and whispers of corruption spread. UAC's Science Division will continue assessing the benefits and risks of this new path. The line between innovation and damnation blurs."
   
 
 #######################
