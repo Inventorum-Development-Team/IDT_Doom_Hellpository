@@ -95,6 +95,9 @@ customPalettes:
   - type: PAL_UFOPAEDIA_CUSTOM
     target: PAL_BATTLEPEDIA
     file: Resources/Pals/PAL_BATTLEPEDIA_CTO.pal
+  - type: PAL_BATTLESCAPE_DOOM_CUSTOM
+    target: PAL_BATTLESCAPE
+    file: Resources/Pals/doom_xcom.pal
 
 interfaces:
   - type: ufopaedia
