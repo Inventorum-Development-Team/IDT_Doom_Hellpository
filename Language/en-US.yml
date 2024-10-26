@@ -184,8 +184,11 @@ en-US:
   STR_UFO_POWER_SOURCE: "Argent Reactor"
   STR_UFO_POWER_SOURCE_UFOPEDIA: "The enemy uses fission technology to power their structures and vehicles. While we were able to achieve said process as well, their technology is far more efficient and sustainable than ours."
 
-  STR_ALIEN_ALLOYS: "Demonic Skin"
-  STR_ALIEN_ALLOYS_UFOPEDIA: "Lightweight steel alloy plating, used by the Demonic to construct a large range of utilities and weaponry. Easily moldable with the right tools, but impervious to all kinds of damage."
+  STR_ALIEN_ALLOYS: "Demon Skin"
+  STR_ALIEN_ALLOYS_UFOPEDIA: "Research on demon physiology has revealed their exceptionally resilient biomechanical skin, capable of withstanding extreme damage and environmental stressors. Notably, this skin exhibits an unusual affinity for cybernetic integration, suggesting potential applications in advanced prosthetics, augmentations and armor plates. Successful adaptation of demonic skin technology could significantly enhance human resilience and capabilities, potentially shifting the balance in the war against Hell. Further research is required to fully understand and exploit this valuable asset."
+  
+  STR_DEMONIC_SKIN_PLATING: "Demon Skin Plating"
+  STR_DEMONIC_SKIN_PLATING_UFOPEDIA: "UAC's R&D division proposes harnessing this unique property to develop innovative, demon-inspired biomaterials. By reverse-engineering the demonic skin's properties, scientists aim to create more durable, adaptable, and cybernetically compatible materials for human applications. Potential breakthroughs include enhanced combat armor, advanced prosthetics, and improved interfaces for neural implants. This cyberskin is specially treated and can be used in similar applications to regular bovine leather. By reacting to special commands, it could harden in seconds."
   
   STR_UFO_NAVIGATION: "Death Speaker" 
   STR_UFO_NAVIGATION_UFOPEDIA: "The 'Transdimentional Hellwave Radio Receptor/Emitter', colloquially known as the 'Death Speaker' is the enemy equivalent of a potent radio transmitter. The biomechanical computer 'hears' the orders and instructions from the Demonic 'control tower', guiding the vessel towards its located target, as if were a remote-controlled drone."
