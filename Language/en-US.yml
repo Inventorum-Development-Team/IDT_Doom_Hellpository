@@ -160,10 +160,16 @@ en-US:
 
 # Destruction of Davoth
 # Argent D Nurs Templars: You need Diplomacy
-# Squire
-# Knight
-# Crusader
-# Paladin: Higher Psi Strength; 
+# Squire: Frontline X
+# Archer: Recon Range X
+# Knight: Armor 3 X
+# Crusader: Armor 3 with Flight Suit X
+# 5 Unique Armors
+# Ranger: Salwor
+# Paladin: Gor Relentless
+# Champeador: Bannerlord Sash
+# Chaplain: Roan Mighty
+# Arbalist: Hastran
 
 # AI Armor; Vector; Prime; Omicron; Helix; For AI Soldier Type
 
@@ -172,6 +178,14 @@ en-US:
 # Praetor Suit Complete Arena 
 # Praetor Suit Mk I
 # Praetor Suit Mk II < With full armor and flight modes
+
+# Transformation
+# Biological Enhancements +STR; +MEL +HIT +TU
+# Demon Rune Neural System +STR  +MEL +PSI +PSK
+# Revenant Bone Surgery +STR +REA +ACU +TU
+# Baron Muscular Growth +STR +HIT +TU +MEL
+# Macubus Skin Armor +All Armor sides
+
   
 ######################
 # CAMPAIGN 
@@ -184,15 +198,20 @@ en-US:
   STR_UFO_POWER_SOURCE: "Argent Reactor"
   STR_UFO_POWER_SOURCE_UFOPEDIA: "The enemy uses fission technology to power their structures and vehicles. While we were able to achieve said process as well, their technology is far more efficient and sustainable than ours."
 
-  STR_ALIEN_ALLOYS: "Demon Skin"
+  STR_ALIEN_ALLOYS: "Demonic Skin"
   STR_ALIEN_ALLOYS_UFOPEDIA: "Research on demon physiology has revealed their exceptionally resilient biomechanical skin, capable of withstanding extreme damage and environmental stressors. Notably, this skin exhibits an unusual affinity for cybernetic integration, suggesting potential applications in advanced prosthetics, augmentations and armor plates. Successful adaptation of demonic skin technology could significantly enhance human resilience and capabilities, potentially shifting the balance in the war against Hell. Further research is required to fully understand and exploit this valuable asset."
-  
+
   STR_DEMONIC_SKIN_PLATING: "Demon Skin Plating"
   STR_DEMONIC_SKIN_PLATING_UFOPEDIA: "UAC's R&D division proposes harnessing this unique property to develop innovative, demon-inspired biomaterials. By reverse-engineering the demonic skin's properties, scientists aim to create more durable, adaptable, and cybernetically compatible materials for human applications. Potential breakthroughs include enhanced combat armor, advanced prosthetics, and improved interfaces for neural implants. This cyberskin is specially treated and can be used in similar applications to regular bovine leather. By reacting to special commands, it could harden in seconds."
   
   STR_UFO_NAVIGATION: "Death Speaker" 
   STR_UFO_NAVIGATION_UFOPEDIA: "The 'Transdimentional Hellwave Radio Receptor/Emitter', colloquially known as the 'Death Speaker' is the enemy equivalent of a potent radio transmitter. The biomechanical computer 'hears' the orders and instructions from the Demonic 'control tower', guiding the vessel towards its located target, as if were a remote-controlled drone."
 
+  STR_ZG_TITANIUM_ALLOY: "Z-G Titanium Alloy"
+  STR_ZG_TITANIUM_ALLOYWIKI: ""
+
+  STR_ZG_VANDADIUM_ALLOY: " Z-G Chromadium Alloy"
+  STR_ZG_VANDADIUM_ALLOYWIKI: ""
 
 ######################
 # ACT 1
@@ -353,6 +372,15 @@ en-US:
   STR_INTERCEPTOR_UFOPEDIA: "Multirole exoatmospheric fighter, equipped with ramjets to quickly intercept any non-autorized craft."
   STR_FIRESTORM_UFOPEDIA: "Improved exoatmospheric interceptor, aimed at contesting and reclaiming back the Martian skies of demonic vessels."
 
+################# Expanding Aerospace Craft ##############
+  STR_ALPHARINGCARRIER: "ARCADE-Class Battleship"
+  STR_ALPHARINGCARRIERWIKI: "The first faster-than-light capital class to combat Hells large scale presense. Builted with Quantum Accelerator Gateway system to disrupt Hells dimensional protals. This craft have capable of full control to the warphole with teleport turrets. BFG 10K Energy Amplifier Weapon System that can destroy any area in radius of 1000 miles."
+  STR_PHANTOMCLASSDS: "PHANTOM"
+  STR_PHANTOMCLASSDSWIKI: "Secondary UAC Combat Dropship for battle fronts."
+  STR_SHADESTARCLASSDS: "SHADESTAR"
+  STR_SHADESTARCLASSDSWIKI: "UAC enhancement on PHANTOM Class Dropship."
+
+
 ########################
 # AIRCRAFT WEAPONS
 
@@ -492,7 +520,7 @@ en-US:
   STR_MT_RATING_ABOMINABLE: "Abominable"
 
 ########################
-#### WAR ON MARS #######
+#### HELL & FIRE #######
 ########################
 
 #GLOBE
@@ -596,70 +624,85 @@ en-US:
   #### Renegade Baron needs materials
   #### Titan Realm needs paper money
   #### Dragonites with 5 race variants; Guncaster with Vindicated
-  # Brimstone
-  # Longhorn Revolver
-  # STrucker 3
-  # Iron Blast
-  # Pulverizer
-  # Matriarch
-  # Dynamite
-  # Augur
-  # Old Dreadful
-  # Arcane Gauntlet
-  # Morning Glory
-  # Emperors Grudge with Breath
-  # Sandman
-  # STG44
+  STR_DRAGONITESWEAPONS1: "Dragonite Weapons 1"
+  STR_ARCANEGAUNTLET1: "Pain Gauntlet" #Dragons Gauntlet
+  STR_CYGNUSBRIMSTONE1: "Brimstone Sword" #Two Handed Sword
+  STR_LONGHORNREVOLVER1: "Longhorn Revolver" #10 Round Revolver
+  STR_STRUCKERSHOTGUN1: "Strucker Shotgun" #Automatic Shotgun
+  STR_IRONBLASTSSG1: "Iron Blast Super Gun" #SSG
+  STR_SIGHTTACTICGUN1: "Styger Battle Rifle" #Rifle
+  STR_PULVERIZERMG1: "Pulverizer Minigun" #Minigun
+  STR_SANDMANAUTOGUN1: "Sandman Auto Cannon" #SmartAutoCannon
+  STR_MATRIARCHLAUNCH1: "Matriarch Launcher" #Rocket Launcher
+  STR_MORNINGGLORYGUN1: "Morn Glory Cannon" #Rocket Gunner
+  STR_DRAGONDYNAMITE1: "Dragon Explosives" #TNT
+  STR_AUGERSNIPERRIFLE1: "Auger A-M Rifle" #Antimaterial Rifle
+  STR_ANCIENTDREAFUL1: "Archdreadful Launcher" #Copy of Blaster Launcher
+  STR_NANOROCKETLAUNCH1: "Dragon Emperors Gun" #Rocket Launcher
 
-  # Brimstone
-  # Longhorn Revolver
-  # Strucker 3 Auto Shotgun
-  # Iron Blast Smart Shotgun
-  # Pulverizer
-  # Matriarch
-  # Dynamite
-  # Augur
-  # Old Dreadful
-  # Arcane Gauntlet
-  # Morning Glory
-  # Emperors Grudge with Breath
-  # Sandman
-  # STG44
-
-  # Hammer Space Backpack
-  # Wings of Wrath
-  # Armor 1
-  # Armor 2
-  # Armor 3
-  # Armor 4
-  # Abestos Suit
-  # Biship BADASS Battle Armor Dragon Assault Strike System
+  ### Dragon Ammunition
+  STR_BURSTROUNDS1: "R-Burst Rounds" #10 Kinetic
+  STR_WIZARDROUNDS1: "B-Wizard Rounds" #20 Kinetic
+  STR_DRAGON20MAMMO1: "D-20mm Rounds" #100 Concussion
+  STR_DBLASTHEROUNDS1: "Dragon HE Rounds" #20 Concussion
+  STR_DRAGONRIFLEAMMO1: "Dragon Rifle Ammo" #40 Kinetic
+  STR_DRAGONTNTBOX1: "Dragon Explosives" #1 Concussion
+  STR_DRAGONPROUNDS1: "Dragon P-Rounds" #10 Plasma
+  STR_IANIUMBATTERY1: "Ianium Battery" #4 Plasma
+  STR_NANONUKEROCKS1: "Nano Nuke Missile" #1 Concussion
+  ### Dragonites Weapons 2
+  STR_DRAGONITESWEAPONS2: "Dragonite Weapons 2"
+  STR_ARCANEGAUNTLET2: "Arcane Gauntlet" #Dragons Gauntlet
+  STR_CYGNUSBRIMSTONE2: "Element Gunblade" #Two Handed Sword
+  STR_LONGHORNREVOLVER2: "Angulite Revolver" #10 Electic Revolver
+  STR_STRUCKERSHOTGUN2: "Strucker Ranged SG" #Acurate Shotgun
+  STR_IRONBLASTSSG2: "Steel Devil S-SSG" #SSG
+  STR_SIGHTTACTICGUN2: "Styger Laser Rifle" #Rifle
+  STR_PULVERIZERMG2: "Pulverizer Laser Heavy" #Minigun
+  STR_SANDMANAUTOGUN2: "Sandman Smart Cannon" #SmartAutoCannon
+  STR_MATRIARCHLAUNCH2: "Patriach Launcher" #Rocket Launcher
+  STR_MORNINGGLORYGUN2: "Dusk Glory Cannon" #Rocket Gunner
+  STR_DRAGONDYNAMITE2: "Mana Explosives" #TNT
+  STR_AUGERSNIPERRIFLE2: "Seers A-M Rifle" #Antimaterial Rifle Pierce through walls; + Psi detectors
+  STR_ANCIENTDREAFUL2: "Archdreadful Launcher" #Copy of Blaster Launcher
+  STR_NANOROCKETLAUNCH2: "Dragon Supreme Gun" #Guided Launcher
+  STR_DRAGONITESIGIL1: "Dragon Sigil Weapon"
+  ### Dragon Ammunition
+  STR_BURSTROUNDS2: "R-Lighning Rounds" #10 Kinetic
+  STR_WIZARDROUNDS2: "S-Mage Rounds" #20 Kinetic
+  STR_DRAGON20MAMMO2: "D-Laser H-Battery" #100 Laser
+  STR_DBLASTHEROUNDS2: "Dragon HE Rounds" #20 Concussion
+  STR_DPATRIACHROCKET2: "D-Shrapnel Rocket" #1 Concussion
+  STR_DRAGONRIFLEAMMO2: "D-Laser R-Battery" #50 Laser
+  STR_DRAGONTNTBOX2: "Dragon Explosives" #20 Concussion
+  STR_DRAGONPROUNDS2: "Dragon DM-Rounds" #12 Plasma
+  STR_IANIUMBATTERY2: "Veinerve Battery" #1 Plasma
+  STR_NANONUKEROCKS2: "Devil Matter Missile" #1 Concussion
+  ##### Dragonites Lore
+  STR_DRAGONARMOR1: "Guilds Jumpsuit"
+  STR_DRAGONHAZARD1: "Abestos Haz-Suit"
+  STR_DRAGONARMOR2: "D1 Light Armor" # Demomans Eyepatch
+  STR_DRAGONARMOR3: "D2 Skirmisher" # Demomans Eyepatch
+  STR_DRAGONARMOR4: "D3 Combat Armor" # Demomans Eyepatch
+  STR_DRAGONARMOR5: "D4 Tank Armor" # Demomans Eyepatch
+  STR_DRAGONARMOR6: "D5 Draught Suit"  # Mana Shield
+  STR_DRAGONBADASS1: "Dragon B.A.D.A.S.S."  # Mana Shield   # Wings of Wrath
+  ##### Dreadmask Exosuits
+  STR_DRAGONEXOSUIT1: "Dreadmask Exo-1"  # Mana Shield   # Wings of Wrath
+  STR_DRAGONEXOSUIT2: "Dreadmask Exo-2H"  # Mana Shield   # Wings of Wrath Cloal
+  STR_DRAGONEXOSUIT3: "Dreadmask Exo-3F"  # Mana Shield   # Wings of Wrath
 
   # Dragonite Artifacts
-  # Philosphers Tome with Croesus
-  # Mana Shield
-  # Draugh Cloak and Hologram
-  # Master of Pain
-  # Void Walkers Touch (Teleport)
-  # Supermag Johnson
-  # Supermag Theta
-  # Demomans Eyepatch
-  # Sigils Project
-
-  # Deadmakers Exosuit
-  # Explosive Precense
+  # Philosphers Tome with Croesus As Money Cash
+  
   # Dragonite Transformations
-
+  # Cellular Surgery; +HP +MEL +ACU +REA +TU +STA +THR +BRV +MNA
   # Enhanced; Armor; Mana;
   # Reaver; Quad Damage; Wizards Eye
-  # Unique Gold Glory
 
 
 
   #### Renegade Baron real form; Heart of Baron
-  # Arcane Gauntlet
-  # Claws Gauntlet 
-  # Arcane Psi Blades
   # Immolation
   # Catastrophe
   # Shield
@@ -667,20 +710,29 @@ en-US:
   # M2HB HMG
   # Moloch Multi Rocket Cannon
   # Azazel Arcane Autocannon
-
-  # Squire Armor;
-  # Gladiator; 
-  # Knight Armor;
-  # Noble Armor;
-  # Archeron Armor; 
-  # Saint Cardinal Armor
+  STR_RENEGADEBARON1WEAPON1: "B-Arcane Gauntlet"
+  STR_RENEGADEBARON1WEAPON2: "B-Claws Melee"
+  STR_RENEGADEBARON1WEAPON3: "B-Psionic Blades"
+  STR_RENEGADEBARON1WEAPON4: "B-Immolation"
+  STR_RENEGADEBARON1WEAPON5: "B-Catastrophe"
+  STR_RENEGADEBARON1WEAPON6: "B-Tower Shield" # Tower Shield
+  STR_RENEGADEBARON1WEAPON7: "B-Belial Flak Cannon" # Flake Cannon
+  STR_RENEGADEBARON1WEAPON8: "B-M2HB Heavy MG" # HEavy Machine Gun
+  STR_RENEGADEBARON1WEAPON9: "Moloch Multi-Rocket Gun" # Rocket Launcher
+  STR_RENEGADEBARON1WEAPON10: "Azazel Mage Autocannon" # Auto Cannon
+  # Renegade Baron Armor
+  STR_RENEGADEBARONARMOR1: "Primitive Armor" # Claws Gauntlet 
+  STR_RENEGADEBARONARMOR2: "Warrior Armor" # Claws Gauntlet 
+  STR_RENEGADEBARONARMOR3: "Gladiator Armor" # Arcane Gauntlet
+  STR_RENEGADEBARONARMOR4: "Knight Armor" # Arcane Gauntlet
+  STR_RENEGADEBARONARMOR5: "Noble Armor" # Arcane Gauntlet
+  STR_RENEGADEBARONARMOR6: "Archeron Armor" # Arcane Psi Blades
+  STR_RENEGADEBARONARMOR7: "Saint Cardinal Suit" # Arcane Psi Blades
 
   ### Argent'D Nurs Empire
-
   ### Sentinels Weapons
 
   ### Hammer of Justice
-
   ### Exclusive
   ### Hand Crossbow Style 200 Bolts Salwars Style
   ### Enhanced Sentinel Sword Salwars Style
@@ -693,16 +745,6 @@ en-US:
   ### Roan Sword; Lost
   ### Power Mace; Lost
 
-
-  ### Sentinels Armor
-
-  ### Exclusive Armor
-  ### Salwars Armor Type
-  ### Hastran Armor
-
-  ### Bannerlords Sash Armor Type; Lost
-  ### Relentless Gor; Lost
-  ### Mighty Roan; Lost
 
   #### Jedriks Lord of Titan Realms; Argent D Nurs allies. WGREALMS Demon Throne
   # Sword
