@@ -680,8 +680,10 @@ items:
       arcing: false
     accuracySnap: 36
     accuracyAimed: 55
+    accuracyAuto: 30
     tuSnap: 12
     tuAimed: 18
+    tuAuto: 20
     battleType: 1
     twoHanded: true
     fireSound: 18
@@ -737,9 +739,9 @@ items:
     fireSound: 18
     invWidth: 2
     invHeight: 3
-    maxRange: 15
-    aimRange: 5
-    snapRange: 5
+    maxRange: 30
+    aimRange: 20
+    snapRange: 15
     minRange: 1
     dropoff: 8
 
@@ -771,6 +773,7 @@ items:
     shotgunBehavior: 1
     shotgunSpread: 100
     shotgunPellets: 20
+    shotgunChoke: 0
 
 #----------------------------------------------------
 
