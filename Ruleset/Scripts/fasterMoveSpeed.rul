@@ -1,0 +1,8 @@
+extended:
+
+  scripts:
+    createUnit:
+      - offset: 1
+        code: |
+          unit.MoveCost.setBaseTimePercent 50; #number is percentage of default cost (4 tu), so 50 means 2 tu cost per tile. set to 25 for 1 tu, or 75 for 3 tu per tile
+          return;

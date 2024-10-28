@@ -1,0 +1,22 @@
+items:
+  - type: STR_CHAINSAW
+    tags:
+      KillTimeUnits: 20
+
+extended:
+  tags:
+    RuleItem:
+      KillTimeUnits: int
+
+  scripts:
+    damageUnit:
+      - offset: 1
+        code: |
+          var int health;
+          var int killtimeunits;
+          unit.getHealth health;
+          if ge to_health health;
+            damaging_item.getTag killtimeunits Tag.KillTimeUnits;
+            attacker.addTimeUnits killtimeunits;
+          end;
+          return;

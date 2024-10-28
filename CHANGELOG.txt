@@ -15,6 +15,7 @@ Version: 0.3
 * Replaced Lightning with Roxis231's craft (Cherub)
 * Balance pass on UAC weapons, by Kildarien "red king" Hyton
 * Added custom GlobeMarkers, by efrenespartano
+* Added custom Pedia palette, by wethan3
 -removed Herobrine
 
 #####################
