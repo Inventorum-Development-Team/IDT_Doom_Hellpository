@@ -102,7 +102,26 @@ ufopaedia:
   - id: STR_UACHEVYNAILGUN_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
-#----------------------------------------------------    
+#----------------------------------------------------
+  - id: STR_UACPLASMAGUN
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACPLASMAGUN_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACSENERGYCELL
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------   
+  - id: STR_UACBFG
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UACBFG_UFOPEDIA
+#----------------------------------------------------
+  - id: STR_UACSENERGYCELLPACK
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+#----------------------------------------------------  
+
 
 ###############################################
 # CRAFTS

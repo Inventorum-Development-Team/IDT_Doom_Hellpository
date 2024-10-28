@@ -643,8 +643,137 @@ items:
     vaporColorSurface: 4
     vaporDensitySurface: 80
     vaporProbabilitySurface: 33
-    armor: 35    
+    armor: 35
+
 #----------------------------------------------------
+  - type: STR_UACPLASMAGUN
+    size: 0.2
+    costBuy: 1400
+    costSell: 1165
+    weight: 10
+    bigSprite: 392
+    floorSprite: 392
+    handSprite: 392
+    hitSound: 19
+    hitAnimation: 46
+    #reloadSound: 17
+    ammo:
+      0:
+        compatibleAmmo: [ STR_UACSENERGYCELL ]
+    confSnap:
+      shots: 4
+      #name: STR_RAPID_FIRE
+      #shortName: STR_RAPID_FIRE_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 8
+      #name: STR_FULL_AUTO
+      #shortName: STR_FULL_AUTO_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 4
+      #name: STR_FULL_AUTO
+      #shortName: STR_FULL_AUTO_SHORT
+      ammoSlot: 0
+      arcing: false
+    accuracySnap: 36
+    accuracyAimed: 55
+    tuSnap: 12
+    tuAimed: 18
+    battleType: 1
+    twoHanded: true
+    fireSound: 18
+    invWidth: 1
+    invHeight: 3
+    maxRange: 20
+    aimRange: 20
+    snapRange: 15
+    autoRange: 10
+    minRange: 1
+    dropoff: 4
+  - type: STR_UACSENERGYCELL      
+    size: 0.1
+    costBuy: 60
+    costSell: 48
+    weight: 1
+    bigSprite: 416
+    floorSprite: 416
+    power: 40
+    bulletSpeed: 20
+    bulletSprite: 8
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 1.0
+      ToArmorPre: 0.3
+      ToWound: 1.2
+      ToHealth: 1.5
+      ToMana: 1.5
+    damageType: 1
+    clipSize: 40
+    battleType: 2
+    hitSound: 19
+    hitAnimation: 46
+    armor: 12
+
+  - type: STR_UACBFG
+    size: 0.2
+    costBuy: 1400
+    costSell: 1165
+    weight: 10
+    bigSprite: 408
+    floorSprite: 408
+    handSprite: 408
+    #reloadSound: 17
+    compatibleAmmo:
+      - STR_UACSENERGYCELLPACK
+    accuracySnap: 36
+    accuracyAimed: 55
+    tuSnap: 12
+    tuAimed: 18
+    battleType: 1
+    twoHanded: true
+    fireSound: 18
+    invWidth: 2
+    invHeight: 3
+    maxRange: 15
+    aimRange: 5
+    snapRange: 5
+    minRange: 1
+    dropoff: 8
+
+  - type: STR_UACSENERGYCELLPACK       
+    size: 0.1
+    costBuy: 60
+    costSell: 48
+    weight: 1
+    bigSprite: 424
+    floorSprite: 424
+    power: 100
+    bulletSpeed: 20
+    bulletSprite: 8
+    hitSound: 19
+    hitAnimation: 46
+    invWidth: 2
+    invHeight: 1
+    damageAlter:
+      RandomType: 7
+      ArmorEffectiveness: 1.0
+      ToArmorPre: 0.3
+      ToWound: 1.2
+      ToHealth: 1.5
+      ToMana: 1.5
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    armor: 12
+    shotgunBehavior: 1
+    shotgunSpread: 100
+    shotgunPellets: 20
+
+#----------------------------------------------------
+
 
 extraSounds:
 #--
@@ -694,17 +823,18 @@ extraSprites:
       376: Resources/Sprites/BigUAC_SMG_Mag.png
       384: Resources/Sprites/BigPlasmaRifle_nomag.png
       392: Resources/Sprites/BigPlasmaRifle_ammo.png
-      #400: Resources/Sprites/BigBFG9000_nomag.png
-      #408: Resources/Sprites/BigBFG9000_ammo.png
+      400: Resources/Sprites/BigBFG_nomag.png
+      408: Resources/Sprites/BigBFG_ammo.png
       416: Resources/Sprites/BigEnergyCell.png
-      424: Resources/Sprites/BigUAC_BasicSMG_nomag.png
-      432: Resources/Sprites/BigUAC_BasicSMG_ammo.png
-      440: Resources/Sprites/BigUAC_BasicSMGAmmo.png
-      448: Resources/Sprites/BigHeavyShotgun_nomag.png
-      456: Resources/Sprites/BigHeavyShotgun_ammo.png
-      464: Resources/Sprites/BigHeavyShotgunBuckshotAmmo.png
-      472: Resources/Sprites/BigHeavyShotgunSlugAmmo.png
-      480: Resources/Sprites/BigHeavyShotgunHellAmmo.png
+      424: Resources/Sprites/BigEnergyCellPack.png
+      432: Resources/Sprites/BigUAC_BasicSMG_nomag.png
+      440: Resources/Sprites/BigUAC_BasicSMG_ammo.png
+      448: Resources/Sprites/BigUAC_BasicSMGAmmo.png
+      456: Resources/Sprites/BigHeavyShotgun_nomag.png
+      464: Resources/Sprites/BigHeavyShotgun_ammo.png
+      472: Resources/Sprites/BigHeavyShotgunBuckshotAmmo.png
+      480: Resources/Sprites/BigHeavyShotgunSlugAmmo.png
+      488: Resources/Sprites/BigHeavyShotgunHellAmmo.png
 
 
   - type: FLOOROB.PCK
@@ -747,17 +877,18 @@ extraSprites:
       376: Resources/Sprites/FloorUAC_SMG_Mag.png
       384: Resources/Sprites/FloorPlasmaRifle_nomag.png
       392: Resources/Sprites/FloorPlasmaRifle_ammo.png
-      #400: Resources/Sprites/FloorBFG9000_nomag.png
-      #408: Resources/Sprites/FloorBFG9000_ammo.png
+      400: Resources/Sprites/FloorBFG_nomag.png
+      408: Resources/Sprites/FloorBFG_ammo.png
       416: Resources/Sprites/FloorEnergyCell.png
-      424: Resources/Sprites/FloorUAC_BasicSMG_nomag.png
-      432: Resources/Sprites/FloorUAC_BasicSMG_ammo.png
-      440: Resources/Sprites/FloorUAC_BasicSMGAmmo.png
-      448: Resources/Sprites/FloorHeavyShotgun_nomag.png
-      456: Resources/Sprites/FloorHeavyShotgun_ammo.png
-      464: Resources/Sprites/FloorHeavyShotgunBuckshotAmmo.png
-      472: Resources/Sprites/FloorHeavyShotgunSlugAmmo.png
-      480: Resources/Sprites/FloorHeavyShotgunHellAmmo.png
+      424: Resources/Sprites/FloorEnergyCellPack.png
+      432: Resources/Sprites/FloorUAC_BasicSMG_nomag.png
+      440: Resources/Sprites/FloorUAC_BasicSMG_ammo.png
+      448: Resources/Sprites/FloorUAC_BasicSMGAmmo.png
+      456: Resources/Sprites/FloorHeavyShotgun_nomag.png
+      464: Resources/Sprites/FloorHeavyShotgun_ammo.png
+      472: Resources/Sprites/FloorHeavyShotgunBuckshotAmmo.png
+      480: Resources/Sprites/FloorHeavyShotgunSlugAmmo.png
+      488: Resources/Sprites/FloorHeavyShotgunHellAmmo.png
 
   - type: HANDOB.PCK
     width: 256
@@ -802,17 +933,18 @@ extraSprites:
       #376: Resources/Sprites/HandUAC_SMG_Mag.png
       384: Resources/Sprites/HandPlasmaRifle_nomag.png
       392: Resources/Sprites/HandPlasmaRifle_ammo.png
-      #400: Resources/Sprites/HandBFG9000_nomag.png
-      #408: Resources/Sprites/HandBFG9000_ammo.png
+      400: Resources/Sprites/HandBFG_nomag.png
+      408: Resources/Sprites/HandBFG_ammo.png
       #416: Resources/Sprites/HandEnergyCell.png
-      424: Resources/Sprites/HandUAC_BasicSMG_nomag.png
-      432: Resources/Sprites/HandUAC_BasicSMG_ammo.png
-      #440: Resources/Sprites/HandUAC_BasicSMGAmmo.png
-      448: Resources/Sprites/HandHeavyShotgun_nomag.png
-      456: Resources/Sprites/HandHeavyShotgun_ammo.png
-      #464: Resources/Sprites/HandHeavyShotgunBuckshotAmmo.png
-      #472: Resources/Sprites/HandHeavyShotgunSlugAmmo.png
-      #480: Resources/Sprites/HandHeavyShotgunHellAmmo.png
+      #424: Resources/Sprites/HandEnergyCellPack.png
+      432: Resources/Sprites/HandUAC_BasicSMG_nomag.png
+      440: Resources/Sprites/HandUAC_BasicSMG_ammo.png
+      #448: Resources/Sprites/HandUAC_BasicSMGAmmo.png
+      456: Resources/Sprites/HandHeavyShotgun_nomag.png
+      464: Resources/Sprites/HandHeavyShotgun_ammo.png
+      #472: Resources/Sprites/HandHeavyShotgunBuckshotAmmo.png
+      #480: Resources/Sprites/HandHeavyShotgunSlugAmmo.png
+      #488: Resources/Sprites/HandHeavyShotgunHellAmmo.png
 
 #----------------------------------------------------
   - type: Projectiles

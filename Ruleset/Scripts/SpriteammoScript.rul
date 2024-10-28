@@ -114,7 +114,18 @@ items:
   - type: STR_UACRL_AMMO_ADVANCED # ignoreDuplicate
     tags:
       AmmoNo: 1
-
+  - type: STR_UACPLASMAGUN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_UACSENERGYCELL # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_UACBFG # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_UACSENERGYCELLPACK # ignoreDuplicate
+    tags:
+      AmmoNo: 1
 
 extended:
   tags:
