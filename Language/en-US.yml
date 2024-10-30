@@ -192,16 +192,19 @@ en-US:
 
 # VANILLA UFO COMPONENTS 
 
-  STR_ELERIUM_115: "Argent Reactor Fuel"
-  STR_ELERIUM_115_UFOPEDIA: "Radioactive elements within a containment chamber. Standing near them without special protection may be dangerous, but so far we have not found any issue. Some of them make pretty glassware that is bright under UV light!"
+  STR_ELERIUM_115: "Argent Energy Core"
+  STR_ELERIUM_115_UFOPEDIA: "This compact, crystalline structure serves as the primary conduit for Argent Energy, channeling interdimensional power into the Reactor. The Argent Energy Core's properties defy conventional understanding, exhibiting quantum fluctuations and dimensional resonance that enable the stable harnessing of Argent Energy. Its origins and creation process remain unknown, sparking theories of extrinsic manufacture or otherworldly formation. Securing a reliable supply of Energy Cores is crucial for advancing our understanding of Argent technology."
 
   STR_UFO_POWER_SOURCE: "Argent Reactor"
-  STR_UFO_POWER_SOURCE_UFOPEDIA: "The enemy uses fission technology to power their structures and vehicles. While we were able to achieve said process as well, their technology is far more efficient and sustainable than ours."
+  STR_UFO_POWER_SOURCE_UFOPEDIA: "Investigation of captured Hellships has led to the discovery of the Argent Reactor, a biomechanical power source integral to these living vessels. The Reactor harnesses and focuses Argent Energy, powering the Hellships' propulsion, life support, and combat systems. Its unique design merges organic components with artificial structures, facilitating efficient energy conversion and storage. Reverse-engineering efforts are underway to adapt this technology for human applications, potentially revolutionizing energy production and interdimensional exploration. However, ethical concerns surround the exploitation of living, biomechanical systems – a moral ambiguity that must be navigated in our quest for strategic advantage."
+  
+  STR_HIGH_POWERED_UAC_ENERGY_WEAPONS: "High-powered UAC Energy Weapons"
+  STR_HIGH_POWERED_UAC_ENERGY_WEAPONS_UFOPEDIA: "Successful harnessing of Argent Energy has led to the development of new energy weaponry. These cutting-edge arms leverage the unique properties of Argent Energy to deliver unparalleled firepower against demonic forces. The D-93 Plasma Rifle and BFG9000 represent the first wave of deployable HP-EW systems. Field testing has confirmed significant advantages over conventional weaponry, including enhanced damage output, improved accuracy, and increased operational range. Integration of Argent Plasma technology enables these weapons to tap into the interdimensional energy reservoir, redefining the battlefield paradigm. Further research and development will focus on optimizing energy efficiency, stability, and scalability to equip UAC forces with the most effective countermeasures against Hell's onslaught."
 
   STR_ALIEN_ALLOYS: "Demonic Skin"
   STR_ALIEN_ALLOYS_UFOPEDIA: "Research on demon physiology has revealed their exceptionally resilient biomechanical skin, capable of withstanding extreme damage and environmental stressors. Notably, this skin exhibits an unusual affinity for cybernetic integration, suggesting potential applications in advanced prosthetics, augmentations and armor plates. Successful adaptation of demonic skin technology could significantly enhance human resilience and capabilities, potentially shifting the balance in the war against Hell. Further research is required to fully understand and exploit this valuable asset."
 
-  STR_DEMONIC_SKIN_PLATING: "Demon Skin Plating"
+  STR_DEMONIC_SKIN_PLATING: "Helleather Plating"
   STR_DEMONIC_SKIN_PLATING_UFOPEDIA: "UAC's R&D division proposes harnessing this unique property to develop innovative, demon-inspired biomaterials. By reverse-engineering the demonic skin's properties, scientists aim to create more durable, adaptable, and cybernetically compatible materials for human applications. Potential breakthroughs include enhanced combat armor, advanced prosthetics, and improved interfaces for neural implants. This cyberskin is specially treated and can be used in similar applications to regular bovine leather. By reacting to special commands, it could harden in seconds."
   
   STR_UFO_NAVIGATION: "Death Speaker" 
@@ -272,6 +275,9 @@ en-US:
 ##############
 # ACT 3
 
+  STR_SECURITY_CLEARANCE_3: "> SECURITY CLEARANCE 3 <"
+  STR_SECURITY_CLEARANCE_2_UFOPEDIA: "Situation Report: Hell's retaliatory response to the Hell Portal Expedition has escalated into a full-scale, textbook military invasion. Demon infantry forces have breached human's defenses, marking a critical shift in the conflict. UAC's strategic response prioritizes deployment of advanced, heavy-ballistic weaponry and Exoarmor systems to frontline operatives. To counter the demon army's organized assault, UAC has authorized the deployment of Exoarmor platforms, featuring augmented mobility and damage mitigation. Heavy-ballistic systems, including high-caliber anti-materiel rifles and cannons, have also been mobilized to effectively engage demon infantry. The fate of humanity hangs in the balance, and all available assets must be leveraged to repel this invasion before they can get to Earth"
+  
   STR_RECOVERED_HELL_ARTIFACT: "Recovered Hell Artifact"
   STR_RECOVERED_HELL_ARTIFACT_UFOPEDIA: "The research team's daring Hellgate expedition yielded a significant discovery: a large, black monolith unearthed from the demonic realm's depths. Initial analysis suggests this artifact holds secrets to Hell's inner workings. The monolith's dark energy signature resonates with the Relic Stone Fragments and Tharsis Stone, indicating a shared origin. Understanding the monolith's secrets can inform strategic countermeasures and enhance humanity's chances of survival. UAC scientists are racing to decipher the artifact's encrypted knowledge. Breakthroughs will be reported as available."
   
@@ -280,8 +286,10 @@ en-US:
   STR_HELL_RELICS_2: "Hell Relics 2"
   STR_HELL_RELICS_2_UFOPEDIA: "This discovery presents a strategic fork in the road. Embracing the dark technology behind Hell Keys could grant us a crucial advantage in combating the invasion. However, integrating demonic relics into our arsenal risks compromising humanity's values and potentially unleashing unforeseen consequences. Conversely, rejecting these relics outright may preserve our moral integrity but could also cede valuable ground to the enemy. The decision will shape the course of humanity's survival."
   
-  STR_CHAOS_ROUTE: ""
+  STR_CHAOS_ROUTE: "Chaos Route"
   STR_CHAOS_ROUTE_UFOPEDIA: "With the decision to integrate Hell Keys into our arsenal, UAC's research focus has shifted toward harnessing demonic technology. Scientists are adapting the relics' energy signatures to power cutting-edge weaponry and equipment. As humanity wades deeper into the abyss, concerns mount regarding the long-term effects of embracing demonic technology. Psychological evaluations reveal growing unease among personnel, and whispers of corruption spread. UAC's Science Division will continue assessing the benefits and risks of this new path. The line between innovation and damnation blurs."
+  
+  
   
 
 #######################
