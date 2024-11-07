@@ -784,6 +784,7 @@ extraSprites:
 
    - type: BIGOBS.PCK
      files:
+       59: Resources/Units/CORPSES/DEM_1_b.gif
        1000: Resources/Units/CORPSES/DEM_1_b.gif
        1008: Resources/Units/CORPSES/DEM_4_b.gif
        1016: Resources/Units/CORPSES/DEM_0_c.png
