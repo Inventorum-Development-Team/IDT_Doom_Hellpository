@@ -838,6 +838,11 @@ extraSprites:
       472: Resources/Sprites/BigHeavyShotgunBuckshotAmmo.png
       480: Resources/Sprites/BigHeavyShotgunSlugAmmo.png
       488: Resources/Sprites/BigHeavyShotgunHellAmmo.png
+      496: Resources/Sprites/BigSuperShotgun_nomag.png
+      504: Resources/Sprites/BigSuperShotgun_ammo.png
+      512: Resources/Sprites/BigShotgun_Clip.png
+      520: Resources/Sprites/BigShotgun_Clip_Hell.png
+
 
 
   - type: FLOOROB.PCK
@@ -892,6 +897,10 @@ extraSprites:
       472: Resources/Sprites/FloorHeavyShotgunBuckshotAmmo.png
       480: Resources/Sprites/FloorHeavyShotgunSlugAmmo.png
       488: Resources/Sprites/FloorHeavyShotgunHellAmmo.png
+      496: Resources/Sprites/FloorSuperShotgun_nomag.png
+      504: Resources/Sprites/FloorSuperShotgun_ammo.png
+      512: Resources/Sprites/FloorShotgun_Clip.png
+      520: Resources/Sprites/FloorShotgun_Clip_Hell.png
 
   - type: HANDOB.PCK
     width: 256
@@ -948,6 +957,11 @@ extraSprites:
       #472: Resources/Sprites/HandHeavyShotgunBuckshotAmmo.png
       #480: Resources/Sprites/HandHeavyShotgunSlugAmmo.png
       #488: Resources/Sprites/HandHeavyShotgunHellAmmo.png
+      496: Resources/Sprites/HandSuperShotgun_nomag.png
+      504: Resources/Sprites/HandSuperShotgun_ammo.png
+      #512: Resources/Sprites/HandShotgun_Clip.png
+      #520: Resources/Sprites/HandShotgun_Clip_Hell.png
+
 
 #----------------------------------------------------
   - type: Projectiles
