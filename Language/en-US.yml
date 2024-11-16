@@ -88,6 +88,10 @@ en-US:
   STR_UACULTIMATESHOTGUN_SLUGS: "Ultimate Shotgun Slug Shells"
   STR_UACULTIMATESHOTGUN_HELL_SHELLS: "Ultimate Shotgun Demonslayer Shells"
 
+  STR_UACSUPERSHOTGUN: "Super Shotgun"
+  STR_UACSUPERSHOTGUN_AMMO: "Super Shotgun Shells"
+  STR_UACSUPERSHOTGUN_IMPROVED_AMMO: "Super Shotgun Hellshells"
+
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------

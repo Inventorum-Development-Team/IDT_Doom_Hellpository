@@ -126,6 +126,15 @@ items:
   - type: STR_UACSENERGYCELLPACK # ignoreDuplicate
     tags:
       AmmoNo: 1
+  - type: STR_UACSUPERSHOTGUN # ignoreDuplicate
+    tags:
+      AmmoReSprite: 3
+  - type: STR_UACSUPERSHOTGUN_AMMO # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_UACSUPERSHOTGUN_IMPROVED_AMMO # ignoreDuplicate
+    tags:
+      AmmoNo: 2
 
 extended:
   tags:

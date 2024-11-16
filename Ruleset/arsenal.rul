@@ -776,6 +776,84 @@ items:
     shotgunChoke: 0
 
 #----------------------------------------------------
+  - type: STR_UACSUPERSHOTGUN
+    size: 0.2
+    costBuy: 1200
+    costSell: 1050
+    weight: 10
+    bigSprite: 504
+    floorSprite: 504
+    handSprite: 504
+    fireSound: 4
+    #reloadSound: 17
+    compatibleAmmo:
+      - STR_UACSUPERSHOTGUN_AMMO
+      - STR_UACSUPERSHOTGUN_IMPROVED_AMMO
+    accuracyAuto: 45
+    tuAuto: 10
+    autoShots: 2
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    maxRange: 12
+    aimRange: 5
+    snapRange: 5
+    minRange: 1
+    dropoff: 8
+#----------------------------------------------------
+  - type: STR_UACSUPERSHOTGUN_AMMO
+    size: 0.1
+    costBuy: 60
+    costSell: 48
+    weight: 2
+    bigSprite: 520
+    floorSprite: 520
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 11
+    power: 40
+    bulletSpeed: 20
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmorPre: 0.3
+      ToWound: 1.2
+      ToHealth: 1.3
+    damageType: 1
+    shotgunBehavior: 1
+    shotgunSpread: 20
+    shotgunPellets: 20
+    clipSize: 2
+    battleType: 2
+    armor: 12
+  - type: STR_UACSUPERSHOTGUN_IMPROVED_AMMO
+    size: 0.1
+    costBuy: 60
+    costSell: 48
+    weight: 2
+    bigSprite: 528
+    floorSprite: 528
+    hitSound: 22
+    hitAnimation: 26
+    bulletSprite: 11
+    power: 60
+    bulletSpeed: 20
+    damageAlter:
+      RandomType: 3
+      ArmorEffectiveness: 0.5
+      ToArmorPre: 0.3
+      ToWound: 1.2
+      ToHealth: 1.3
+    damageType: 1
+    shotgunBehavior: 1
+    shotgunSpread: 20
+    shotgunPellets: 20
+    clipSize: 2
+    battleType: 2
+    armor: 12
+
+#----------------------------------------------------
 
 
 extraSounds:
@@ -840,8 +918,9 @@ extraSprites:
       488: Resources/Sprites/BigHeavyShotgunHellAmmo.png
       496: Resources/Sprites/BigSuperShotgun_nomag.png
       504: Resources/Sprites/BigSuperShotgun_ammo.png
-      512: Resources/Sprites/BigShotgun_Clip.png
-      520: Resources/Sprites/BigShotgun_Clip_Hell.png
+      512: Resources/Sprites/BigSuperShotgun_ammo.png
+      520: Resources/Sprites/BigShotgun_Clip.png
+      528: Resources/Sprites/BigShotgun_Clip_Hell.png
 
 
 
@@ -899,8 +978,9 @@ extraSprites:
       488: Resources/Sprites/FloorHeavyShotgunHellAmmo.png
       496: Resources/Sprites/FloorSuperShotgun_nomag.png
       504: Resources/Sprites/FloorSuperShotgun_ammo.png
-      512: Resources/Sprites/FloorShotgun_Clip.png
-      520: Resources/Sprites/FloorShotgun_Clip_Hell.png
+      512: Resources/Sprites/FloorSuperShotgun_ammo.png
+      520: Resources/Sprites/FloorShotgun_Clip.png
+      528: Resources/Sprites/FloorShotgun_Clip_Hell.png
 
   - type: HANDOB.PCK
     width: 256
@@ -959,8 +1039,9 @@ extraSprites:
       #488: Resources/Sprites/HandHeavyShotgunHellAmmo.png
       496: Resources/Sprites/HandSuperShotgun_nomag.png
       504: Resources/Sprites/HandSuperShotgun_ammo.png
-      #512: Resources/Sprites/HandShotgun_Clip.png
-      #520: Resources/Sprites/HandShotgun_Clip_Hell.png
+      512: Resources/Sprites/HandSuperShotgun_ammo.png
+      #520: Resources/Sprites/BigShotgun_Clip.png
+      #528: Resources/Sprites/BigShotgun_Clip_Hell.png
 
 
 #----------------------------------------------------
