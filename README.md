@@ -16,15 +16,17 @@
 * Brother^2: IDT member, ideas
 * cevaralien: MARSMOUNT, MARSURBAN, MARSPLAIN, MARSCRATER map and terrains
 * CryptoCactus: menu difficulty level names
+* dheyjhtw: Rotten Rifle sprite
 * Dr. Hans Woofington: Mars Arescape textures
 * efrenespartano: IDT lead dev, Mars terrains
-* Filip-H: IDT member, ammo resprite script
+* Filip-H: IDT member, scripts
 * getfreur: beta tester, ideas
 * Half-Dead: UAC Marines background screens
 * Ice~: beta tester
 * idSoftware: original DOOM creators
 * Kael Schwabauer: tester
 * Kildarien "red king" Hyton: official tester
+* Kiro Xei: IDT lead dev
 * liberation: original globe data (WORLD.DAT), Martian Rocky, Plain and Polar maps and terrains 
 * Luke83: IDT initial dev
 * MitraLightbringer: IDT tester
@@ -34,7 +36,7 @@
 * tyran_nick: Thunderstorm, Stormrider sprites
 * Uncy: original dev, DOOM sprites rip
 * wolwerin: Exoskeleton Armor sprites, Heavy Shotgun, SSG, Double SSG, Superior Pistol sprites
-
+* Wilou84: Ripper Flamethrower sprite
 
 ==================================================
 ######################

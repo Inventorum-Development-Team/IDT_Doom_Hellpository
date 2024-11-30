@@ -961,7 +961,7 @@ items:
   ###############WEAPONS######################
   - type: MELEE_DEMON_ITEM
     weight: 3
-    bigSprite: 59
+    #bigSprite: 59
     floorSprite: 31
     handSprite: 104
     meleeSound: 48
